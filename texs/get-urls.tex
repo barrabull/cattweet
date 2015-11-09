@@ -1,0 +1,35 @@
+\subsubsection{Panel de enlaces}
+
+Esta vista fue desarrollada con la intención de crear una sección de \emph{bibliografía multimedia} de un tópico. Mediante un algoritmo que recoge todos los enlaces compartidos mediante los tweets del tópico y los presenta a modo
+de grilla.
+
+Esta vista permite en mismo espacio, acceder a enlaces externos que permiten extender la información del tópico aportada por los distintos tweets, así como acceder a enlaces de distintas posturas permitiendo entre otras cosas contraponer la forma en que presentan la información, profundidad, etc.
+
+Los enlaces son ordenados en base a su tweet de origen, del más reciente al menos reciente y luego del que posee más re-tweets al que posee menos.
+
+\begin{algorithm}
+	\caption{Obtención de enlaces externos contenidos en los tweets}\label{getURLAlgo}
+	\begin{algorithmic}[H]
+		\Function{GetUrlsByTweets}{tweets}
+		tweets $\gets$ ordenarRelevancia(tweets);
+		%\State Obtener lista de tweets del topico ordenados del más reciente al menos reciente, del que posee más re-tweets al que posee menos
+		\For{ tweet in tweets}
+			\If{hasURL(tweet)}
+				\State urls.append(tweet.url)
+			\EndIf
+		\EndFor
+		\For{url in urls}
+			\State url.titulo, url.link, url.imagen $\gets$ getInformationURL(url)
+		\EndFor 
+		\EndFunction
+
+	\end{algorithmic}
+\end{algorithm}
+
+Debido a la gran versatilidad del origen que poseen los distintos enlaces compartidos, existen dificultades en su recolección por distintos motivos como: URL incorrectas o inexistentes, textos que no es posible manipular, etc.
+
+Para capturar los datos del enlace, se utilizó la librería lxml \ref{itm:lxml} de Python, navegando por la estructura del documento HTML se extrae el título, en enlace completo y una imagen representativa. Las condiciones mínimas que se aplica a cada uno de estos datos, es que el titulo tenga más de 10 caracteres, que la imagen posea el metatag \emph{image} de Opengraph \cite{openGraphProtocol} y que el enlace no retorne error 404 (página no encontrada).
+
+
+	
+	   

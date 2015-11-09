@@ -1,0 +1,194 @@
+\documentclass[a4paper, oneside, 11pt]{book}
+
+\usepackage{usmtesis/usmtesis}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{tocbibind}
+\usepackage{subfig}
+%\usepackage[]{algorithm2e}
+\usepackage{tabularx}
+\usepackage{algorithm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{breqn}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\setlength\heavyrulewidth{1.2pt}
+%\usepackage{hyphenat}
+\usepackage{csquotes}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{epsfig}
+\usepackage[noend]{algpseudocode}
+\usepackage{caption}
+\usepackage{adjustbox}
+\usepackage{multirow}
+
+
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{fit,backgrounds,positioning}
+\usetikzlibrary{shapes.symbols, patterns}
+
+% Define block styles
+\tikzstyle{decision} = [diamond, draw, fill=green!30, 
+text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, 
+text width=5em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{state} = [draw, ellipse,fill=red!20, node distance=3cm,
+minimum height=2em]
+
+\usepackage{listings}
+\lstset{ frame=Ltb,
+	framerule=0pt,
+	aboveskip=0.5cm,
+	framextopmargin=3pt,
+	framexbottommargin=3pt,
+	framexleftmargin=0.4cm,
+	framesep=0pt,
+	rulesep=.4pt,
+	backgroundcolor=\color{gray97},
+	rulesepcolor=\color{black},
+	%
+	stringstyle=\ttfamily,
+	showstringspaces = false,
+	basicstyle=\small\ttfamily,
+	commentstyle=\color{gray45},
+	keywordstyle=\bfseries,
+	%
+	numbers=left,
+	numbersep=15pt,
+	numberstyle=\tiny,
+	numberfirstline = false,
+	breaklines=true,
+}
+
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyhead[R]{\nouppercase{\rightmark}}
+
+
+\setcounter{secnumdepth}{6}
+\makeatletter
+\setlength{\@fptop}{0pt}
+\makeatother
+\renewcommand{\listalgorithmname}{Índice de Algoritmos}
+\makeatletter
+\newcommand{\newalgname}[1]{%
+  \renewcommand{\ALG@name}{#1}%
+}
+\newalgname{Algoritmo}
+
+\author{FRANCO DANIEL CASTRO NAEVA}
+\profguia{\textbf{PROFESOR GUÍA:} XAVIER BONNAIRE}
+\profcorr{\textbf{PROFESOR CORREFERENTE:} }
+\profext{\textbf{PROFESOR CORREFERENTE EXTERNO:} }
+\university{UNIVERSIDAD TÉCNICA FEDERICO SANTA MARÍA}
+\title{MODELO PROACTIVO DE DISEMINACIÓN DE INFORMACIÓN EN REDES MANET ALTAMENTE DINÁMICAS Y DENSAS}
+\ingciv
+\addto\captionsspanish{%
+	\def\bibname{Bibliografía}%
+	\def\tablename{Cuadro}%
+	\def\appendixname{Anexo}
+}
+\makeindex
+
+\renewcommand{\baselinestretch}{1}
+\renewcommand{\appendixname}{Anexo}
+
+\settocbibname{Bibliografía}
+
+\lstset{ %	
+	basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+	backgroundcolor=\color{white},  % choose the background color. You must add
+	showspaces=false,               % show spaces adding particular underscores
+	showstringspaces=false,         % underline spaces within strings
+	showtabs=false,                 % show tabs within strings adding particular underscores
+	frame=single,           % adds a frame around the code
+	tabsize=2,          % sets default tabsize to 2 spaces
+	captionpos=b,           % sets the caption-position to bottom
+	breaklines=true,        % sets automatic line breaking
+	breakatwhitespace=false,    % sets if automatic breaks should only happen at whitespace
+	escapeinside={\%*}{*)}          % if you want to add a comment within your code
+}
+
+
+\begin{document}
+
+\spacing{1.5}
+
+\frontmatter
+	\titlep
+\pagestyle{empty}
+ 
+
+\thispagestyle{empty}
+%\input{agradecimientos.tex}
+	\newpage
+	\thispagestyle{empty}
+	\null
+	\vspace{16cm}
+	\hfill
+	\textit{A mi familia, Mario, Yolanda, Mario, Alex y Barrabas.}	
+	\newpage
+	\thispagestyle{empty}
+	\tableofcontents
+	\thispagestyle{empty}
+	\listoffigures
+			
+	%\listoftables
+	
+	
+	\addcontentsline{toc}{chapter}{Índice Algoritmos}
+	%\addtocounter{page}{1}
+	\listofalgorithms
+	
+		\mainmatter
+		\pagestyle{fancy}
+	\chapter{Introducción}
+	\input{texs/introduccion.tex}
+		
+	\chapter{Marco Teórico}\label{chap:marcoteorico}
+	\input{texs/marcoteorico.tex}
+					
+	\chapter{Estado del Arte}\label{chap:estadodelarte}
+	\input{texs/estadodelarte.tex}
+	
+	%\input{estadoDelArte.tex}	
+	\chapter{Definición de la solución}\label{chap:contexto}
+	\input{texs/solucion.tex}
+
+	\chapter{Propuesta}\label{chap:propuesta_cap}
+	\input{texs/propuesta.tex}
+	
+	\chapter{Evaluación y discusión}\label{chap:discusion}
+	\input{texs/evaluacion.tex}
+	
+	\chapter{Conclusiones}\label{chap:conclusiones}
+	
+		\section{Conclusiones}
+		\input{texs/conclusiones.tex}
+		
+		\section{Trabajo futuro}
+		\input{texs/puesta_produccion.tex}
+	
+	\chapter{Anexo}\label{chap:anexo}
+	
+	%\input{anexo.tex}
+	
+	
+	%\clearpage
+	\renewcommand{\refname}{\section{Bibliografía}}
+	%\begin{thebibliography}{9}
+	\bibliographystyle{plain}
+	\bibliography{bibliografia}
+	
+	
+	
+\end{document}

@@ -1,0 +1,63 @@
+\begin{figure}[H]
+	\centering
+\begin{tikzpicture}[node distance = 2cm, auto,
+database/.style={
+	cylinder,
+	cylinder uses custom fill,
+	cylinder body fill=yellow!50,
+	cylinder end fill=yellow!50,
+	shape border rotate=90,
+	aspect=0.25,
+	minimum height=4em,
+	draw
+}
+]
+% Place nodes
+%\node [] (i1) {t};
+\node [draw, fill=gray!20 ,cloud, cloud puffs = 10, minimum width=1cm, minimum height=0.75cm, node distance=3cm](i1){Twitter};
+\node [block, below left of=i1, node distance=3.5cm] (i2) {\textsf{Captura de usuarios}};
+\node [block, below right of=i1, node distance=3.5cm] (i3) {\textsf{Captura de tweets}};
+\node [database, below of=i1, node distance=5cm] (i4) {\textsf{Base de datos}};
+\node [block, below left of=i4, node distance=2.5cm] (i5) {\textsf{Extracci{\'o}n de datos}};
+\node [state, right of=i5, node distance=4cm] (i6) {\textsf{Ingreso t{\'o}pico}};
+\node [block, below of=i5, node distance=2.5cm] (i7) {\textsf{Indexaci{\'o}n de datos}};
+\node [block, right of=i7, node distance=4cm, minimum width=2.5cm] (i8) {\textsf{Presentaci{\'o}n t{\'o}pico}};
+
+\begin{scope}[on background layer]
+\node[rectangle,draw,minimum width=6cm] [fit = (i2) (i3),fill=yellow!20,rounded corners, draw=black!50, dashed, label=right:Captura de datos] (bx4) {};
+\end{scope}
+
+\begin{scope}[on background layer]
+\node[rectangle,draw,minimum width=3.5cm] [fit = (i5) (i7),fill=yellow!20,rounded corners, draw=black!50, dashed, label=below:Procesamiento de tweets] (bx4) {};
+\end{scope}
+
+\begin{scope}[on background layer]
+\node[rectangle,draw,minimum width=3cm] [fit = (i4),fill=yellow!20,rounded corners, draw=black!50, dashed, label=right:Almacenamiento] (bx4) {};
+\end{scope}
+
+\begin{scope}[on background layer]
+\node[rectangle,draw,minimum width=3cm] [fit = (i6)(i8),fill=yellow!20,rounded corners, draw=black!50, dashed, label=below:Presentacion de datos] (bx4) {};
+\end{scope}
+
+%\node [decision, below of=i2, node distance=3cm] (i3) {\textsf{keyIn}($\mathbf{dt}$)};
+%\node [state, below of=i3, node distance=3cm] (i4) {Se descarta t};
+%\node [state, right of=i4, node distance=4cm] (i5) {saveLink(t)};
+
+% Draw edges
+\path [line] (i1) -- (i2);
+\path [line] (i2) -- (i1);
+\path [line] (i1) -- (i3);
+\path [line] (i3) -- (i1);
+\path [line] (i2) -- (i4);
+\path [line] (i3) -- (i4);
+\path [line] (i4) -- (i5);
+\path [line] (i5) -- (i4);
+\path [line] (i5) -- (i7);
+\path [line] (i6) -- (i5);
+\path [line] (i7) -- (i8);
+%\path [line] (i2) -- node [near start] {dt}(i3);
+%\path [line] (i3) -- node [near start] {no}(i4);
+%\path [line] (i3) -| node [near start] {si}(i5);
+\end{tikzpicture}
+\caption{Diagrama conceptual de la arquitectura de la solución} \label{fig:dia-arquitectura-sw}
+\end{figure}

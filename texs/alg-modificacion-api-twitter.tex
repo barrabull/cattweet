@@ -1,0 +1,68 @@
+
+	\begin{algorithm}[H]
+			\caption{GetFollowers}\label{getFollowers}
+			\begin{algorithmic}[1]
+			    \Function{GetFollowers}{self, screen\_name=None, cursor=-1}
+			    \State result $\gets$ []
+			    \State parameters $\gets$ \{\}
+			    \While{True}: \label{getFollowers:line:line4}
+				    \State next\_cursor, previous\_cursor, data $\gets$ api.GetFollowersPaged(user\_id, screen\_name, cursor)
+				    \State result += [User.NewFromJsonDict(x) for x in data['users']]
+				    \If{next\_cursor == 0 or next\_cursor == previous\_cursor}\label{getFollowers:line:line7}
+					    \State break
+				    \Else
+					    \State cursor $\gets$ next\_cursor
+				    \EndIf
+				    \State sec $\gets$ self.GetSleepTime('/followers/list')
+				    \State time.sleep(sec)
+			    \EndWhile
+				    \State return result
+				\EndFunction				
+			\end{algorithmic}
+		\end{algorithm}
+
+		\begin{algorithm}[H]
+			\begin{algorithmic}[1]
+				\Function{GetFollowers}{self, screen\_name=None, cursor=-1}:
+					\State result $\gets$ []
+					\State parameters $\gets$ \{\}
+				%\If{screen\_name is not None}:
+				%\State parameters['screen\_name'] $\gets$ screen\_name
+				%\EndIf
+				%\State parameters['include\_user\_entities'] $\gets$ True
+				\color{orange}
+				\State remaining $\gets$ 15
+				\State ratelimited $\gets$ False
+				\While{remaining $>$ 1}
+					\State remaining $\gets$ remaining-1
+					\State parameters['cursor'] $\gets$ cursor
+					\color{black}
+					\State json $\gets$ api.\_RequestUrl(url, 'GET', data=parameters)
+					\State data $\gets$ api.\_ParseAndCheckTwitter(json.content)
+					\If{data}
+							\State result $+=$ [User.NewFromJsonDict(x) for x in data['users']]
+						\If {'next\_cursor' in data}:
+							\If {data['next\_cursor'] == 0 \\ OR data['next\_cursor'] == data['previous\_cursor']}
+								\State break
+							\Else:
+								\State cursor $\gets$ data['next\_cursor']
+							\EndIf
+						\Else:
+							\State break
+						\EndIf
+						\Else
+						\color{orange}
+							\State ratelimited $\gets$ True
+							\State break
+					\EndIf
+					
+				\EndWhile
+				\State return (cursor, result, ratelimited)
+				\color{black}
+				\EndFunction
+				
+			\end{algorithmic}
+			\caption{GetFollowers con mejora}\label{getFollowerModif}
+		\end{algorithm}
+
+La modificación relacionadas a la dificultad mencionada anteriormente se pueden observar en el algoritmo \ref{getFollowerModif} donde fueron resaltadas con otro color. Principalmente incorpora un límite de llamadas a la API a 15 llamadas consecutivas de tal manera de reducir el intervalo de respuesta de la llamada, este parámetro fue determinado en base a la restricción de la API de Twitter. Esta modificación permite ir guardando nuevos datos de manera frecuente sin necesidad de esperar hasta completar todos los followers de un usuario. En  la función original las líneas ~\ref{getFollowers:line:line4} y ~\ref{getFollowers:line:line7} mantienen el ciclo de consultas por followers hasta que los cursores indican que no existen más followers por recibir (y sólo cumplida esa condición retorna datos).

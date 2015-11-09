@@ -1,0 +1,40 @@
+El presente trabajo presenta algunas componentes que podrían ser mejoradas para profundizar y mejorar aún más los resultados obtenidos. A continuación se presentan los distintos aspectos considerados para desarrollos futuros:
+
+Referente al geoposicionamiento de los usuarios y la escasa tasa de llenado del campo 'ubicación' en sus perfiles se considera necesario como trabajo a futuro desarrollar enfoques con mejores resultados considerando no sólo datos relativos a los usuarios sino también de los distintos tweets (Como el abordado en \cite{Cheng:2010:YYT:1871437.1871535} \cite{doi:10.1080/00330124.2014.907699} \cite{Dredze_carmen:a} \cite{GraellsGarridoP13}). Un enfoque interesante es el de analizar el contenido de los tweets mediante la identificación de hashtags locales y palabras locales, fortaleciéndolo con temáticas exclusivas y delimitadas a dicha zona para identificar o relacionar tweets con esa zona geográfica.
+
+	En cuanto al desempeño del prototipo se pueden realizar importantes mejoras. Una de las opciones más atractivas (relación rendimiento, escalabilidad y precio) es incorporar algunos de los Servicios Web de Amazon (AWS). AWS son un conjunto de servicios escalables tanto en costos como en capacidad, permitiendo el acceso a hardware de alto desempeño y la automatización de procesos a un costo accesible (POR QUE ES ACCESIBLE). Entre los servicios que  ofrece se encuentran: cómputo global, almacenamiento, bases de datos, análisis, aplicaciones e implementación de servicios.
+	
+	Los servicios que pueden contribuir directamente a mejorar el desempeño del prototipo son los siguientes:
+	
+	\begin{itemize}
+		\item \textbf{Amazon RDS}: Proporciona un servicio seguro, escalable y simple de administrar para bases de datos en la nube. Proporcionando una capacidad rentable y de tamaño variable ante posibles crecimientos. AWS RDS proporciona seis motores de base de datos entre los que se encuentran MySQL.
+		
+		Incorporar este servicio mejoraría sustancialmente el proceso actual de acceso a los datos para su análisis y eliminando las limitaciones de almacenamiento de datos. Su uso estaría destinado para almacenar los datos captados desde Twitter mediante la API y transferir conjuntos de datos a la base de datos cada cierta unidad de tiempo, para su almacenamiento permanente.
+		
+		\item \textbf{Amazon Kinesis}: Proporciona un servicio de procesamiento de datos en tiempo real a través de grandes streaming. Amazon Kinesis puede capturar continuamente y almacenar terabytes de datos por hora a partir de cientos de fuentes de datos.
+		
+		La incorporación de este servicio puede contribuir significativa en la reducción de tiempos que toman las distintas fases del procesamiento de los datos para la creación de un nuevo tópico, ésta abre también una increíble oportunidad, de una posible re-estructuración completa de la captación de tweets, migrando de la captación de tweets desde la API REST de Twitter (con el análisis post del conjunto de tweets) a la captación de tweets desde la API STREAMING de Twitter, minimizando la antigüedad de la información del sistema a uno en tiempo real.
+		
+		\item \textbf{Amazon Elastic Compute Cloud (EC2)}: Es un servicio web que proporciona capacidad de cálculo escalable en la nube. EC2 cuenta con una interfaz fácil de uso que entrega un control completo de los recursos informáticos, entregando la posibilidad de arrancar nuevas instancias de servidor en segundos, permitiendo escalar rápidamente la capacidad a medida que cambian las necesidades.
+		
+		El poder acceder a una capacidad de cómputo mayor, repercute directamente en los tiempos de respuesta de las distintas fases del análisis del prototipo como la aplicación del clasificador, la recolección de enlaces, el orden de los distintos rankings entre otros, aumentando la capacidad de generación de los diversos tópicos.
+		
+	\end{itemize}
+	
+Un trabajo a futuro relevante es la habilitación de este prototipo para su uso público, esto además de cumplir una labor social de información permitirá recoger mediante el uso y comentarios, las mejoras y corrección de eventuales errores deducibles mediante el uso. Este desarrollo fue desestimado en el desarrollo de este trabajo debido a la inviabilidad de su mantención a mediano-largo plazo con los recursos existentes.
+	
+Durante el desarrollo de la investigación preliminar y el desarrollo de este trabajo, fue posible constatar el bajo volumen de documentación existente sobre hábitos de consumo de información y comportamiento para informarse en territorio nacional mediante internet o redes sociales, por lo cual una futura expansión de este trabajo motiva a perfilar y obtener información que permitan caracterizar a la población de usuarios de Twitter en Chile como contribución a la comunidad de desarrolladores.
+
+TRASPARENTAR CODIGOS
+HACER SOFTWARE LIBRE
+	
+	%desempeño en la captura de tweets
+	%desempeño en el analisis de un conjunto para un topico
+	
+	%subir a un servidor de produccion para obtener métricas de uso y mejoras basadas en el uso frecuente
+	
+	%mejora en el metodo de busqueda de tweets mediante conjuntos selectivos de generadores de reportes.
+
+	%Estudiar hábitos que tienen los chilenos al informarse desde sus dispositivos moviles como notebooks, smarthphone, tables.
+	
+	%Se pretende además incluir componentes de periodismo ciudadano en esta herramienta del siguiente modo: el observador directo de un evento o quien pretenda replicar una información generalmente busca visibilidad de su mensaje tweeteando a un usuario de mayor popularidad como algún medio noticioso tradicional y de amplia audiencia. Se incluirán estos mensajes además de los reportes directos que se realicen al tweet de la herramienta planteada.

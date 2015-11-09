@@ -1,0 +1,27 @@
+\subsubsection{Orden geográfico}
+
+El orden geográfico busca dotar a la herramienta de un filtro que privilegie a las fuentes cercanas al lugar indicado como origen o centro de la noticia en desmedro de aquellas que se ubican a mayor distancia geográfica.
+
+El orden geográfico se basa en el pareo geográfico analizado previamente en la sección ~\ref{subsec:geo1}. Inicialmente se obtienen las comunas con menor distancia a la comuna central determinada por el tópico, la distancia se va aumentando progresivamente hasta clasificar todos los tweets de autores geoposicionados. Todos los tweets sin ubicación son desplazados al final del ranking. 
+
+\begin{algorithm}[H]
+	\caption{Orden Geográfico}\label{OrdenGeo}
+	\begin{algorithmic}[H]
+		\Function{ordenGeografico}{comunaCentral}
+		\State d $\gets$ 0
+		\State i $\gets$ 0
+		\State tweets $\gets$ getTweetsUbicados()
+		\While{todosAsignados(tweets) == false}
+			\State comunas $\gets$ getComunasFromDistance(d, comunaCentral)
+			\For{comuna in comunas}
+				\State tweets $\gets$ getTweetsFromComuna(comuna)
+				\For{ tweet in tweets}
+					 \State tweet.ordenGeo $\gets$ i
+					 \State i $\gets$ i + 1
+				\EndFor
+			\EndFor
+			\State d $\gets$ d + 1
+		\EndWhile
+		\EndFunction	
+	\end{algorithmic}
+\end{algorithm}

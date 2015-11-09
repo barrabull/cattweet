@@ -1,0 +1,40 @@
+\select@language {spanish}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1{figure}}{\ignorespaces Representaci\IeC {\'o}n del proceso de gatekeeper \cite {wahl2008handbook}\relax }}{6}{figure.caption.4}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1{figure}}{\ignorespaces Imagen del mapa interactivo de geofeedia donde en una zona delimitada por el usuario se reciben todos los feeds de los medios sociales.\relax }}{30}{figure.caption.5}
+\contentsline {figure}{\numberline {3.2{figure}}{\ignorespaces Imagen del panel de noticias de geofeedia, donde cada columna recoge los feeds para ubicaciones geogr\IeC {\'a}ficas distintas.\relax }}{30}{figure.caption.5}
+\contentsline {figure}{\numberline {3.3{figure}}{\ignorespaces Vista principal del periodico Paper.li de un usuario de la plataforma\relax }}{31}{figure.caption.6}
+\contentsline {figure}{\numberline {3.4{figure}}{\ignorespaces Vista de fotograf\IeC {\'\i }as del periodico Paper.li de un usuario de la plataforma\relax }}{31}{figure.caption.6}
+\contentsline {figure}{\numberline {3.5{figure}}{\ignorespaces Vista principal de un periodico creado en The Tweeted Times\relax }}{32}{figure.caption.7}
+\contentsline {figure}{\numberline {3.6{figure}}{\ignorespaces Vista del formato de revista en Flipboard para visualizar los feeds de Twitter, donde se resaltan los tweet que han tenido mayor repercusi\IeC {\'o}n en la red y los enlaces compartidos\relax }}{33}{figure.caption.8}
+\contentsline {figure}{\numberline {3.7{figure}}{\ignorespaces Vista de la recopilaci\IeC {\'o}n de Summify\relax }}{35}{figure.caption.9}
+\contentsline {figure}{\numberline {3.8{figure}}{\ignorespaces Vista de la recopilaci\IeC {\'o}n de Twitterfall\relax }}{36}{figure.caption.10}
+\contentsline {figure}{\numberline {3.9{figure}}{\ignorespaces Vista principal de Storyful\relax }}{37}{figure.caption.11}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1{figure}}{\ignorespaces Diagrama conceptual de la arquitectura de la soluci\IeC {\'o}n\relax }}{48}{figure.caption.12}
+\contentsline {figure}{\numberline {5.2{figure}}{\ignorespaces Modelo de base de datos\relax }}{54}{figure.caption.14}
+\contentsline {figure}{\numberline {5.3{figure}}{\ignorespaces Mapa con los usuarios por ubicaci\IeC {\'o}n geogr\IeC {\'a}fica\relax }}{57}{figure.caption.17}
+\contentsline {figure}{\numberline {5.4{figure}}{\ignorespaces Diagrama conceptual con las etapas para la captaci\IeC {\'o}n de usuarios.\relax }}{58}{figure.caption.18}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1{figure}}{\ignorespaces Vista nueva b\IeC {\'u}squeda t\IeC {\'o}pico\relax }}{69}{figure.caption.19}
+\contentsline {figure}{\numberline {6.2{figure}}{\ignorespaces Vista resultados tweets para nuevo t\IeC {\'o}pico\relax }}{70}{figure.caption.20}
+\contentsline {figure}{\numberline {6.3{figure}}{\ignorespaces Vista de t\IeC {\'o}picos\relax }}{71}{figure.caption.21}
+\contentsline {figure}{\numberline {6.4{figure}}{\ignorespaces Vista de orden geogr\IeC {\'a}fico\relax }}{71}{figure.caption.22}
+\contentsline {figure}{\numberline {6.5{figure}}{\ignorespaces Vista de orden por relevancia\relax }}{72}{figure.caption.23}
+\contentsline {figure}{\numberline {6.6{figure}}{\ignorespaces Vista de orden temporal\relax }}{72}{figure.caption.24}
+\contentsline {figure}{\numberline {6.7{figure}}{\ignorespaces Vista de links\relax }}{73}{figure.caption.25}
+\contentsline {figure}{\numberline {6.8{figure}}{\ignorespaces Vista de t\IeC {\'o}picos\relax }}{73}{figure.caption.26}
+\contentsline {figure}{\numberline {6.9{figure}}{\ignorespaces Distribuci\IeC {\'o}n de tweets por hora de emisi\IeC {\'o}n\relax }}{74}{figure.caption.28}
+\contentsline {figure}{\numberline {6.10{figure}}{\ignorespaces Distribuci\IeC {\'o}n porcentual de tweets por hora de emisi\IeC {\'o}n seg\IeC {\'u}n regi\IeC {\'o}n\relax }}{75}{figure.caption.29}
+\contentsline {figure}{\numberline {6.11{figure}}{\ignorespaces Tweet que gener\IeC {\'o} nuevo record del mensaje m\IeC {\'a}s re-tweeteado.\relax }}{76}{figure.caption.31}
+\contentsline {figure}{\numberline {6.12{figure}}{\ignorespaces Procedimiento para determinar si un tweet se refiere a un hecho noticioso\relax }}{81}{figure.caption.39}
+\contentsline {figure}{\numberline {6.13{figure}}{\ignorespaces Procedimiento para verificar si el hecho noticioso haya generado una nota del medio modelo\relax }}{82}{figure.caption.40}
+\contentsline {figure}{\numberline {6.14{figure}}{\ignorespaces Distribuci\IeC {\'o}n de cantidad de tweets por d\IeC {\'\i }a\relax }}{87}{figure.caption.46}
+\contentsline {figure}{\numberline {6.15{figure}}{\ignorespaces Distribuci\IeC {\'o}n de cantidad de tweets por periodos de quince d\IeC {\'\i }as\relax }}{88}{figure.caption.47}
+\contentsline {figure}{\numberline {6.16{figure}}{\ignorespaces Cantidad de re-tweets por quincena\relax }}{89}{figure.caption.48}
+\contentsline {figure}{\numberline {6.17{figure}}{\ignorespaces Distribuci\IeC {\'o}n geogr\IeC {\'a}fica de los usuarios\relax }}{91}{figure.caption.51}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

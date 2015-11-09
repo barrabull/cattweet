@@ -1,0 +1,93 @@
+	Las plataformas y herramientas utilizadas para desarrollar el prototipo fueron las siguientes:
+
+\begin{itemize}
+	\item \textbf{Python}
+		
+		Python es un lenguaje interpretado de programacion orientado a objetos. Incorpora módulos, excepcione, interpretación dinámica, tipos de datos dinámicos de muy alto nivel. Según su propia página web \cite{pythonWeb} \emph{Python combina una notable potencia con una sintaxis muy clara. Tiene variadas interfaces para muchas llamadas de sistema y bibliotecas así como de sistemas de ventanas y es extensible en C o C++}. Otra cualidad notable de Python es que es portátil y se ejecuta en la gran mayoría de variantes de UNIX, Mac y Windows.
+		
+		Python cuenta actualmente con una gran comunidad que genera y mantiene una robusta documentación lo que lo vuelve más accesible al aprendizaje.
+		
+		El lenguaje viene con una biblioteca estándar que cubre áreas como procesamiento de strings (expresiones regulares, unicode, diferencia de archivos), procotolos de internet (HTTP y FTP entre otros), ingeniería de software y las interfaces del sistema operativo (llamadas al sistema operativo y sistemas de archivos). Python cuenta también con una gran variedad de extesiones desarrolladas por terceros \cite{pythonPypiWeb}, algunas de las cuales fueron ocupadas en este trabajo.
+		
+		\item \textbf{MySQL}
+		
+		MySQL es un sistema de gestión de bases de datos relacionales, multihebra y multiusuario con más de seis millones de instalaciones. MySQL AB desarrolla MySQL como software libre en un esquema dual bajo licencia GNU GPL y licencia de pago para productos privativos. MySQL destaca por su gran adaptación a diferentes entornos de desarrollo permitiendo su interacción con los lenguajes de programación más utilizados como PHP, Perl, Python y JAVA. 
+		
+		MySQL posee las características distintivas de otros motores de bases de datos:
+		\begin{itemize}
+			\item Permite escoger entre múltiples motores de almacenamiento para cada tabla (entre los que se encuentra MyISAM, Merge, InnoDB, Memoryheap y muchos más).
+			\item Permite la agrupación de  transacciones para mejorar el número de transacciones por segundo.
+		\end{itemize}
+		
+		Mysql es usado por muchos sitios web populares como Wikipedia, Google, Facebook, Twitter, Flickr y Youtube. 
+		
+	\item \textbf{Pycharm}
+	
+		Pycharm \cite{pycharmWeb} es una IDE utilizada para programar en Python. Esta IDE provee análisis de código, un \emph{debugger} gráfico, una unidad integrada para pruebas e integración con sistemas de control de versión además de soporte web para desarrollar con el framework Django.
+		
+		Algunas empresas que utilizan Pycharm son: Ebay, Groupon, Linkedin, Twitter, Spotify y HP. Pycharm cuenta con una licencia Profesional libre para proyectos de código libre y para fines educacionales, cuenta también con una edición \emph{community}
+	
+		
+	\item \textbf{Django}
+	
+	Django \cite{djangoWeb} es un framework de alto nivel de desarrollo web en Python que fomenta el desarrollo rápido y el diseño limpio y prágmatico. Django es gratuito y de código abierto y se basa en el patrón de arquitectura MVC.
+	
+	El objetivo principal de Django es facilitad el desarrollo de sitios web complejos con bases de datos. Django potencia la reutilización y conexión de componentes, el rápido desarrollo y el principio de no repetir código. Django ofrece también una herramienta administrativa opcional que mediante una interfaz web comúnmente utilizada por los administradores del sistema web para crear, modificar y leer los datos de la plataforma web en cuestión. 
+	
+	Las componentes de Django se basan principalmente en un modelo MVC, tratándose de un mapeador objeto-relacional que media entre los modelos de datos (definidos como clases de Python) y una base de datos relacional (llamado \emph{modelo}), un sistema para el procesamiento de las peticiones HTTOP con un sistema de plantillas web (llamados \emph{vistas}) y una despachador basado en expresiones regulares de URL (llamado \emph{Controlador}).
+	
+	Django soporta oficialmente cuatro bases de datos backend: PostgreSQL, MySQL, SQLite y Oracle.
+	
+	El framework también incluye:
+	
+	\begin{itemize}
+		\item Un servidor web ligero y autónomo para el desarrollo y pruebas
+		\item Un formulario de serialización y un sistema de validación el cual puede traducir entre los formularios HTML y los valores esperables para el almacenamiento en la base de datos
+		\item Un sistema de plantillas que utiliza el concepto de herencia
+		\item Un sistema de internacionalización, incluyendo traducciones de propios componentes de Django en una variedad de idiomas.
+	\end{itemize}
+	
+	Algunos sitios conocidos que utilizan Django son: Pinterest, Instagram, Mozilla y The Washington Times y cuenta actualmente con una activa comunidad de decena de miles de usuarios y colaboradores en todo el mundo.
+	
+	\item \textbf{Mysql Workbench}
+	
+	MysqlWorkbench \cite{mysqlWorkbenchWeb} es una herramienta visual de diseño de bases de datos que integra el desarollo de SQL, administración, diseño, creación y mantenimiento de bases de datos en un único entorno de desarrollo integrado para MySQL.
+	
+	MySQL Workbench proporciona herramientas visuales para crear, ejecutar, y optimizar consultas SQL. El editor de SQL proporciona color resaltado de sintaxis, auto-completado, la reutilización de fragmentos de SQL y el historial de ejecución de SQL. El panel de conexiones de base de datos permite a los desarrolladores para gestionar fácilmente las conexiones de base de datos estándar, incluyendo Tela MySQL. El Examinador de objetos proporciona acceso instantáneo a esquema y objetos de base de datos.
+	
+	\item \textbf{Api de twitter}
+	
+	Twitter mediante sus API \cite{twitterWeb} habilita para que desarrolladores puedan escribir y leer en Twitter. Para el acceso y manipulación de datos de Twitter existen dos API disponibles: Rest API y Streaming API. La Rest API permite crear nuevos tweets, conocer información sobre el autor de un tweets entre otras acciones relacionadas a tweets o usuarios particulares. La Streaming API entrega un flujo constante de información en tiempo real.
+	
+	La Rest API de Twitter identifica aplicaciones mediante OAuth, posee una limitación de 150 solicitudes por hora cuya repercusión afecta directamente el desempeño de los distintos algoritmos de captura de datos. Debido a que no existe una necesidad de instantaneidad prioritaria y por el volumen acotado de datos a manejar en este trabajo se utilizó la Rest API de Twitter.
+	
+	Para su utilización de manera simple se utilizo la librería Python Twitter \cite{pythonTwitterCode} \cite{pythonTwitterGithub} que provee una interfaz en python para la API de Twitter. 
+	
+	
+	\item \textbf{Librerías de Python utilizadas}
+		\begin{itemize}
+			\item \textbf{LMXL}\label{itm:lxml}
+			
+			LMXL \cite{lxmlWebsite}  es un conjunto de herramientas que vincula las librerías C libxslt2 y libxslt para su uso en Python, combinando la velocidad y la exhaustividad de las funciones para el ánalisis de XML de estas librerías con la simplicidad de Python.	Implementa los siguientes protocolos: \textit{XML 1.0},\textit{HTML 4}, \textit{XML namespaces}, \textit{XML Schema 1.0}, \textit{XPath 1.0},\textit{ XInclude 1.0}, \textit{XSLT 1.0}, \textit{EXSLT}, \textit{XML catalogs}, \textit{canonical XML}, \textit{RelaxNG}, \textit{xml:id}, \textit{xml:base}.		
+			
+			Posee una basta documentación debido a que implementa 
+			 ElementTree API \cite{elementTree}. La librería se encuentra bajo licencia BSD. Mientras que las librerías que extiende libxml2 y libxslt2 permiten su uso bajo licencia MIT.
+			
+			\item \textbf{Levenshnshtein}
+			
+			La extensión de Levenshtein \cite{pythonLeven} para Python es una extensión desarrollada en C que permite el fácil desarrollo de operaciones como: 
+			\begin{itemize}
+				\item Calcular la distancia de Levenshtein.
+				\item Calcular la similitud de strings.
+				\item Similitud de conjunto de strings.
+			\end{itemize}
+			
+			Esta extensión posee licencia GNU.
+			
+			\item \textbf{TextBlob}
+			
+			TextBlob \url{textblobWebsite} es una librería de Python para el procesamiento textual. Esta provee una API simple para profundizar en las tareas  del procesamiento del lenguaje natural (NPL en inglés) como etiquetar partes de un discurso, analisis emocional, traducciones y más.
+			
+			La librería posee una basta documentación y su licencia de uso permite el acceso, edición y uso de manera gratuita.
+		\end{itemize}
+\end{itemize}

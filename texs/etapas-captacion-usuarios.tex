@@ -1,0 +1,13 @@
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}[node distance = 2cm, auto]
+	
+	\node [block, node distance=2.5cm, minimum width=9em, text width=8em] (i1) {\textsf{Captura de medios de prensa (MP)}};
+	\node [block, below of=i1, node distance=2.5cm, minimum width=9em, text width=8em] (i2) {\textsf{Captura followers de los Medios de prensa(FMP)}};
+	
+	% Draw edges
+	\path [line] (i1) -- (i2);
+	
+	\end{tikzpicture}
+\caption{Diagrama conceptual con las etapas para la captación de usuarios.} \label{fig:etapas-captacion-usuarios}
+\end{figure}

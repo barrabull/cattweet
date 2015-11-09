@@ -1,0 +1,15 @@
+\begin{algorithm}
+	\caption{Crear Clasificador}\label{CrearClasificador}
+	\begin{algorithmic}[1]
+		\Function{crearClasificador}{}
+		\State restoTweets, tweetsValidacion, tweetsEntrenamiento $\gets$ SepararConjuntos(Tweets);
+		\State clasificador.entrenar(tweetsEntrenamiento)
+		\State clasificador.validar(tweetsValidacion)
+		
+		\For {tweet in restoTweets}
+			 \State clasificador.clasificar(tweet);
+		\EndFor
+		\EndFunction
+	\end{algorithmic}
+\end{algorithm}
+

@@ -1,0 +1,400 @@
+\section{Arquitectura de la solución}
+	\input{texs/arquitectura_plataforma.tex}
+	
+	\input{texs/diagrama_software.tex}
+	
+\section{Plataformas y herramientas utilizadas}
+
+\input{texs/plataformas_herramientas.tex}
+
+\input{texs/caracteristicas-computador.tex}
+
+\input{texs/modelo-datos.tex}
+
+\subsection{Análisis de la línea editorial del medio objetivo}
+
+Para tener una directriz respecto a qué tópicos de noticias son cubiertos por el medio de prensa objetivo, se realiza un análisis de los tweets a la fecha de dicho medio.
+
+Este proceso se realiza mediante el conteo de la frecuencia de las palabras contenidas en los corpus de los tweets, sin considerar las palabras vacías o stopword presentes.
+
+\begin{algorithm}
+	\caption{Obtención de las palabras más frecuentes del timeline de un conjunto de tweets}\label{ciudadesLeven}
+	\begin{algorithmic}[1]
+		\Function{getKeywordMedio}{tweets}
+		\For{tweet in tweets}
+		\For{tweet in tweets}
+		\For{palabra in tweet}
+		\If{stopwords.not\_in\_array(palabra)}
+		\State palabras.push(palabra)
+		\State frecPalabras[palabra]++
+		\EndIf
+		\EndFor
+		\EndFor
+		\EndFor
+		\State return frecPalabras.ordenar()
+		\EndFunction
+	\end{algorithmic}
+\end{algorithm}
+
+
+%La cuenta de Twitter de AmorTv (\@amor\_tv) al momento de realizar la extracción con más de mil tweets de los cuales se obtuvieron los siguientes resultados:
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{| c | c |}
+			\hline
+			Posición & Palabra \\ \hline
+			1 & Estudiantes \\ \hline
+			2 & Valparaíso \\ \hline
+			3 & Universidad \\ \hline
+			4 & Toma \\ \hline
+			5 & Sede \\ \hline
+			6 & Represión \\ \hline
+			7 & Marcha \\ \hline
+			8 & Chile \\ \hline
+			9 & Concepción \\ \hline
+			10 & Casa Central \\ \hline
+			11 & Usm  \\ \hline
+			12 & Utfsm \\ \hline
+			13 & Paro \\ \hline
+			14 & Nacional \\ \hline
+			15 & Carabineros \\ \hline
+			16 & Movimiento \\ \hline
+			17 & Pucv \\ \hline
+			18 & Asamblea \\ \hline
+			19 & Trabajadores \\ \hline
+			20 & Secundarios \\ \hline
+		\end{tabular}
+		\caption{Tabla que muestra en orden descendente las keyword con mayor frecuencia
+			en el análisis del timeline de Twitter de Amor TV}
+		\label{tab:xyz}
+	\end{center}
+\end{table}
+
+%Tras el posterior análisis con los editores y miembros de amor\_tv sobre las keyword
+%que con su conocimiento experto podían considerar, al momento de buscar un evento 
+%noticioso agregaron las siguientes:
+
+%	\begin{table}[h]
+%	\begin{center}
+%	   \begin{tabular}{| c | c |}
+%		 \hline
+%		   Posición & Palabra \hline
+%		   1 & Trabajadores & 
+%		   2 & Social & 
+%		   3 & Sexismo & 
+%		   4 & Santa Maria & 
+%		   5 & Protesta & 
+%		   6 & Movimiento & 
+%		   7 & Movilización & 17 & - \\ \hline
+%		   8 & Mapuche & 18 & - \\ \hline
+%		   9 & Estudiantil & 19 & - \\ \hline
+%		   10 & Ecológico & 20 & - \\ \hline
+%		   11 & Confech  \\ \hline
+%		   12 & Comunidad \\ \hline
+%		   13 & Comunitario \\ \hline
+%		   14 & Indígena \\ \hline
+%		   15 & Autogestión \\ \hline
+%		   16 Medioambiente - \\ \hline
+%		\end{tabular}
+%		\caption{Tabla que muestra en orden descendente las keyword con mayor frecuencia
+%				en el análisis del timeline de Twitter de \@amor\_tv}
+%		\label{tab:xyz}
+%		 \end{center}
+%	 \end{table}
+
+%Las keyword consideradas que representan a mayor cabalidad los eventos noticiosos que
+%caracterizan al medio de comunicación de prensa AmorTv, obtenidas de los análisis
+%anteriores agregando variaciones de algunas palabras, son representadas gráficamente
+%mediante el siguiente wordcloud:
+
+%\begin{figure}[H]
+%  \centering
+%    \includegraphics[width=0.99\textwidth]{wordcloud.png}
+%  \caption{WordCloud de las keyword mas representativas de los eventos noticiosos
+%  característicos de AmorTv}
+%  \label{fig:storyful}
+%\end{figure}
+
+\newpage
+\subsection{Geolocalización de usuarios}\label{sec:geo}
+\subsubsection{Implementación}\label{subsec:geo1}
+
+El método implementado utilizando el concepto de la distancia de Levenshtein para determinar si el texto proporcionado por el usuario como campo de ubicación corresponde o no a una comuna existente en Chile. Cabe señalar que la distancia de Levenshtein corresponde a la cantidad de cambios necesarios en un string para transformarlo en un string objetivo.
+
+La información relativa a las actuales regiones, provincias y regiones de acuerdo al Decreto Exento Nº 817, del Ministerio del Interior, publicado en el Diario Oficial del 26 de Marzo de 2010 \cite{listaCodigosProvincias}. La posición GPS de cada una de las provincias se obtuvo mediante la ubicación proporcionada en \cite{dicesmapas}.
+
+El método implementado posee un parámetro (la máxima distancia de Levenshtein permitida) que fue probado con distintos valores para corroborar su valor más óptimo, en base a la muestra de usuarios recolectados para este trabajo y que grado de error existía en la identificación de este parámetro.
+
+\begin{algorithm}
+	\caption{Reconocimiento de ubicación del usuario mediante Levenshtein}\label{ciudadesLeven2}
+	\begin{algorithmic}[1]
+		\Function{getDistanciaLeven}{usuarios}
+		\For{usuario in usuarios}
+		\State usuario.ubicacion = limpiarPuntuacion(usuario.ubicacion)\;
+		\State usuario.ubicacion = quitarNacionalidad(usuario.ubicacion)\;
+		\For{comuna in comunas}
+		\State dist = Levenshtein(comuna, usuario.ubicacion)\;
+		\If{dist\textless MinimaDistancia}
+		\State usuario.comuna = comuna\;
+		\EndIf
+		\EndFor
+		\EndFor
+		\EndFunction
+	\end{algorithmic}
+\end{algorithm}
+
+%\begin{algorithm}
+%	\caption{Reconocimiento de ubicación del usuario mediante SQL}\label{ciudadesSql}
+%	\begin{algorithmic}[1]
+%		\For{comuna in comunas}
+%			\State usuariosComuna = getUsersFromBd(comuna)
+%			\For{usuario in usuariosComuna}
+%				\State usuario.comuna = comuna
+%			\EndFor
+%		\EndFor	
+%	\Function{getUsersFromBd}{comuna}
+%		\State sql = 'SELECT usuario WHERE usuario.ubicacion LIKE "\%" + comuna;
+%		\State return execute(sql);
+%	\EndFunction	
+%	\end{algorithmic}
+%\end{algorithm}
+
+\subsubsection{Resultados obtenidos}
+
+Para obtener cual es la distancia de Levenshtein con mejores resultados se tomó una muestra representativa para calcular el error. La muestra representativa consideró a 383 usuarios elegidos de manera aleatoria cuyo campo ubicación fuese distinto a vacío.
+
+Los resultados obtenidos fueron los siguientes:
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{| c|c|c|c|}
+		\hline
+		D. Levenshtein & Nº uniones & Nº uniones correctas  &  Error porcentual \\ \hline
+		1   & 157 & 157 & 0,00\% \\ \hline
+		2   & 172 & 164 & 2,09\% \\ \hline
+		3	& 207 & 189 & 4,70\% \\ \hline
+		4	& 223 & 192 & 8,09\% \\ \hline
+		5	& 235 & 194 & 10,70\% \\ \hline
+	\end{tabular}
+	\caption {Tabla comparativa para distintas distancias de Levenshtein}
+\end{table}
+
+Podemos observar que a medida que aumentamos la distancia de Levenshtein, va aumentando la cantidad de coincidencias correctas pero también la cantidad de falsas coincidencias que ocurren.
+
+Se consideró que un error menor al 5\% es adecuado considerando la cantidad de coincidencias correctas que aporta al conjunto. Por lo cual se utilizará la distancia de Levenshtein de 3 para realizar el match entre usuarios y comunas. Utilizando este método el número de coincidencias entre el campo ubicación y los nombre estándar de las comunas es de 114.016 del total de 650.000 usuarios (correspondiente al 17,54\% de usuarios).
+
+Al disponer los distintos usuarios en un mapa utilizando la API de mapas de google, se obtienen las siguientes visualizaciones:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\textwidth]{imgs/mapa_usuarios.png}
+	\caption{Mapa con los usuarios por ubicación geográfica}
+	\label{fig:mapa_usuarios}
+\end{figure}
+
+
+\newpage
+\subsection{Captación de usuarios}
+
+El proceso de obtención del conjunto de usuarios se diseñó con la intención de obtener todos los usuarios residentes en territorio chileno. Dicho catastro no existe en ninguna fuente oficial actualizada.
+
+El conjunto de usuarios fue creado en base a estas dos premisas:
+\begin{enumerate}
+	\item Según la descripción de Java \cite{JavaEtAl:07}, los generadores de información poseen una gran base de seguidores.
+	\item En Twitter es habitual que los seguidores de medios de prensa al querer difundir una información le escriban un tweet a algún medio de prensa en cuestión, esperando que este realice un re-tweet, para llegar también a su base de seguidores.
+\end{enumerate}
+
+El proceso de construcción de la lista de usuarios se componen de dos grandes etapas:
+
+\input{texs/etapas-captacion-usuarios.tex}
+
+\subsubsection{Captura de los medios de prensa (MP)}
+
+Para generar la lista de medios(MP) se accedió a los medios de prensa registrados en las tres asociaciones más grandes de medios de comunicación de Chile:
+\begin{itemize}
+	\item ANP (Asociación Nacional de Prensa) \cite{anpWebsite}: Es una asociación gremial constituida el 24 de agosto de 1951. Agrupa a los principales diarios y revistas del país. Los diarios miembros de esta asociación con cuenta en Twitter al 5 de junio del 2014 son 43.
+	\item ANARCICH (Asociación nacional de Radios Comunitarias y Ciudadanas de Chile) \cite{anarcichWebsite}: Es el organismo que agrupa a 300 radios comunitarias y ciudadanas de todo el país. Las radios que forman parte de esta asociación con cuenta de Twitter al 5 de junio del 2014 son 23.
+	\item ARCHI (Asociación de Radiodifusores de Chile) \cite{archiWebsite}: Fundada en 1933 es la organización gremial de medios de comunicación social más antigua de Chile.
+\end{itemize}	
+
+Ninguna de las asociaciones de medios de prensa considerados anteriormente (ANP, ANARCICH y ARCHI) cuentan con directorios públicos \cite{mediosArchi} \cite{mediosaAnp} \cite{mediosAnarcich} que provean las cuentas oficiales de twitter de los diversos medios. Por lo cual, para recolectar las cuentas de twitter de éstos, se implementó el siguiente algoritmo ejecutado por un ser humano:
+
+
+\begin{algorithm}[H]
+	\caption{Construcción lista de medios}\label{mediosPrensa}
+	\begin{algorithmic}[1]
+		\Function{getTwitterAccount}{listaMedios}
+		\For{medio in listaMedios}
+		\State busqueda $\gets$ 'site:twitter.com'+medio.nombre+medio.tipo +'chile'
+		\State resultGoogle $\gets$ BusquedaGoogle ( busqueda, $limit=12$)
+		\For{result in resultGoogle}
+		\If{result.title \&\& result.description se relacionan con medio  }
+		\State medio.screenName $\gets$ result.screenName
+		\EndIf 
+		\EndFor
+		\EndFor
+		\State return listaMedios
+		\EndFunction	
+		%	\Function{getUsersFromBd}{comuna}
+		%		\State sql = 'SELECT usuario WHERE usuario.ubicacion LIKE "\%" + comuna;
+		%		\State return execute(sql);
+		%	\EndFunction	
+	\end{algorithmic}
+\end{algorithm}
+
+\subsubsection{Captura followers de los medios de prensa (FMP)}
+
+Tras obtener la lista de medios de prensa, se debe proceder a obtener mediante la API de Twitter los seguidores de cada uno de los medios de prensa. El algoritmo requiere de realizar intervalos de pausas debido a las restricciones de solicitudes por hora que impone la API.
+
+La captura de usuarios se obtuvo mediante el siguiente algoritmo:
+
+\begin{algorithm}[H]
+	\caption{Captura de usuarios}\label{capturaUsuarios}
+	\begin{algorithmic}[1]
+		\Function{GetPop}{mediosPrensa}
+		\For{medio in mediosPrensa} 
+		\If{GetFriendsInformation(medio, api)}
+		\State Sleep(2);
+		\Else
+		\State Sleep(60*15);
+		\State GetFriendsInformation(medio, api)
+		\EndIf
+		\EndFor
+		\EndFunction
+		
+		\Function{GetFriendsInformation}{user, api}	
+		\State TwitterFriends $gets$ api.GetFollowers(screenName=user)
+		\If {TwitterFriends.length > 0}
+		\For {Friends in TwitterFriends}:
+		\State SaveInBd(Friends)
+		\EndFor
+		\Else
+		\State Sleep(60*15);
+		\EndIf
+		\EndFunction
+		
+	\end{algorithmic}
+\end{algorithm}
+
+Una de las dificultades presentadas en el algoritmo anterior, era que ante usuarios de más de 1,5 Millones de followers la petición por Followers se demoraba un tiempo excesivo (más de 48 horas) y retornaba error por \emph{timeout} de la conexión. Para sortear esta dificultad fue necesario modificar la API Python Twitter directamente, agregando el retorno del cursor aún cuando se agota la conexión con la API y guardando los resultados parciales de las respuestas. El cursor de una llamada en la API es similar a un índice que permite realizar solicitudes de manera segmentada a la API \footnote{ Al día 26/10/2015 no se encontraba disponible la mejora en el \emph{Github} oficial de la librería}. Esta modificación fue realizada en base a las recomendaciones y comentarios disponibles en internet \cite{pythonTwitterCode} \cite{pythonTwitterGithub}. 
+
+\input{texs/alg-modificacion-api-twitter.tex}
+
+El algoritmo de captura de followers se demora en promedio 2,6945531 segundos en descargar los datos de un usuario y almacenarlos en el sistema.
+
+
+\subsection{Captura de tweets}
+
+El proceso de captura de tweets se realiza obteniendo los 100 últimos tweets de cada uno de los usuarios, sin discriminación, tal como muestra el siguiente algoritmo:
+
+\begin{algorithm}[H]
+	\caption{Algoritmo para la captura de tweets.}\label{getTweets}
+	\begin{algorithmic}[1]
+		\Function{GetTweets}{}
+		\State usuarios $\gets$ getUsersFromBD();
+		\For {usuario in usuarios}
+		\State GetUserTimeline(id\_user=usuario.id);
+		\EndFor
+		\State time.sleep(5);
+		\EndFunction
+		
+		\Function{GetUserTimeline}{id\_user}:
+		\State statuses $\gets$ api.GetUserTimeline(user\_id=id\_user,count=100);
+		\State SaveTweetInBD(statuses);
+		
+		\If {statuses.error == 34}
+		\Comment{La cuenta ya no existe}
+		\State return 1;
+		\EndIf
+		
+		\If {statuses.error == 179}
+		\Comment{La cuenta es privada}
+		\State return 1;
+		\EndIf
+		
+		\If {statuses.error == 88}
+		\Comment{Limite de solicitudes excedidas}
+		\State time.sleep(5*60);
+		\State return
+		\EndIf
+		\EndFunction
+	\end{algorithmic}
+\end{algorithm}
+
+El algoritmo planteado principalmente en su primera etapa realiza una búsqueda de los usuarios y sus respectivos estados referentes a si han sido recolectados sus últimos tweets (en cuyo caso se van a buscar los 100 tweets más recientes a partir del último recogido) o no (en cuyo caso se van a buscar los 100 tweets más recientes), posteriormente se almacenan en la base de datos los tweets recibidos. Es importante resaltar que este algoritmo gestiona las distintas pausas necesarias para respetar los límites de la API Twitter.
+
+Si la cuenta no existe o es privada se elimina del conjunto de usuarios. El algoritmo se demora en realizar una petición 0,9658139 segundos promedio. 
+
+\subsection{Procesamiento de los tweets}
+
+El procesamiento de los tweets se define en cinco procesos:
+\begin{enumerate}
+	\item{Definición del tópico.}
+	\item{Obtención del conjunto de tweets relacionados al tópico.}
+	\item{Depuración de conjunto de tweets relacionados al tópico.}
+\end{enumerate}
+
+\subsubsection{Definición del tópico}
+
+Un tópico son las palabras claves que definen una búsqueda temática realizada por el administrador del sistema ingresado al sistema mediante la plataforma web, cada tópico posee los siguientes atributos:
+\begin{itemize}
+	\item Fecha de inicio : Se refiere a la fecha de inicio de emisión de los tweets objetivos que se requiere reunir.
+	\item Fecha última actualización: Se refiere a la última fecha en la cual se realizó alguna modificación referente al tópico.
+	\item Título: Se refiere a las palabras claves que definen al tópico. 
+	\item Comuna: Comuna relacionada al tópico.
+	\item Tasa de contenidos georeferenciados: Relación entre tweets con relación geográfica y los tweets totales.
+	\item Cantidad de tweets relacionados: Total de tweets depurados del conjunto de tweets relacionados. 
+\end{itemize}
+
+\subsubsection{Obtención del conjunto de tweets relacionados al tópico}
+
+Para obtener el conjunto de tweets relacionados al tópico se realiza una búsqueda en todos los tweets emitidos durante el periodo de interés
+y que contenga las palabras claves que definen al tópico. Posteriormente se eliminan los tweets que tengan una similitud 0.85 tras realizar 
+una comparación de sus textos utilizando la librería \emph{difflib}.
+
+La consulta \emph{getTweetKeyword} se demora aproximadamente entre 30 y 130 segundos.
+
+\begin{algorithm}[H]
+	\caption{Obtención del conjunto de tweets relacionados al tópico}\label{getTweetsKeyword}
+	\begin{algorithmic}[1]
+		
+		\Function{getTweetKeyword}{keywords,fecha}:
+		%\Comment{Query tematica: va a buscar tweets que contengan una cierta keyword y retorna un array con las palabras que la contengan}
+		\State tweets $\gets$ getTweetsFromBD(keywords, fecha);
+		\State tweets $\gets$ eliminacionTweetsRepetidos(tweets);
+		\State return tweets
+		\EndFunction
+	\end{algorithmic}
+\end{algorithm}	
+
+
+
+\subsubsection{Depuración de conjunto de tweets relacionados al tópico}
+
+El proceso de depuración del conjunto de tweets obtenidos en el proceso anterior considera dos procesos distintos dependiendo del volumen de tweets involucrados.
+
+Un gran problema en la depuración de los tweets es poder discernir si un tweet en particular se relaciona o no con la temática del tópico o si responde a una temática completamente distinta y fue relacionado con el tópico únicamente por concordancia textual. Por ejemplo, si buscamos tweets relacionados con la paralización del registro civil, con la keyword 'paro' nos gustaría filtrar todos los tweets que se refieran a un paro cardíaco o de la acción de levantarse.
+
+Este problema fue abordado, considerando las siguientes premisas:
+\begin{itemize}
+	\item El administrador del sistema posee poco tiempo.
+	\item Es fundamental filtrar con precisión los tweets que no corresponden a la temática.
+\end{itemize}
+
+Para conjuntos de tweets de menos de 300 tweets se considera que su depuración puede ser realizada de manera manual, debido a que no es un gran conjunto de datos.
+
+Para conjuntos de tweets de 300 tweets o más se considera que su depuración manual es muy extensa y debe ser automatizada. Para su automatización se implementó un clasificador de Bayes-Naive. El valor para determinar el limite entre la utilización entre un método y otro se realizó en base a la regla de 80-20 para el conjunto de entrenamiento.
+
+El clasificador Bayer-Naive utilizado es una implementación de la librería Python Textblob \cite{textblobWebsite}, librería para el procesamiento de lenguaje natural.
+
+\input{texs/pseudo-crear-clasificador.tex}	
+
+\input{texs/orden-geo.tex}
+
+\input{texs/orden-rel.tex}	
+
+\input{texs/get-urls.tex}
+
+\subsubsection{ON/OFF Medios de prensa}
+El botón \emph{ON/OFF Medios de prensa} permite ocultar o mostrar todos los tweets de la lista que hayan sido emitido por una cuenta registrada en el sistema como medio de prensa. Esta funcionalidad fue desarrollada con la intención de contar con la opción voluntaria de visualizar o no, los tweets de las cadenas de prensas, para privilegiar la lectura de tweets generados por personas o entidades sociales.

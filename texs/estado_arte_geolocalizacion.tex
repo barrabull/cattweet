@@ -1,0 +1,43 @@
+\subsection{Geolocalización de usuarios}
+
+La geolocalización en Twitter no es una función muy utilizada por los usuarios según indicó Cheng en \cite{Cheng:2010:YYT:1871437.1871535} tras el análisis de una muestra aleatoria de más de 1 millón de usuarios de Twitter, en la cual sólo el 21 \% ha señalado el campo "ubicación" del usuario como un nombre granular de una ciudad (por ejemplo: Los Angeles, CA) y sólo 5 \% ha señalado una ubicación tan granular como coordenadas de latitud / longitud (por ejemplo: "29.3712 , 95.2104" ), el resto son demasiado generales (por ejemplo: California o España), no indican nada o uno sin sentido (por ejemplo: país de las maravillas). Como medio complementario para esta función, Twitter cuenta con la función de etiquetas geográficas ahora asociada a cada tweet. Pero a similitud del caso anterior, se observa que menos del 0,42 \% de todos los tweets realmente utilizan esta funcionalidad.
+
+McGee en \cite{McGee:2011:GST:2063576.2063959} investiga la relación entre la fuerza del vínculo social entre un par de usuarios y la distancia entre dicho par con un conjunto de 6 millones de usuarios geolocalizados. En este estudio se observa que en una distribución bimodal en Twitter, con un pico de 10 kilómetros de las personas que viven cerca, y otro pico alrededor de 6.430 kilómetros, lo que valida el uso de Twitter tanto como una red social (con amigos geográficamente cercanos) y una plataforma de medios sociales (con conexiones muy distantes). También se observa que los usuarios con mayor fuerza en su vínculo (la amistad recíproca) tienen más probabilidades de vivir cerca entre sí que los usuarios con vínculos débiles.
+
+Cheng por su parte, propone un marco de trabajo para la localización de usuario, que sea:
+\begin{itemize}
+ \item Generalizable a través de las redes sociales.
+ \item Robusto ante el ruido propio de los tweets.
+ \item Confiable y preciso.
+ \item Que trabaje únicamente con datos de dominio público por parte del usuario sin necesidad de análisis de otros datos de privacidad sensible (IP, usuario/clave, etc.).
+\end{itemize}
+
+El marco de trabajo propuesto se basa en la noción que los tweets de un usuario incluyen algunos contenidos de ubicación específica, como nombres específicos de lugares o palabras que se refieren a ciertos lugares además de otras denominaciones locales para los mismos (por ejemplo: "Valpo" para referirse a Valparaíso), y que con dicha información es posible cubrir la falta de una geolocalización para los usuarios.
+
+La estimación de la localización basándose en el contenido de Twitter es una tarea difícil puesto que las actualizaciones de estado de Twitter son inherentemente ruidosos, a menudo con expresiones coloquiales y vocabulario no estándar. No es obvio que existan señales claras de ubicación incrustados en los tweets de algún usuario en lo absoluto. Un usuario puede tener intereses que abarcan múltiples ubicaciones y un usuario puede tener más de una ubicación física.
+
+Este estudio acotado a los usuarios dentro del territorio continental de Estados Unidos. El primer filtro realizado se realiza con las ubicaciones del tipo: 'NombreCiudad', 'NombreCiudad, NombreEstado', 'NombreCiudad, AbreviaciónEstado' (considerando todas las ciudades válidas que figuran en el censo 2000 en EEUU). Para los casos en que existían dos ciudades con el mismo nombre, para determinar la ambigüedad, sólo se tienen en cuenta si poseen información adicional respecto al estado en el cual se ubican. Tras aplicar este filtro se encontró que sólo el 12\% de los usuarios de la muestra fueron identificados.
+
+La segunda metodología implementada busca determinar la ubicación de un usuario en base a la contenido de los tweets de un usuario, caracterizándola por la distribución probabilista de sus palabras. Los resultados obtenidos con este enfoque es que sólo el 10.12\% de los usuarios pueden ser localizados a 160 kilometros de sus ubicaciones reales (con una distancia de error promedio de 2853 kilometros) lo que permite concluir que este enfoque no permite obtener resultados de calidad debido a:
+
+\begin{itemize}
+    \item La mayoría de las palabras se distribuyen de manera compatible con la población a través de las diferentes ciudades, lo que significa que la mayoría de las palabras ofrecen muy poco potencial para distinguir la ubicación de un usuario.
+    \item La mayoría de las ciudades, sobre todo con un población pequeña, tiene un conjunto escaso de palabras en sus tweets, lo que significa que la distribución por ciudades de palabras para estas ciudades están subespecificada, lo que conduce a grandes errores de estimación.
+\end{itemize}
+
+La tercera metodología determina la posición geográfica mediante la identificación de palabras locales en los tweets de los usuarios, basada en la noción que existen palabras que son más utilizadas en un ámbito geográfico que otros. Dichas palabras características son conocidas como palabras "locales" y atribuidas a un territorio específico, si éstas son aisladas son capaces de distinguir a los usuarios situados en una ciudad y no en otra. El trabajo concluye que existe una gran posibilidad de clasificación considerando y aislando estas palabras debido a su potencial y establece un método para su tratamiento.
+%La tercera metodología que intenta este trabajo para determinar una posición geográfica de un usuario, es mediante la consideración de los aspectos relacionales en la red social
+
+Las metodologías anteriores solo utilizaban como recurso de información los tweets, también en este trabajo se intenta obtener información adicional para localizar una persona basado en las relaciones entre usuarios en la red social. El vecindario de un usuario se determina mediante un vecindario difuso. Considerando a dos usuarios con una relación fuerte, cuando ambos usuarios se siguen mutuamente.
+
+Finalmente con la combinación de las metodologías se logra una metodología de posicionamiento geográfico basado en la información de Twitter, el análisis lingüístico de sus tweets y el análisis de sus relaciones sociales con una precisión de 54.26\% y una distancia de error promedio de 760 kilómetros.
+
+En \cite{GraellsGarridoP13} desarrollan una técnica de posicionamiento geográfico con usuarios en territorio Chileno, mediante un modelo de espacio vectorial que dado el contenido de un tweet permite a través de un clasificador establecer su ubicación geográfica, presentando un enfoque diferente a los trabajos revisados previamente basados en las características del usuario. 
+
+Mediante un clasificador TD-IF y asumiendo que existen hashtags locales que se refieren a una ubicación concreta, es posible deducir la ubicación de un tweet con las palabras que co-ocurren junto a estos hashtags. Por lo cual la asociación entre los hashtags y las palabras claves locales identificadas se utilizan para geolocalizar usuarios utilizando un clasificador construido sobre modelos de lenguaje.
+
+Finalmente los resultados concluyen que los participantes en Twitter son representativos de la población física, es decir también responden al centralismo del país.
+
+ %El enfoque basado en el contenido se basa en dos refinamientos clave: ( i ) un componente de clasificación para la identificación automática de palabras en tweets con un fuerte geo - ámbito local, y ( ii ) un modelo de suavizado barrio basado en celosía para refinar estimación de la localización de un usuario. Hemos visto cómo la ubicación estimador puede colocar el 51\% de los usuarios de Twitter a 100 millas de su ubicación real .
+
+%Utilizando el conjunto de ensayo descrito en la Sección 3, seleccionamos al azar 500 usuarios, y rastreamos sus relaciones sociales. 354 usuarios de los 500 usuarios satisfacen nuestra condición con al menos 10 a 20 amigos conectados fuertes, donde definimos un fuerte amigo conectada de un usuario como alguien que es a la vez siguiendo y siguió por el usuario. Para cada uno de los 354 usuarios, nos arrastramos fuertes amigos conectados de los usuarios, y sus últimos 500 tweets. En total, tenemos 3.137.233 tweets de 6.502 usuarios que son fuertes amigos conectados del 354users.Recall que para cada uno de los 354 usuarios, tenemos la ubicación del usuario en forma de coordenadas de latitud / longitud. Con este conjunto de 354 usuarios y sus últimos tweets de 1000, aplicamos el mejor enfoque impulsado por el contenido identificado en los experimentos anteriores: Palabras locales Filtrado + Barrio Smoothing. Nos parece que este planteamiento impulsado por el contenido (sin refinamiento social), se traduce en una precisión de 54.26\% y una distancia de error promedio de 472,26 millas.

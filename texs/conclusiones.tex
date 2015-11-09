@@ -1,0 +1,46 @@
+El presente trabajo abarca aspectos teóricos y prácticos sobre la problemática
+de informarse sobre un evento noticioso y profundiza en el desarrollo de una algoritmo computacional que recolecta información desde Twitter y la presenta en una interfaz web, con varias alternativas de presentación de la información.
+
+La interfaz del prototipo posee una barra superior que de manera simple permite acceder a las distintas vistas de ordenamiento de los tweets y enlaces. Los tweets se presentan de manera descendente en una línea de tiempo con enlaces directos tanto al perfil del autor como a los distintos tweets facilitando el acceso directo a la fuente original, entregando una experiencia simple e intuitiva.
+
+En la sección \ref{chap:estadodelarte} se analizan los distintos trabajos realizados sobre Twitter que tuvieran relación con aspectos abarcados en este trabajo tanto en estudios teóricos existentes como herramientas de fines similares. De forma general, la cantidad crecientes de estudios sobre Twitter permite verificar el creciente interés de la comunidad científica sobre esta red social.
+
+Muchos de los trabajos revisados abordan de distinta manera la categorización de la información para dar solución a la problemática del valor de la información frente a los grandes volúmenes de Twitter. Para la clasificación de usuarios las estrategias variaban en la consideración de distintas características relacionadas a los tweets o a los usuarios en la plataforma, las más efectivas fueron aplicadas completa o parcialmente para el diseño de este prototipo. La revisión de las herramientas existentes actualmente permiten evidenciar la emergente industria de las aplicaciones que buscan recoger y presentar los contenidos de las redes sociales con variados objetivos entre los que se encuentran: monitoreo de opiniones sobre una marca, lectura resumida de las publicaciones de los contactos de un usuario en las redes sociales, mostrar información de tendencia, búsqueda de tweets o comprobación de la veracidad de la información.
+
+Tras analizar los estudios referentes al geoposicionamiento de los usuarios fue posible evidenciar las dificultades respecto a este tema: sólo cerca del 20\% de los usuarios completan el campo ubicación del perfil, el resto lo completan con lugares muy generales o ficticios. Esta dificultad acotó las expectativas del prototipo de poder privilegiar las fuentes geográficamente más cercanas al lugar del hecho noticioso. El método implementado en este trabajo logra relacionar sólo el 17,54\% de los usuarios totales con una provincia específica de Chile. Existen variadas técnicas utilizadas para mejorar este relacionamiento en los diversos estudios analizados  \cite{Cheng:2010:YYT:1871437.1871535} \cite{McGee:2011:GST:2063576.2063959} pero debido a su complejidad se pretende abordar como desarrollo futuro.
+
+Otra de las dificultades enfrentadas fueron los límites para la obtención de datos impuestos por la API de Twitter, estas limitaciones afectaron en el periodo de tiempo necesario para recolectar datos. 
+
+%Una de las dificultades enfrentadas más relevantes fue la falta de estudios relacionados al uso de Twitter y al periodismo en las redes sociales enfocados en el territorio Chile. Esta dificultad fue enfrentada mediante el uso de bibliografía relacionada a otros medios de difusión disponibles en blogs y notas de prensa y en experimentos sobre el conjunto de datos recogidos.
+
+En la sección \ref{sec:definicion_problema} pudimos profundizar en el interesante y activo debate sobre la influencia real de los procesos de \emph{gatekeeping} en la subjetividad generada por el usuario al informarse de una noticia. Otra arista interesante que comprende esta temática, es el ejercicio propio de informarse y el papel que debiesen jugar no sólo los medios de prensa, sino también, de manera personal cada una de las personas-usuarias que las consumen.
+
+Una visión interesante al respecto a este ejercicio es la que entrega <cita LemondeDiplomatique></cita>.
+En ese contexto, el presente prototipo facilitaría la tarea de informarse de las personas, al reunir en un mismo espacio comentarios, visiones y opiniones de distintos usuarios además de una lista de enlaces externos donde profundizar o complementar puntos de vistas recogidos.
+
+La raíz del problema respecto a la dificultad de informarse que señala Juan 
+radica en un problema de recursos, al contar con tiempo limitado se accede a un número limitado de fuentes de información. Este trabajo permite reducir este esfuerzo de recursos, centralizando y generando reportes sobre tópicos y hechos noticiosos completos, categorizados y con procesos de \emph{gatekeeping} transparentes.
+
+Este mismo aspecto (el del acceso a más de una misma fuente de información) abre un análisis sobre la arquitectura del prototipo desarrollado ¿no es acaso una debilidad importante que solo cuente con una fuente de información como es Twitter?
+
+Aún cuando Twitter, es una de las pocas redes sociales que trabaja constantemente en políticas de transparencia ( respecto a las solicitudes de información por parte de los gobiernos)  y plantean abiertamente una postura de transparencia frente a estos asuntos \footnote{"Creemos que el intercambio abierto de información puede tener un impacto global positivo. Para ello, es vital para nosotros (y otros servicios de Internet) para ser transparentes acerca de las solicitudes del gobierno para la información del usuario y de las solicitudes del gobierno para retener contenido de internet, el crecimiento de estas investigaciones pueden tener un efecto negativo grave en la libertad de expresión con implicaciones reales en la privacidad de las personas" \cite{tweetsStillMustFlow} }, existen precedentes de decisiones comerciales-estratégicas que poseen componentes de censura.
+
+\begin{itemize}
+	\item \textbf{Intereses comerciales} como es el caso del bloqueo parcial a 
+		Meerkat\footnote{Aplicación que permite realizar streaming de vídeo directamente a los seguidores del usuario en Twitter} competencia directa y de alto grado de utilización, competidora de Periscope, empresa comprada recientemente por Twitter para realizar streaming de vídeo. 
+	\item \textbf{Políticas de uso}, como la denegación de acceso a la API para 
+		Politwoops\cite{Diplotwoops:Online}, aplicación que hacía visible tweets borrados de políticos en más de 30 países. La cual Twitter justificó de la siguiente manera: "Imagínese: ¿Cómo sería de estresante- o incluso terrorífico-  twittear si fuera irrevocable o inalterable? Ningún usuario es más merecedor de esa capacidad que otro. De hecho, la eliminación de un tweet es una expresión del usuario".
+	\item \textbf{Contexto y regulaciones culturales} como es el caso de los sistemas de filtros reactivos (sobre cuentas o tweets) que aplica Twitter para restricciones legales y culturales de los distintos países (escondiendo esos contenidos en sus respectivos países pero dejándolos disponibles en el resto del mundo) \cite{tweetsStillMustFlow}.
+\end{itemize}
+
+Considerando lo anterior, con una arquitectura que depende de una sola fuente de información el prototipo se expone a filtros de información ejecutados por esta fuente, que aún cuando sean transparentados, es complejo verificar su real impacto sino no existe posibilidad de acceder al código fuente en cuestión. 
+
+Otro aspecto interesante abordado en \ref{sec:definicion_problema} es referente a la discusión sobre de las razones de la existencia para los procesos de \emph{gatekeeping}. Una parte importante de autores sostienen que estos filtros son intencionados y diseñados con el objetivo de moldear la realidad que se trasmite mientras que otro grupo sostiene que éstos no son intencionales sino necesarios y de origen netamente operativo. En este trabajo, aún cuando se evitaron aplicar deliberadamente filtros de contenidos (de naturaleza editorial o ideológica), fue necesario - debido a la gran cantidad de datos disponibles - generar clasificaciones y selecciones para extraer y presentar la información relevante, sin estos tratamientos (debido a la gran cantidad de tweets recogidos) éstos carecen de valor. Considerando esta situación, se considera que la única solución coherente a esta situación es transparentar los procesos de \emph{gatekeeping} a sus usuarios, exponiendo de qué forma actúan y cómo se aplican, de esta manera los usuarios podrán verificar el real efecto que implican en un medio. A modo de metáfora, si tuviéramos la oportunidad de abrir las salas de prensas a miles de auditorías ciudadanas libres, éstas podrían verificar y corroborar las etapas de \emph{gatekeeping} de dicha sala de prensa y validarlas para generar confianza.
+
+El ejercicio de informarse sobre los hechos noticiosos es fundamental para la generación de opinión ciudadana, una herramienta como la presentada, contribuye a esta labor en cuanto facilita el acceso a informaciones difundidas por otros ciudadanos. Un aspecto interesante a analizar en este trabajo es el grado de pluralidad presente en las opiniones recogidas por el prototipo, si el escenario garantiza pluralidad equitativa este medio, sería una potente característica de herramienta informativa. Debido a su complejidad queda como trabajo futuro desarrollarlo.
+
+REFERIRSE A LOS RESULTADOS ENCONTRADOS
+
+
+
+

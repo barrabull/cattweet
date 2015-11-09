@@ -1,0 +1,510 @@
+\begin{thebibliography}{10}
+
+\bibitem{informacionsociedad}
+José Luis~Martinez Albertos.
+\newblock La información en una sociedad industrial.
+\newblock {\em Tecnos}, page 119, 1981.
+
+\bibitem{amorTV}
+AmorTV.
+\newblock Sitio web de amor tv.
+\newblock \url{http://www.amortv.cl}.
+\newblock Accessed: 2015-11-07.
+
+\bibitem{beckerWikipedia}
+M.~Becker.
+\newblock Die aktualität von onlineenzyklopädien – eine empirische analyse
+  am beispiel wikipedia.
+\newblock 2012.
+\newblock Diploma Thesis University of Cologne.
+
+\bibitem{wethemedia}
+Shayne Bowman and Chris Willis.
+\newblock {\em we media; media; citizens media; participatory media; blogging}.
+\newblock Colection ourmedia. The Media Center, American Press Institute, 2003.
+
+\bibitem{breed1955social}
+W.~Breed.
+\newblock {\em Social Control in the Newsroom: A Functional Analysis}.
+\newblock Bobbs-Merrill Reprint Series in the Social Sciences, S34.
+  Bobbs-Merrill, 1955.
+
+\bibitem{quteprints189}
+Axel Bruns.
+\newblock Gatewatching, not gatekeeping: Collaborative online news.
+\newblock {\em Media International Australia Incorporating Culture and Policy:
+  quarterly journal of media research and resources}, 107:31--44, May 2003.
+\newblock This is the author-manuscript version of this paper. Please refer to
+  the journal (link above) for access to the definitive, published version.
+
+\bibitem{dicesmapas}
+Directorio cartográfico de España~y Latinoamérica.
+\newblock Directorio cartográfico de españa y latinoamérica.
+\newblock \url{http://www.dices.net/mapas/chile/mapa.php?nombre=Abarca&id=103}.
+\newblock Accessed: 2015-10-30.
+
+\bibitem{Cheng:2010:YYT:1871437.1871535}
+Zhiyuan Cheng, James Caverlee, and Kyumin Lee.
+\newblock You are where you tweet: A content-based approach to geo-locating
+  twitter users.
+\newblock In {\em Proceedings of the 19th ACM International Conference on
+  Information and Knowledge Management}, CIKM '10, pages 759--768, New York,
+  NY, USA, 2010. ACM.
+
+\bibitem{busquedaBioBio}
+Biobio Chile.
+\newblock Buscador bio bio.
+\newblock \url{http://busca.biobiochile.cl/}.
+\newblock Accessed: 2015-10-24.
+
+\bibitem{pythonTwitterGithub}
+DeWitt Clinton, Mike Taylor, and many contributors.
+\newblock Github python-twitter.
+\newblock \url{https://github.com/bear/python-twitter}.
+\newblock Accessed: 2015-10-25.
+
+\bibitem{busquedaLaTercera}
+Grupo Copesa.
+\newblock La tercera.
+\newblock \url{http://www.latercera.com/resultadoBusqueda.html?q=}.
+\newblock Accessed: 2015-10-24.
+
+\bibitem{mysqlWorkbenchWeb}
+Oracle Corporation.
+\newblock Website of mysql workbench.
+\newblock \url{https://www.mysql.com/products/workbench/}.
+\newblock Accessed: 2015-10-25.
+
+\bibitem{DasSarma:2010:RMT:1718487.1718491}
+Anish Das~Sarma, Atish Das~Sarma, Sreenivas Gollapudi, and Rina Panigrahy.
+\newblock Ranking mechanisms in twitter-like forums.
+\newblock In {\em Proceedings of the Third ACM International Conference on Web
+  Search and Data Mining}, WSDM '10, pages 21--30, New York, NY, USA, 2010.
+  ACM.
+
+\bibitem{listaCodigosProvincias}
+Subsecretaría de~Desarrollo Regional~y Administrativo.
+\newblock Códigos únicos territoriales actualizados.
+\newblock
+  \url{http://www.sinim.gov.cl/archivos/centro_descargas/modificacion_instructivo_pres_codigos.pdf}.
+\newblock Accessed: 2015-10-25.
+
+\bibitem{mediosaAnp}
+Asociación~Nacional de~la Prensa.
+\newblock Asociado a anp.
+\newblock \url{http://anp.cl/quienes-somos/asociados/}.
+\newblock Accessed: 2015-10-25.
+
+\bibitem{anpWebsite}
+Asociación~Nacional de~la Prensa.
+\newblock Website de asociación nacional de prensa.
+\newblock \url{http://www.anp.cl/}.
+\newblock Accessed: 2015-10-25.
+
+\bibitem{mediosArchi}
+Asociación de~Radiodifusores~de Chile.
+\newblock Radios socias de archi.
+\newblock \url{http://www.archi.cl/radios-de-chile.html}.
+\newblock Accessed: 2015-10-25.
+
+\bibitem{archiWebsite}
+Asociación de~Radiodifusores~de Chile.
+\newblock Website de archi.
+\newblock \url{http://www.archi.cl/}.
+\newblock Accessed: 2015-10-25.
+
+\bibitem{mediosAnarcich}
+Asociación~Nacional de~radios comunitarias y ciudadanas~de Chile.
+\newblock Asociados a anarcich a.g.
+\newblock
+  \url{http://radioscomunitariaschile.cl/Oficial/Copied-Red-Nacional-de-radios-Comunitarias.php}
+  \url{http://radioscomunitariaschile.cl/Oficial/Copied-RED-REGIONAL.php}.
+\newblock Accessed: 2015-10-25.
+
+\bibitem{anarcichWebsite}
+Asociación~Nacional de~radios comunitarias y ciudadanas~de Chile.
+\newblock Website de anarcich a.g.
+\newblock \url{http://radioscomunitariaschile.cl/}.
+\newblock Accessed: 2015-10-25.
+
+\bibitem{Dong:2010:TEI:1772690.1772725}
+Anlei Dong, Ruiqiang Zhang, Pranam Kolari, Jing Bai, Fernando Diaz, Yi~Chang,
+  Zhaohui Zheng, and Hongyuan Zha.
+\newblock Time is of the essence: Improving recency ranking using twitter data.
+\newblock In {\em Proceedings of the 19th International Conference on World
+  Wide Web}, WWW '10, pages 331--340, New York, NY, USA, 2010. ACM.
+
+\bibitem{Dredze_carmen:a}
+Mark Dredze, Michael~J. Paul, Shane Bergsma, and Hieu Tran.
+\newblock Carmen: A twitter geolocation system with applications to public
+  health.
+
+\bibitem{elementTree}
+ElementTree.
+\newblock Elementtree overview.
+\newblock \url{http://effbot.org/zone/element-index.htm}.
+\newblock Accessed: 2015-10-25.
+
+\bibitem{openGraphProtocol}
+Facebook.
+\newblock The open graph protocol.
+\newblock \url{http://ogp.me/}.
+\newblock Accessed: 2015-10-31.
+
+\bibitem{flipboard}
+Flipboard.
+\newblock Website corporative of flipboard.
+\newblock \url{https://flipboard.com/}.
+\newblock Accessed: 2015-10-18.
+
+\bibitem{djangoWeb}
+Django~Software Foundation.
+\newblock Website of django.
+\newblock \url{https://www.djangoproject.com/}.
+\newblock Accessed: 2015-10-25.
+
+\bibitem{Diplotwoops:Online}
+Open~State Foundation.
+\newblock Twitter cuts off diplotwoops and politwoops in all remaining 30
+  countries, 2015.
+\newblock
+  \url{http://www.openstate.eu/2015/08/twitter-cuts-off-diplotwoops-and-politwoops-in-all-remaining-30-countries//}.
+
+\bibitem{pythonWeb}
+Python~Software Foundation.
+\newblock Documentación de python.
+\newblock \url{https://docs.python.org}.
+\newblock Accessed: 2015-10-25.
+
+\bibitem{pythonPypiWeb}
+Python~Software Foundation.
+\newblock Pypi - the python package index.
+\newblock \url{https://pypi.python.org/pypi}.
+\newblock Accessed: 2015-10-25.
+
+\bibitem{journals/corr/abs-1204-3375}
+Hauke Fuehres, Peter~A. Gloor, Michael Henninger, Reto Kleeb, and Keiichi
+  Nemoto.
+\newblock Galaxysearch - discovering the knowledge of many by using wikipedia
+  as a meta-searchindex.
+\newblock {\em CoRR}, abs/1204.3375, 2012.
+
+\bibitem{Futterer:arXiv1308.1166}
+Tobias Futterer, Peter~A. Gloor, Tushar Malhotra, Harrison Mfula, Karsten
+  Packmohr, and Stefan Schultheiss.
+\newblock Wikipulse - a news-portal based on wikipedia.
+\newblock 2013.
+
+\bibitem{gans1979deciding}
+H.J. Gans.
+\newblock {\em Deciding What's News: A Study of CBS Evening News, NBC Nightly
+  News, Newsweek, and Time}.
+\newblock Medill School of Journalism Visions of the American Press Series.
+  Northwestern University Press, 1979.
+
+\bibitem{geofeedia}
+Geofeedia.
+\newblock Website corporative of geofeedia.
+\newblock \url{https://geofeedia.com/}.
+\newblock Accessed: 2015-10-18.
+
+\bibitem{gomis1991teor}
+L.~Gomis.
+\newblock {\em Teoria Del Periodismo: Como Se Forma el Presente}.
+\newblock Paidos Comunicacion. Ediciones Paidos Iberica, S.A., 1991.
+
+\bibitem{GraellsGarridoP13}
+Eduardo Graells{-}Garrido and Barbara Poblete.
+\newblock {\#}santiago is not {\#}chile, or is it? {A} model to normalize
+  social media impact.
+\newblock {\em CoRR}, abs/1309.1785, 2013.
+
+\bibitem{doi:10.1080/00330124.2014.907699}
+Mark Graham, Scott~A. Hale, and Devin Gaffney.
+\newblock Where in the world are you? geolocation and language identification
+  in twitter.
+\newblock {\em The Professional Geographer}, 66(4):568--578, 2014.
+
+\bibitem{pythonLeven}
+Antti Haapala.
+\newblock Python-levenshtein.
+\newblock \url{https://pypi.python.org/pypi/python-Levenshtein/}.
+\newblock Accessed: 2015-10-25.
+
+\bibitem{harcup2004journalism}
+T.~Harcup.
+\newblock {\em Journalism: Principles and Practice}.
+\newblock SAGE Publications, 2004.
+
+\bibitem{doi17512781003640703}
+Alfred Hermida.
+\newblock Twittering the news.
+\newblock {\em Journalism Practice}, 4(3):297--308, 2010.
+
+\bibitem{hermida2010twittering}
+Alfred Hermida.
+\newblock Twittering the news: The emergence of ambient journalism.
+\newblock {\em Journalism Practice}, 4(3):297--308, 2010.
+
+\bibitem{busqueda24horas}
+24~horas.
+\newblock Buscador.
+\newblock \url{http://search.24horas.cl/search/?q=}.
+\newblock Accessed: 2015-10-24.
+
+\bibitem{hughes2009twitter}
+A.L. Hughes and L.~Palen.
+\newblock Twitter adoption and use in mass convergence and emergency events.
+\newblock {\em International Journal of Emergency Management}, 6(3):248--260,
+  2009.
+
+\bibitem{tedsmith}
+Ted. J.~Smith III.
+\newblock La mordedura del perro guardian.
+\newblock {\em revista FACETAS}, 1991.
+
+\bibitem{twitterWeb}
+Twitter Inc.
+\newblock Documentation twitter developers.
+\newblock \url{https://dev.twitter.com/overview/documentation}.
+\newblock Accessed: 2015-10-25.
+
+\bibitem{JavaEtAl:07}
+Akshay Java, Xiaodan Song, Tim Finin, and Belle Tseng.
+\newblock {Why we twitter: understanding microblogging usage and communities}.
+\newblock In {\em Proceedings of the 9th WebKDD and 1st SNA-KDD 2007 workshop
+  on Web mining and social network analysis}, WebKDD/SNA-KDD '07, pages 56--65,
+  New York, NY, USA, 2007. ACM.
+
+\bibitem{udpperfiluso}
+Andrés Azócar Z. y Andrés Scherman~T. Julián González~U.
+\newblock Encuesta de caracterización de usuarios de twitter en chile.
+\newblock \url{http://www.prensafcl.udp.cl/usuariotwitter.html}
+  \url{http://www.prensafcl.udp.cl/usuariostwitter.pdf}.
+\newblock Accessed: 2015-11-07.
+
+\bibitem{infografiasLabs}
+Infographic Labs.
+\newblock Twitter 2012.
+\newblock \url{http://infographiclabs.com/news/twitter-2012/#more-722}.
+\newblock Accessed: 2015-11-07.
+
+\bibitem{Lasswell2007Structure}
+Harold~D. Lasswell.
+\newblock The structure and function of communication in society.
+\newblock pages 215--228, 2007.
+
+\bibitem{lewin1951field}
+K.~Lewin.
+\newblock {\em Field theory in social science: selected theoretical papers}.
+\newblock Social science paperbacks. Harper, 1951.
+
+\bibitem{lippmann1922public}
+W.~Lippmann.
+\newblock {\em Public Opinion}.
+\newblock Harcourt, Brace, 1922.
+
+\bibitem{McGee:2011:GST:2063576.2063959}
+Jeffrey McGee, James~A. Caverlee, and Zhiyuan Cheng.
+\newblock A geographic study of tie strength in social media.
+\newblock In {\em Proceedings of the 20th ACM International Conference on
+  Information and Knowledge Management}, CIKM '11, pages 2333--2336, New York,
+  NY, USA, 2011. ACM.
+
+\bibitem{5558003}
+P.~Noordhuis, M.~Heijkoop, and A.~Lazovik.
+\newblock Mining twitter in the cloud: A case study.
+\newblock In {\em Cloud Computing (CLOUD), 2010 IEEE 3rd International
+  Conference on}, pages 107--114, July 2010.
+
+\bibitem{ilprints422}
+Lawrence Page, Sergey Brin, Rajeev Motwani, and Terry Winograd.
+\newblock The pagerank citation ranking: Bringing order to the web.
+\newblock Technical Report 1999-66, Stanford InfoLab, November 1999.
+\newblock Previous number = SIDL-WP-1999-0120.
+
+\bibitem{paperli}
+Paper.li.
+\newblock Website corporative of paper.li.
+\newblock \url{http://paper.li/}.
+\newblock Accessed: 2015-10-18.
+
+\bibitem{PennacchiottiP11}
+Marco Pennacchiotti and Ana-Maria Popescu.
+\newblock A machine learning approach to twitter user classification.
+\newblock In Lada~A. Adamic, Ricardo~A. Baeza-Yates, and Scott Counts, editors,
+  {\em ICWSM}. The AAAI Press, 2011.
+
+\bibitem{Phelan:2009:UTR:1639714.1639794}
+Owen Phelan, Kevin McCarthy, and Barry Smyth.
+\newblock Using twitter to recommend real-time topical news.
+\newblock In {\em Proceedings of the Third ACM Conference on Recommender
+  Systems}, RecSys '09, pages 385--388, New York, NY, USA, 2009. ACM.
+
+\bibitem{pythonTwitterCode}
+Jodok Batlogg edleaf glen.tregoning Brad Choate Jim Cortez Jason Lemoine Thomas
+  Dyson Robert Laquey Hameedullah Khan Mike Taylor DeWitt~Clinton
+  Pierre-Jean~Coudert, Omar~Kilani and the rest of the python-twitter~mailing
+  list.
+\newblock Google project hosting for python-twitter.
+\newblock \url{https://code.google.com/p/python-twitter/}.
+\newblock Read Only Accessed: 2015-10-25.
+
+\bibitem{puroperiodismoMenciones}
+Puroperiodismo.
+\newblock Menciones en twitter a medios chilenos de noticias.
+\newblock \url{http://www.puroperiodismo.cl/?page_id=24464}.
+\newblock Accessed: 2015-11-07.
+
+\bibitem{Rao:2010:CLU:1871985.1871993}
+Delip Rao, David Yarowsky, Abhishek Shreevats, and Manaswi Gupta.
+\newblock Classifying latent user attributes in twitter.
+\newblock In {\em Proceedings of the 2Nd International Workshop on Search and
+  Mining User-generated Contents}, SMUC '10, pages 37--44, New York, NY, USA,
+  2010. ACM.
+
+\bibitem{13213947}
+Stephen~D. Reese and Jane Ballinger.
+\newblock {The roots of a sociology of news: remembering mr. gates and social
+  control in the newsroom}.
+\newblock 2007.
+
+\bibitem{revel1990conocimiento}
+J.F. Revel.
+\newblock {\em El conocimiento in{\'u}til}.
+\newblock Coleccion al filo del tiempo. Planeta, 1990.
+
+\bibitem{salaverria2005redaccion}
+Ram{\'o}n Salaverr{\'\i}a.
+\newblock {\em Redacci{\'o}n period{\'\i}stica en Internet}.
+\newblock Eunsa, 2005.
+
+\bibitem{rankingChileSemiocast}
+Semiocast SAS.
+\newblock Brazil becomes 2nd country on twitter, japan 3rd netherlands most
+  active country.
+\newblock
+  \url{http://semiocast.com/publications/2012_01_31_Brazil_becomes_2nd_country_on_Twitter_superseds_Japan}.
+\newblock Accessed: 2015-11-07.
+
+\bibitem{Shirky_2008_Herecomes}
+Clay Shirky.
+\newblock {\em Here Comes Everybody}.
+\newblock Penguin Books, London, 2008.
+
+\bibitem{pycharmWeb}
+Jetbrains s.r.o.
+\newblock Website of pycharm.
+\newblock \url{https://www.jetbrains.com/pycharm/}.
+\newblock Accessed: 2015-10-25.
+
+\bibitem{lxmlWebsite}
+Ian Bicking Holger Joukl Simon Sapin Marc-Antoine Parent Olivier Grisel
+  Kasimier Buchcik Florian Wagner Emil Kroymann Paul Everitt Victor Ng Robert
+  Kern Andreas Pakulat David Sankel Marcin Kasperski Sidnei da~Silva
+  Stefan~Behnel, Martijn~Faassen and Pascal Oberndörfer.
+\newblock Documentation lxml.
+\newblock \url{http://lxml.de/}.
+\newblock Accessed: 2015-10-25.
+
+\bibitem{textblobWebsite}
+Matthew Honnibal Roman Yankovsky David Karesh Evan Dempsey Wesley Childs Jeff
+  Schnurr Adel Qalieh Lage~Ragnarsson Steven~Loria, Pete~Keen and Jonathon Coe.
+\newblock Documentation of textblob.
+\newblock \url{http://textblob.readthedocs.org/en/latest/index.html}.
+\newblock Accessed: 2015-10-25.
+
+\bibitem{storyfulblog}
+Storyful.blog.
+\newblock Making lists: How to fine-tune your twitter antennae.
+\newblock
+  \url{http://blog.storyful.com/2012/11/05/making-lists-how-to-fine-tune-your-twitter-antennae/#.ViQcn36rTIU}.
+\newblock Accessed: 2015-10-18.
+
+\bibitem{storyfulblogvideos}
+Storyful.blog.
+\newblock Storyful tips and tools: Locating videos on a map.
+\newblock
+  \url{http://blog.storyful.com/2012/09/25/storyful-tips-and-tools-locating-videos-on-a-map/#.ViQhJX6rTIU}.
+\newblock Accessed: 2015-10-18.
+
+\bibitem{summify}
+Summify.
+\newblock Website corporative of summify.
+\newblock \url{http://summify.com/}.
+\newblock Accessed: 2015-10-18.
+
+\bibitem{wikipediaEditor:Online}
+DarTar Tbayer, Hfordsa and Romanesco.
+\newblock Quantifying quality collaboration patterns, systemic bias, pov
+  pushing, the impact of news events, and editors' reputation, 2011.
+\newblock
+  \url{https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/Single/2011-11-28#Recent_research}.
+
+\bibitem{tweetedtimes}
+The~Tweeted Times.
+\newblock Website corporative of the tweeted times.
+\newblock \url{http://tweetedtimes.com/}.
+\newblock Accessed: 2015-10-18.
+
+\bibitem{tweetdeck}
+Twitter.
+\newblock Website corporative of tweetdeck.
+\newblock \url{https://tweetdeck.twitter.com/}.
+\newblock Accessed: 2015-10-18.
+
+\bibitem{cifrasTwitter}
+Inc. Twitter.
+\newblock Acerca de la empresa.
+\newblock \url{https://about.twitter.com/es/company}.
+\newblock Accessed: 2015-11-07.
+
+\bibitem{tweetsStillMustFlow}
+Inc. Twitter.
+\newblock Tweets still must flow.
+\newblock \url{https://blog.twitter.com/2012/tweets-still-must-flow}.
+\newblock Accessed: 2015-11-07.
+
+\bibitem{storyful}
+Twitterfall.
+\newblock Website corporative of storyful.
+\newblock \url{http://storyful.com}.
+\newblock Accessed: 2015-10-18.
+
+\bibitem{conf/cikm/UysalC11}
+Ibrahim Uysal and W.~Bruce Croft.
+\newblock User oriented tweet ranking: a filtering approach to microblogs.
+\newblock In Craig Macdonald, Iadh Ounis, and Ian Ruthven, editors, {\em CIKM},
+  pages 2261--2264. ACM, 2011.
+
+\bibitem{wahl2008handbook}
+K.~Wahl-Jorgensen and T.~Hanitzsch.
+\newblock {\em The Handbook of Journalism Studies}.
+\newblock ICA Handbook Series. Taylor \& Francis, 2008.
+
+\bibitem{white}
+D.~M. White.
+\newblock {\em The gate keeper: A case study in the selection of news.
+  Journalism Quarterly}.
+\newblock Bobbs-Merrill, 1950.
+
+\bibitem{intermedio2013}
+Arturo~Arriagada y~Patricio~Navia.
+\newblock {\em Intermedios, medios de comunicación y democracia en Chile}.
+\newblock Ediciones Universidad Diego Portales. Ediciones Universidad Diego
+  Portales, 2013.
+
+\bibitem{ESMPESMP0707110189A}
+Elena Real~Rodríguez y~Sergio Príncipe Hermoso~y Pinar Agudiez~Calvo.
+\newblock Periodismo ciudadano versus periodismo profesional: ¿somos todos
+  periodistas?
+\newblock {\em Estudios sobre el Mensaje Periodístico}, 13, 2007.
+
+\bibitem{Yamaguchi:2010:TTU:1991336.1991364}
+Yuto Yamaguchi, Tsubasa Takahashi, Toshiyuki Amagasa, and Hiroyuki Kitagawa.
+\newblock Turank: Twitter user ranking based on user-tweet graph analysis.
+\newblock In {\em Proceedings of the 11th International Conference on Web
+  Information Systems Engineering}, WISE'10, pages 240--253, Berlin,
+  Heidelberg, 2010. Springer-Verlag.
+
+\end{thebibliography}

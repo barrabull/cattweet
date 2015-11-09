@@ -1,0 +1,173 @@
+Tal como se definió anteriormente, se entiende por noticia \' Una noticia es la comunicación de información seleccionada sobre un evento actual que posteriormente es presentado a través de cualquier medio de comunicación existente \'.\cite{Shirky_2008_Herecomes} Esta sección busca cuantificar el grado de noticias relacionadas por el algoritmo realizado para un tópico.
+
+Consideramos como características relevantes de una noticia los siguientes aspectos:
+
+\begin{itemize}
+	\item Que surja respecto a un hecho concreto ocurrido.
+	\item Que sea presentada por algún medio de prensa.
+	\item Que se encuentre en un margen temporal cercano a la fecha ocurrida del suceso gatillante de la noticia.
+\end{itemize}
+
+\subsubsection{Medio de prensa Modelo}
+
+El medio de prensa modelo es considerado es una medio de prensa de referencia en los medios digitales de prensa en el territorio Chileno, este medio modelo es considerado a fin de obtener resultados comparativos.
+
+Para su selección se utilizaron los siguientes criterios:
+
+\begin{itemize}
+	\item Foco noticioso.
+	\item Segmento socio-económico de su público objetivo.
+	\item Cantidad de seguidores en Twitter.
+	\item Actividad en Twitter.
+\end{itemize}
+
+Basándonos en el estudio \cite{puroperiodismoMenciones} realizado por la Escuela de Periodismo de la Universidad Alberto Hurtado en el sitio web \emph{puro periodismo} que describe: ``Corresponden a sitios de noticias generalistas, de publicación constante, ubicados en los primeros lugares del ranking Alexa y considerando seguidores de Twitter y Fans en Facebook."  \footnote{El ranking de Alexa es un ranking de tráfico con potentes herramientas comparativas y de monetización para sitios web realizado por www.alexa.com (filial de Amazon)}
+
+%The 1 month rank is calculated using a combination of average daily visitors and pageviews over the past month. The site with the highest combination of visitors and pageviews is ranked #1
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{| c | c | c | c | c | c | c | c|}
+		\hline
+		Nombre & Cuenta Twitter & Menciones & Seguidores & Siguiendo & Tweets & Creación \\ \hline
+		24 Horas	& @24horasTVN & 3733 & 1.669.772 & 162	& 246.403	& 15/11/2009 \\ \hline
+		CNN Chile	& @CNNChile	& 1599 & 1.424.580 & 875 & 124.711	&	19/12/2008	\\ \hline
+		BioBioChile	& @biobio & 6311 & 1.392.781 &	15.653	& 431.895	&	3/05/2008\\ \hline
+		Cooperativa	& @cooperativa & 3765 &	1.348.441 & 348.406	& 448.498 & 23/07/2007\\ \hline
+		La Tercera	& @latercera & 2905 & 904.200 &	245.123 & 265.246 & 2/04/2007\\ \hline
+		\hline
+	\end{tabular}
+	\caption {Cuadro descriptivo del estado de las cuentas de Twitter de los principales medios de prensa de Chile, elaboración \emph{puro periodismo}, actualizada 26 de junio 2014.}
+\end{table}
+
+De estos medios se seleccionaron los tres medios más populares en Twitter que provengan de métodos de difusión distintos: Televisión, Radio y Prensa Escrito. Por lo cual los medios de prensa seleccionados son: 24 Horas (Televisión mediante la señal de TVN), Bio-Bio Chile (Radio) y La Tercera (Prensa escrita). 
+
+\subsubsection{Referencia a noticias}
+
+La referencia a noticias se aborda mediante la siguiente pregunta \emph{¿ Cuántos tweets del conjunto seleccionado se refieren directamente a un hecho noticioso difundido por el medio modelo de prensa convencional?}
+
+La pregunta anterior aborda la característica de una noticia, si es que es replicado por algún medio de prensa y si su surgimiento se refiere a un hecho concreto.
+
+Se entiende por \emph{referencia directa} cuando el texto de un tweet se refiere de manera específica y explícita a alguna información o temática y por \emph{hecho noticioso difundido por la prensa convencional} (acorde a la definición de noticia realizada al inicio de este capítulo) se entiende específicamente como el hecho noticioso ocurrido en territorio del estado Chileno que haya generado una nota del medio modelo considerado para este estudio.
+
+El procedimiento para definir si el texto del tweet se refiere directamente a un hecho noticioso es el siguiente:
+
+\begin{figure}[H]
+	\centering
+	\resizebox{!}{10cm}{
+	\begin{tikzpicture}[node distance = 2cm, auto]
+	% Place nodes
+	\node [] (i1) {t};
+	\node [decision, below of=i1, node distance=2cm] (i2) {inTopic(t)};
+	\node [state, below of=i2, node distance=3cm] (i4) {Se descarta t};
+	\node [decision, right of=i4, node distance=3cm] (i3) {coGen(t)};
+	\node [state, below of=i3, node distance=3cm] (i7) {t.OG=1};
+	\node [decision, right of=i7] (i5) {nac(t)};
+	\node [state, below of=i5, node distance=3cm] (i8) {t.II=1};
+	\node [decision, right of=i8] (i6) {granEm};
+	\node [state, below of=i6, node distance=3cm] (i9) {t.AD=1};
+	\node [state, right of=i9, node distance=4cm] (i10) {Hecho noticioso};
+	
+	\path [line] (i1) -- (i2);
+	\path [line] (i2) -| node [near start]{No} (i3);
+	\path [line] (i2) -- node [near start]{Si} (i4);
+	\path [line] (i3) -| node [near start]{No} (i5);
+	\path [line] (i3) -- node [near start]{Si} (i7);
+	\path [line] (i5) -- node [near start]{No} (i8);
+	\path [line] (i5) -| node [near start]{Si} (i6);
+	\path [line] (i6) -- node [near start]{No} (i9);
+	\path [line] (i6) -| node [near start]{Si} (i10);
+		
+	\end{tikzpicture}
+	}
+	\caption{Procedimiento para determinar si un tweet se refiere a un hecho noticioso}
+	\label{fig:procedimientoTweetHN}
+\end{figure}
+\begin{center}
+	\begin{tabular}{>{\sffamily}l@{: }l}
+		\multicolumn{2}{c}{\textbf{Sub-procesos}} \\
+		inTopic & ¿El tweet se refiere al tópico en cuestión?     \\
+		coGen  & ¿El tweet se refiere al tópico en general o se refiere a un hecho en particular?                \\
+		nac & ¿El hecho aludido por el tweet es nacional o internacional? \\
+		granEm   & ¿El hecho posee gran envergadura? 
+	\end{tabular}
+\end{center}
+
+\begin{algorithm}[H]
+	\caption{Procedimiento para determinar si un tweet se refiere o no, a un hecho noticioso}
+	\label{ifNoticia}
+	\begin{algorithmic}[1]
+		
+		\Function{refHechoNoticioso}{tweet}:
+		%\Comment{Query tematica: va a buscar tweets que contengan una cierta keyword y retorna un array con las palabras que la contengan}
+		\If {inTopic(tweet)}
+		\State return false;
+		\Else
+		\If {coGen(tweet)}
+		\State return tweet.OG=1;
+		\Else
+		\If {nac(tweet)}
+		\If {granEm(tweet)}
+		\State return tweet.AD = 1;
+		\Else
+		\State return true;
+		\EndIf
+		\Else
+		\State return tweet.II=1;
+		\EndIf
+		\EndIf
+		\EndIf
+		\EndFunction
+	\end{algorithmic}
+\end{algorithm}	
+
+Por su parte el procedimiento para verificar si el hecho noticioso ha generado una nota del medio modelo considerado para este estudio es el siguiente:
+
+\begin{figure}[H]
+\begin{center}
+\begin{tikzpicture}[node distance = 2cm, auto]
+% Place nodes
+\node [] (i1) {t};
+\node [block, below of=i1, node distance=2cm] (i2) {\textsf{getKey(t)}};
+\node [decision, below of=i2, node distance=3cm] (i3) {\textsf{keyIn}(dt)};
+\node [state, below of=i3, node distance=3cm] (i4) {Se descarta t};
+\node [state, right of=i4, node distance=4cm] (i5) {saveLink(t)};
+
+% Draw edges
+\path [line] (i1) -- (i2);
+\path [line] (i2) -- node [near start] {dt}(i3);
+\path [line] (i3) -- node [near start] {no}(i4);
+\path [line] (i3) -| node [near start] {si}(i5);
+\end{tikzpicture}
+	\caption{Procedimiento para verificar si el hecho noticioso haya generado una nota del medio modelo}
+	\label{fig:haveLink}
+\end{center}
+\end{figure}
+
+\begin{center}
+	\begin{tabular}{>{\sffamily}l@{: }l}
+		\multicolumn{2}{c}{\textbf{Sub-procesos}} \\
+		getKey & Identificar las dos keywords mas relevantes del tweet\\
+		keyIn  & Busca en el arreglo de titulares de la tercera si se encuentran las keywords \\              
+		saveLink(t) & Almacena el enlace de la noticia relacionada 
+	\end{tabular}
+\end{center}
+
+\begin{algorithm}[H]
+	\caption{Pseudo-código para verificar si el hecho noticioso haya generado una nota del medio modelo.}
+	\label{pchaveLink}
+	\begin{algorithmic}[1]
+		\Function{generateEnlace}{tweet}:
+		\State {dt = getKey(tweet)}
+		\If {url = keyIn(dt)}
+			\State return url;
+		\Else
+			\State return null;
+		\EndIf
+		\EndFunction
+	\end{algorithmic}
+\end{algorithm}	
+
+Ambos procedimientos anteriores son ejecutados por un ser humano respecto debido a la dificultad existente con las fuentes de verificación. Las únicas fuentes que poseen en línea los medios modelo online de notas históricas de acceso público, son las sus respectivas secciones de búsqueda en sus sitios web respectivos \cite{busqueda24horas} \cite{busquedaBioBio} \cite{busquedaLaTercera}.
+
+Para poder analizar la información provenientes de estas fuentes se realizaron algoritmos de \emph{scraping} directamente sobre los sitios web que transformaban los resultados en tablas para la comprobación de resultados.
