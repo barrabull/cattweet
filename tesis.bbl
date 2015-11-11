@@ -311,12 +311,6 @@ Jeffrey McGee, James~A. Caverlee, and Zhiyuan Cheng.
   Information and Knowledge Management}, CIKM '11, pages 2333--2336, New York,
   NY, USA, 2011. ACM.
 
-\bibitem{5558003}
-P.~Noordhuis, M.~Heijkoop, and A.~Lazovik.
-\newblock Mining twitter in the cloud: A case study.
-\newblock In {\em Cloud Computing (CLOUD), 2010 IEEE 3rd International
-  Conference on}, pages 107--114, July 2010.
-
 \bibitem{ilprints422}
 Lawrence Page, Sergey Brin, Rajeev Motwani, and Terry Winograd.
 \newblock The pagerank citation ranking: Bringing order to the web.
@@ -464,6 +458,13 @@ Inc. Twitter.
 \newblock Tweets still must flow.
 \newblock \url{https://blog.twitter.com/2012/tweets-still-must-flow}.
 \newblock Accessed: 2015-11-07.
+
+\bibitem{tweetsJournalist}
+Inc. Twitter.
+\newblock Twitter for newsrooms and journalists.
+\newblock
+  \url{https://media.twitter.com/best-practice/for-newsrooms-and-journalists}.
+\newblock Accessed: 2015-11-10.
 
 \bibitem{storyful}
 Twitterfall.

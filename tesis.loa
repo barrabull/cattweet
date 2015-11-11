@@ -1,14 +1,14 @@
-\contentsline {algorithm}{\numberline {1{algorithm}}{\ignorespaces Obtenci\IeC {\'o}n de las palabras m\IeC {\'a}s frecuentes del timeline de un conjunto de tweets\relax }}{55}{algorithm.1}
-\contentsline {algorithm}{\numberline {2{algorithm}}{\ignorespaces Reconocimiento de ubicaci\IeC {\'o}n del usuario mediante Levenshtein\relax }}{56}{algorithm.2}
-\contentsline {algorithm}{\numberline {3{algorithm}}{\ignorespaces Construcci\IeC {\'o}n lista de medios\relax }}{59}{algorithm.3}
-\contentsline {algorithm}{\numberline {4{algorithm}}{\ignorespaces Captura de usuarios\relax }}{60}{algorithm.4}
-\contentsline {algorithm}{\numberline {5{algorithm}}{\ignorespaces GetFollowers\relax }}{61}{algorithm.5}
-\contentsline {algorithm}{\numberline {6{algorithm}}{\ignorespaces GetFollowers con mejora\relax }}{61}{algorithm.6}
-\contentsline {algorithm}{\numberline {7{algorithm}}{\ignorespaces Algoritmo para la captura de tweets.\relax }}{62}{algorithm.7}
-\contentsline {algorithm}{\numberline {8{algorithm}}{\ignorespaces Obtenci\IeC {\'o}n del conjunto de tweets relacionados al t\IeC {\'o}pico\relax }}{64}{algorithm.8}
-\contentsline {algorithm}{\numberline {9{algorithm}}{\ignorespaces Crear Clasificador\relax }}{65}{algorithm.9}
-\contentsline {algorithm}{\numberline {10{algorithm}}{\ignorespaces Orden Geogr\IeC {\'a}fico\relax }}{65}{algorithm.10}
-\contentsline {algorithm}{\numberline {11{algorithm}}{\ignorespaces Orden Relevancia\relax }}{67}{algorithm.11}
-\contentsline {algorithm}{\numberline {12{algorithm}}{\ignorespaces Obtenci\IeC {\'o}n de enlaces externos contenidos en los tweets\relax }}{67}{algorithm.12}
-\contentsline {algorithm}{\numberline {13{algorithm}}{\ignorespaces Procedimiento para determinar si un tweet se refiere o no, a un hecho noticioso\relax }}{82}{algorithm.13}
-\contentsline {algorithm}{\numberline {14{algorithm}}{\ignorespaces Pseudo-c\IeC {\'o}digo para verificar si el hecho noticioso haya generado una nota del medio modelo.\relax }}{83}{algorithm.14}
+\contentsline {algorithm}{\numberline {1{algorithm}}{\ignorespaces Obtenci\IeC {\'o}n de las palabras m\IeC {\'a}s frecuentes del timeline de un conjunto de tweets\relax }}{54}{algorithm.1}
+\contentsline {algorithm}{\numberline {2{algorithm}}{\ignorespaces Reconocimiento de ubicaci\IeC {\'o}n del usuario mediante Levenshtein\relax }}{55}{algorithm.2}
+\contentsline {algorithm}{\numberline {3{algorithm}}{\ignorespaces Construcci\IeC {\'o}n lista de medios\relax }}{58}{algorithm.3}
+\contentsline {algorithm}{\numberline {4{algorithm}}{\ignorespaces Captura de usuarios\relax }}{59}{algorithm.4}
+\contentsline {algorithm}{\numberline {5{algorithm}}{\ignorespaces GetFollowers\relax }}{60}{algorithm.5}
+\contentsline {algorithm}{\numberline {6{algorithm}}{\ignorespaces GetFollowers con mejora\relax }}{60}{algorithm.6}
+\contentsline {algorithm}{\numberline {7{algorithm}}{\ignorespaces Algoritmo para la captura de tweets.\relax }}{61}{algorithm.7}
+\contentsline {algorithm}{\numberline {8{algorithm}}{\ignorespaces Obtenci\IeC {\'o}n del conjunto de tweets relacionados al t\IeC {\'o}pico\relax }}{63}{algorithm.8}
+\contentsline {algorithm}{\numberline {9{algorithm}}{\ignorespaces Crear Clasificador\relax }}{64}{algorithm.9}
+\contentsline {algorithm}{\numberline {10{algorithm}}{\ignorespaces Orden Geogr\IeC {\'a}fico\relax }}{64}{algorithm.10}
+\contentsline {algorithm}{\numberline {11{algorithm}}{\ignorespaces Orden Relevancia\relax }}{66}{algorithm.11}
+\contentsline {algorithm}{\numberline {12{algorithm}}{\ignorespaces Obtenci\IeC {\'o}n de enlaces externos contenidos en los tweets\relax }}{66}{algorithm.12}
+\contentsline {algorithm}{\numberline {13{algorithm}}{\ignorespaces Procedimiento para determinar si un tweet se refiere o no, a un hecho noticioso\relax }}{81}{algorithm.13}
+\contentsline {algorithm}{\numberline {14{algorithm}}{\ignorespaces Pseudo-c\IeC {\'o}digo para verificar si el hecho noticioso haya generado una nota del medio modelo.\relax }}{82}{algorithm.14}

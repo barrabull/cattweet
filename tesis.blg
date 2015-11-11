@@ -93,6 +93,8 @@ Warning--entry type for "udpperfiluso" isn't style-file defined
 --line 1003 of file bibliografia.bib
 Warning--entry type for "tweetsStillMustFlow" isn't style-file defined
 --line 1023 of file bibliografia.bib
+Warning--entry type for "tweetsJournalist" isn't style-file defined
+--line 1030 of file bibliografia.bib
 Warning--I didn't find a database entry for "twitterfall"
 Too many commas in name 1 of "Pierre-Jean Coudert, Omar Kilani, Jodok Batlogg, edleaf, glen.tregoning, Brad Choate, Jim Cortez, Jason Lemoine, Thomas Dyson, Robert Laquey, Hameedullah Khan, Mike Taylor, DeWitt Clinton and the rest of the python-twitter mailing list." for entry pythonTwitterCode
 while executing---line 1049 of file plain.bst
