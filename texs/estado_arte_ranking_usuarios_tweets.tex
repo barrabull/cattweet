@@ -1,116 +1,85 @@
 \subsection{Clasificación de tweets y usuarios de Twitter}
 
-Debido a la gran cantidad de usuarios que forman hoy en día la red social de Twitter, la clasificación tanto de 
-usuarios como de los tweets se ha convertido en una interesante materia de estudio para la comunidad científica. 
-En el siguiente apartado se revisan los trabajos realizados referentes a ésta temática.
+Debido a la gran cantidad de usuarias y usuarios que forman hoy en día la red social de Twitter, la clasificación tanto de cuentas como de contenidos se ha convertido en una creciente materia de estudio para la comunidad científica. En el siguiente apartado se revisan los trabajos realizados referentes a ésta temática.
 
 \subsubsection{Clasificación de usuarios}
    
-    En el trabajo realizado por Marco Pennacchiotti y Ana-Maria Popescu en \cite{PennacchiottiP11} se realizó una clasificación del perfil de los usuarios considerando principalmente cuatro aspectos diferentes:
+     Pennacchiotti y Popescu en \cite{PennacchiottiP11} desarrollan una clasificación del perfil de las cuentas considerando principalmente cuatro aspectos diferentes:
 
     \begin{enumerate}
-        \item \emph{Perfil del usuario}: En la actual API Twitter v1.1 permite el acceso a la información básica del
-        usuario como el nombre de usuario, la locación, una pequeña biografía además del número de seguidores, el número
-        de personas a las que sigue el usuario y el número de tweets. En trabajo anteriores Cheng en \cite{Cheng:2010:YYT:1871437.1871535} estableció que sólo el 26\% de los usuarios
-         de Twitter reportan su ubicación como una ciudad específica, el resto provee locaciones generales (estados o
-         paises) o lugares imaginarios. Por su parte Marco Pennacchiotti y Ana-Maria Popescu tras analizar un corpus de
-         14M de cuentas de usuarios, encontraron que sólo el 48\% provee una biografía corta y 80\% una ubicación, de cuya
-         información se intentaron determinar el género del usuario y su etnicidad pero los resultados fueron de muy baja
-         calidad. Mediante una muestra 15000 usuarios elegidos de forma aleatoria y un conjunto de editores, se les pidió
-         identificar la enticidad y el género a partir de la imagen del avatar de twitter obteniendo que menos del 50\% de
-         las imágenes se correlacionaba de manera clara con alguna etnia mientras que el 57\% se correspondía con algún
-         género. También encontraron que las imágenes podían ser engañosas: en el 20\% de los casos la imagen no era del
-         dueño de la cuenta sino de una celebridad o de otra persona.
-         
-         Con toda esta información estadística concluyen que los campos del perfil del usuario no contienen suficiente
-         información de buena calidad para ser utilizada para una clasificación.
+        \item \emph{Perfil del usuario}: Información básica de la cuenta como el nombre de usuario, la locación, una pequeña biografía además del número de seguidores y seguidoras, el número de personas a las que sigue  y el número de tweets. 
+        
+        \item \emph{Comportamiento para escribir tweets}:  Conjunto de métricas de las interacciones
+        existente entre la red social y el usuario o usuaria: el número promedio de tweets por minuto, número de respuestas, entre otras. 
+        
+        \item \emph{Contenido lingüístico de los tweets}: Encapsula los temas principales de interés del usuario, así como su uso de léxico, este análisis mediante el uso de \emph{palabras prototípicas} \footnote{ El análisis se realiza mediante el uso de las cuales son expresiones típicas de las personas pertenecientes a una clase específica, así como frases relacionadas a intereses típicos de dicha clase} permite la clasificación de los usuarios y usuarias según su estilo de escritura tales como textos oficiales, blogs, conversaciones o traducciones.
        
-        \item \emph{Comportamiento para escribir tweets}:    Esta determinado por un conjunto de métricas de las interacciones
-        existente entre la red social y el usuario: el número promedio de tweets por minuto, número de respuestas, entre
-        otras. Han existido trabajos previos sobre estos aspectos. En \cite{JavaEtAl:07} han ratificado percepciones
-        intuitivas como: Cuando los usuarios postean rara vez pero tienen una gran cantidad de seguidores tienden a ser un
-        buscador de información. Mientras que los usuarios que poseen URL's en sus propios tweets son proveedores de
-        información. Rao en \cite{Rao:2010:CLU:1871985.1871993} sugiere que el estudio de estas componentes no es útil para la
-        mayoria de las tareas de clasificación y que queda incluida en los rasgos lingüísticos.
-       
-        \item \emph{Contenido lingüistico de los tweets}: el contenido lingúistico de los tweets encapsula los temas
-        principales de interés del usuario, así como su uso de léxico. La información lingüística es útil para realizar
-        una clasificación de los usuarios según su estilo de escritura tales como textos oficiales, blogs,
-        conversaciones o traducciones.
-       
-        El análisis se hace mediante el uso de \emph{palabras prototípicas} las cuales son expresiones típicas de las
-        personas pertenecientes a una clase específica, así como frases relacionadas a intereses típicos de dicha clase.
-       
-        En este estudio se realiza un análisis de los hashtag prototípicos, basados en la hipótesis de que si los usuarios
-        de una clase están interesados en los mismos temas, los temas más populares de esta clase se pueden encontrar
-        mediante la recopilación de estadísticas sobre hashtags usados. A modo de síntesis: Se representa a un usuario 
-        mediante el conjunto de palabras de sus tweets y mediante éstas se intenta clasificar a dicho usuario.
-
-        También se realiza un análisis de sentimiento a los tweets, pues frente a un tema en particular dos clases pueden
-        expresar distintos sentimientos. Por ejemplo dos grupos políticos pueden expresar opiniones positivas o negativas
-        de una figura pública dependiendo generalmentee si es del mismo sector político a ellos. Concretamente se realiza
-        recogiendo un conjunto de palabras para las clases observadas en este estudio sobre las que el usuario particular
-        tiene una opinión global que en su mayoría no es compartida por otra clase diferente.
-       
-
         \item \emph{Información de Twitter}: Estas características exploran las relaciones sociales establecidas por
-        el usuario con los demás que él sigue, a quien le responde o que personas re-tweetea.
-       
-        Existe la idea intuitiva de que las personas pertenecientes a una clase son más propensos a seguir las cuentas de ciertas personas y a responder a ellas (por ejemplo, las jóvenes pueden tender a responder a la cuenta de Justin Bieber)
+        la o el usuario con los demás que él o ella siguen, a quien le responde o que personas re-tweetea.          Pennacchiotti y Popescu indican que existe la idea intuitiva de que las personas pertenecientes a una clase son más propensos a seguir las cuentas de ciertas personas y a responder a ellas (por ejemplo, las jóvenes pueden tender a responder a la cuenta de Justin Bieber).
        
     \end{enumerate}
 
-    Las clases específicas que se clasificaron en este trabajo son: afiliación política, clasificación de si es o no seguidor de
-    Starbucks y si los usuarios pertenecen o no a la etnia afroamericana. Los resultados obtenidos son que para los dos
-    primeros es posible conseguir un buen resultado con una considerable precisión, mientras que para el tercero es más
-    compleja la tarea.
+	        Respecto al análisis del \emph{Perfil del usuario} Pennacchiotti y Popescu tras analizar un corpus de
+	        14 millones de cuentas, identifican que sólo el 48\% provee una biografía corta y 80\% una ubicación, de cuya información se intentaron determinar el género del usuario o usuaria y su etnicidad pero los resultados obtenidos fueron de muy baja calidad. 
+	        
+	        Mediante una muestra 15000 cuentas de forma aleatoria y un conjunto de editores y editoras a quienes se pidió identificar la enticidad y el género a partir de la imagen del avatar de Twitter. Se obtiene que menos del 50\% de las imágenes se correlaciona de manera clara con alguna etnia mientras que el 57\% se correspondía con algún género. Se identifica también que las imágenes podían ser engañosas: en el 20\% de los casos la imagen no corresponde al dueño o dueña de la cuenta sino de una celebridad o de otra persona.
+	        
+	         Con esta información estadística el estudio concluye que los campos del perfil del usuario no contienen suficiente información ni de buena calidad para ser utilizada para una clasificación.
+	        %En trabajo anteriores Cheng en \cite{Cheng:2010:YYT:1871437.1871535} estableció que sólo el 26\% de los usuariosde Twitter reportan su ubicación como una ciudad específica, el resto provee locaciones generales (estados o paises) o lugares imaginarios. 
+	        
+	        
+	        %En \cite{JavaEtAl:07} han ratificado percepciones intuitivas como: Cuando los usuarios postean rara vez pero tienen una gran cantidad de seguidores tienden a ser un buscador de información. Mientras que los usuarios que poseen URL's en sus propios tweets son proveedores de información. Rao en \cite{Rao:2010:CLU:1871985.1871993} sugiere que el estudio de estas componentes no es útil para la mayoria de las tareas de clasificación y que queda incluida en los rasgos lingüísticos.
+	        
+	        
+	        Referente al \emph{Contenido lingüístico de los tweets} se realiza un análisis de los hashtag prototípicos, basados en la hipótesis de que si los usuarios o usuarias de una clase están interesados en los mismos temas, los temas más populares de esta clase se pueden encontrar mediante la recopilación de estadísticas sobre hashtags usados. A modo de síntesis se representa a un usuario mediante el conjunto de palabras de sus tweets y mediante éstas se intenta clasificar a dicho usuario.
+	               
+	         También se realiza un análisis de sentimientos a los distintos tweets, pues frente a un tema en particular dos clases pueden expresar distintos sentimientos. Por ejemplo: dos grupos políticos pueden expresar opiniones positivas o negativas de una figura pública dependiendo generalmentee si es del mismo sector político a ellos.  Para este proposito, se recoge un conjunto de palabras para las clases observadas en este estudio sobre las que el usuario particular tiene una opinión global que en su mayoría no es compartida por otra clase diferente.
+
+    Las clases específicas estudiadas se refieren a: afiliación política, clasificación de si es o no seguidor de Starbucks y si los usuarios  y usuarias pertenecen o no a la etnia afroamericana. 
+    
+    %Los resultados obtenidos indican que para los dos primeras clases es posible conseguir un buen resultado con una considerable precisión, mientras que para el tercero es más compleja la tarea.
 
     Para determinar la afiliación política se concluye que las mejores características para su determinación son
-    lingüísticas y de perfil. Siendo desconsiderable el aporte que entregan a esta determinación la información de Twitter
-    y el comportamiento en "tweetear".
+    lingüísticas y de perfil. Siendo desconsiderable el aporte que entregan a esta determinación la información de Twitter y el comportamiento en "tweetear".
 
-    Para determinar si una usuario pertenece a la clase seguidor potencial de Starbucks se puede hacer con precisión
-    razonable ( 0.763 ) cosiderando la información del perfil y análisis lingüístico como las características más útiles
-    para este objetivo.
+    `Para determinar si un usuario o usuaria pertenece a la clase \emph{seguidor o seguidora potencial de Starbucks} se identifica que  la \emph{información del perfil} y \emph{análisis lingüístico} son las  características más útiles para este objetivo.
 
-    Se concluye además que la relación entre los seguidores y amigos es también una carácteristica relevante por si sola
-    para determinar la clase de seguidores, pues sugiere que los aficionados de starbucks son los que siguen a los demás
-    más que seguirse entre sí pues en su mayoría son los solicitantes de información, probablemente gente en busca de
-    ofertas y cupones.
+    Se concluye además que la relación entre las y los seguidores y amigas y amigos es también una carácteristica relevante por sí sola para determinar la clase de seguidores o seguidoras, pues sugiere que los aficionados de Starbucks son los que siguen a los demás más que seguirse entre sí pues en su mayoría son los solicitantes de información (probablemente gente en busca de ofertas y cupones).
 
-    Si bien el uso del léxico determina en este experimento con bastante precisión a la etnia afro-americana por sus
-    variadas expresiones, cabe destacar que dichas expresiones ligúisticas han sido ampliamente adoptadas por otros grupos.
-    Por lo cual, esta característica posee una clara limitante en su aplicación. Los mejores resultados para determinar la
-    etnia de un usuario es mediante la combinación del léxico y si siguen a celebridades a fines. Se encontró también que 
-    la tarea de clasificación puede ser ayudada por información del perfil.
+    Si bien el uso del léxico determina en este experimento con bastante precisión a la etnia afro-americana por sus variadas expresiones, cabe destacar que dichas expresiones ligúisticas han sido ampliamente adoptadas por otros grupos haciendo visible que esta característica posee una clara limitante en su aplicación. Los mejores resultados para determinar la etnia de un usuario es mediante la combinación del léxico y si siguen a celebridades a fines. Se encontró también que a tarea de clasificación puede ser ayudada por información del perfil.
   
  \subsubsection{Ranking de enlaces compartidos en Twitter}
   
-  En \cite{Dong:2010:TEI:1772690.1772725} Dong utiliza como fuente de información fresca los contenidos y enlaces compartidos en Twitter para las búsquedas web en tiempo real. Dong identifica que en vista de la investigación de  Hughes en \cite{hughes2009twitter} donde concluye que ante un evento inesperado, los tweets contienen más información relevante que en una situación normal (y tienen un enfoque más de broadcasting), es posible considerar Twitter como una buena fuente de información en tiempo real en base a cuatro oportunidades:
+  En \cite{Dong:2010:TEI:1772690.1772725} Dong utiliza como fuente de información fresca los contenidos y enlaces compartidos en Twitter para búsquedas web en tiempo real. Dong identifica que en vista de la investigación de  Hughes en \cite{hughes2009twitter} donde concluye que ante un evento inesperado, los tweets contienen más información relevante que en una situación normal (y tienen un enfoque más de \emph{broadcasting}), es posible considerar Twitter como una buena fuente de información en tiempo real en base a cuatro oportunidades:
   
   \begin{itemize}
-	\item Los enlaces compartidos pueden corresponder a noticias o no. (permitiendo recoger información sobre los vinculos que no son noticias y mejorar los resultados de la búsqueda)
-	\item Los enlaces difundidos son publicados en base a las distintas prioridades personales de los usuarios lo que aporta un interesante grado de diversidad.
-	\item La red de Twitter permite realizar mediciones de autoridad a los creadores de tweets.
+	\item Los enlaces compartidos pueden corresponder a noticias o no (permitiendo recoger información sobre los enlaces que no son noticias y mejorar los resultados de la búsqueda).
+	\item Los enlaces difundidos son publicados en base a las distintas prioridades personales de las y los usuarios, lo que aporta un interesante grado de diversidad.
+	\item La red de Twitter permite realizar mediciones de autoridad a las y los creadores de tweets.
 	\item Los tweets cuentan con metadatos relacionados que permiten clasificarlos e inferir en base a su relevancia.
   \end{itemize}
   
-  Existen aspectos a considerar en el procesamiento de enlaces como por ejemplo: que los enlaces propagados en Twitter puedan corresponder a \emph{spam} referente a un producto o marca sin contenido relevante, para limpiar los resultados de estos contenidos se utilizan heurísticas a fines a estos propositos (como filtrar enlaces twitteadas por el mismo usuario más de dos veces o solo twitteadas por un mismo usuario).
-  Se consideraron las siguientes carácterísticas referentes a los enlaces y los tweets que los contenían:
+ Se consideran filtros en el procesamiento de enlaces referente al spam \emph{ Corresponden a enlaces propagados en Twitter referente a un producto o marca sin contenido relevante} basados en heurísticas a fines (como filtrar enlaces twitteadas por el mismo usuario más de dos veces o solo twitteadas por un mismo usuario).
+ 
+ Referentes a los enlaces y los tweets que los contenían se consideran las siguientes carácterísticas:
   %Puesto que el sistema de Twitter se separa en dos componentes muy distintos, estos dos componentes que son: un sistema de publicación y otro de subscripción. El sistema de publicación permite detectar nuevas URL's mientras que el sistema de subscripción permite recoger información sobre la calidad de estas nuevas URL's.
   
 \begin{itemize}
-	\item \textbf{Características textuales}: Estas carácterísticas fueron analizadas por considerarse que las palabras que acompañan a una URL en un tweet pueden entregar información relevante sobre esta. Principalmente se realiza un conteo de estas palabras y la cantidad de repeticiones existentes para todos los tweets analizados, generándose un conjunto de pares de palabras y url's relevantes. (Similar al análisis del \emph{Contenido lingüistico de los tweets} considerado en el estudio analizado anteriormente \cite{PennacchiottiP11}).
+	\item \textbf{Características textuales}: Se considera que las palabras que acompañan a una URL en un tweet pueden entregar información relevante sobre ésta. Principalmente se realiza un conteo de estas palabras y la cantidad de repeticiones existentes para todos los tweets analizados, generándose un conjunto de pares de palabras y URL's relevantes (Similar al análisis del \emph{Contenido lingüistico de los tweets} considerado en el estudio analizado anteriormente \cite{PennacchiottiP11}).
+	
 	\item \textbf{Características de redes sociales}: Se aplica el concepto de autoridad a los usuarios de Twitter, vinculados mediante las relaciones de re-tweet entre ellos.
-	\item \textbf{Otras características:} Se define un conjunto de diez características adicionales, muchas de las cuales consideran el ranking establecido en base a la autoridad de los usuarios. Estas se dividen en tres grupos:
+	
+	\item \textbf{Otras características}: Se define un conjunto de diez características adicionales, muchas de las cuales consideran el ranking establecido en base a la autoridad de los usuarios. Estas se dividen en tres grupos:
 		\begin{itemize}
-		\item{Referentes al promedio del conjunto de usuarios que publicaron la URL}: número promedio de \emph{followers} de los usuarios, número promedio de tweets de los usuarios, numero promedio de usuarios que retweetean los tweets que contienen la URL, promedio de usuarios que responden los tweets que contienen la URL, promedio del número de personas a las que siguen los usuarios, promedio del ranking de autodidad definido anteriormente.
+		\item{Referentes al promedio del conjunto de usuarios que publicaron la URL}: número promedio de \emph{followers} de las y los usuarios, número promedio de tweets de las y los usuarios, numero promedio de las y los usuarios que retweetean cantidad de tweets que contienen la URL, promedio de usuarias y usuarios que responden los tweets que contienen la URL, promedio del número de usuarias y usuarios a las que siguen, promedio del ranking de autodidad (definido anteriormente).
 		\item{Referentes al usuario que inicialmente twitteó la URL}: Se asume autoridad para el primer emisor de la URL en base a algunos criterios como número de followers, número de tweets, número de usuarios que realizaron retweet, número de respuestas, número de personas a las que sigue.
 		\item{Referentes al usuario que posee mayor ranking de autoridad} Las características observadas son número de followers, número de tweets, número de usuarios que realizaron retweet, número de respuestas, número de personas a las que sigue y el ranking de autoridad.
 		\end{itemize}
 \end{itemize}
 	
-	El ranking como tal, fue elaborado en base a una máquina de aprendizaje de ranking (MLR) en la cual se consideran las características anteriores con distintas ponderaciones de importancia calificándolas con un factor en una escala de [0,100](de forma descendente, las más importantes son: La característica de repetición de la URL en los distintos tweeets y su relación con las palabras relacionadas, número de seguidores del usuario con mayor grado de autoridad, número de usuarios que retweetan la URL al usuario con  mayor grado de autoridad, número promedio de usuarios que retweetean los tweets que contienen la URL y número promedio de usuarios que siguen a quienes han twitteado la URL). Los resultados se clasificaron en base a una tupla (query,URL,$t_query$) con grados de relevancia, los resultados obtenidos fueron contrastados con la opinión de cinco expertos en cinco grados de clasificación de los pares URL-query:perfecto, excelente, bueno, justo y malo. Se agregó un sistema de etiquetas de tiempo debido al interés especial de esta dimensión del problema, donde los tweets fueron clasificados en dos grandes categorías: sin senbilidad de tiempo y con senbilidad de tiempo con las subcategorías: \emph{reciente}, \emph{de alguna manera reciente}, \emph{de alguna manera fuera de fecha} y \emph{totalmente fuera de fecha}.
+	El ranking se basa en una máquina de aprendizaje de ranking (MLR) que considera las características anteriores con distintas ponderaciones de importancia calificándolas con un factor en una escala de [0,100] (de forma descendente, las más importantes son: La característica de repetición de la URL en los distintos tweeets y su relación con las palabras relacionadas, número de seguidoras y seguidores del usuario con mayor grado de autoridad, número de usuarias y usuarios que re-tweetan la URL al usuario con mayor grado de autoridad, número promedio de usuarios y usuarias que re-tweetean los tweets que contienen la URL y número promedio de usuarios y usuarias que siguen a quienes han twitteado la URL). Los resultados se clasificaron en base a una tupla (query,URL,$t_query$) con grados de relevancia, los resultados obtenidos fueron contrastados con la opinión de cinco expertos en cinco grados de clasificación de los pares URL-query:perfecto, excelente, bueno, justo y malo. Se agregó un sistema de etiquetas de tiempo debido al interés especial de esta dimensión del problema, donde los tweets fueron clasificados en dos grandes categorías: sin senbilidad de tiempo y con senbilidad de tiempo con las subcategorías: \emph{reciente}, \emph{de alguna manera reciente}, \emph{de alguna manera fuera de fecha} y \emph{totalmente fuera de fecha}.
+	
+	%%%%%%%%%%%%%%%REVISION%%%%%%%%%%%%%%%%%%%
 	
 	Si los documentos son \emph{sin senbilidad de tiempo}, \emph{reciente} o \emph{de alguna manera reciente} al momento de su clasificación preservan su clasificación,en cambio, cuando son \emph{sensibles al tiempo} se utiliza un sistema de descenso de categoría:
 	
