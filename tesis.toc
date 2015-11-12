@@ -14,62 +14,62 @@
 \contentsline {section}{\numberline {3.1}Estudios relacionados}{13}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Clasificaci\IeC {\'o}n de tweets y usuarios de Twitter}{13}{subsection.3.1.1}
 \contentsline {subsubsection}{\numberline {3.1.1.1}Clasificaci\IeC {\'o}n de usuarios}{13}{subsubsection.3.1.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.2}Ranking de enlaces compartidos en Twitter}{16}{subsubsection.3.1.1.2}
-\contentsline {subsubsection}{\numberline {3.1.1.3}Mecanismo de Ranking en Twitter como foro}{19}{subsubsection.3.1.1.3}
-\contentsline {subsubsection}{\numberline {3.1.1.4}Twitter para la recomedaci\IeC {\'o}n de noticias}{20}{subsubsection.3.1.1.4}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Ranking de enlaces compartidos en Twitter}{15}{subsubsection.3.1.1.2}
+\contentsline {subsubsection}{\numberline {3.1.1.3}Mecanismo de Ranking en Twitter como foro}{18}{subsubsection.3.1.1.3}
+\contentsline {subsubsection}{\numberline {3.1.1.4}Twitter para la recomedaci\IeC {\'o}n de noticias}{19}{subsubsection.3.1.1.4}
 \contentsline {subsubsection}{\numberline {3.1.1.5}Clasificaci\IeC {\'o}n de tweets orientada al usuario: Un enfoque de filtrado para microblogs}{21}{subsubsection.3.1.1.5}
-\contentsline {subsubsection}{\numberline {3.1.1.6}TURank: Clasificaci\IeC {\'o}n del usuarios de Twitter basado en el an\IeC {\'a}lisis de un grafo usuario-tweet}{23}{subsubsection.3.1.1.6}
-\contentsline {subsection}{\numberline {3.1.2}Geolocalizaci\IeC {\'o}n de usuarios}{25}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Herramientas y plataformas relacionadas}{28}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Geofeedia}{28}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Paper.li}{29}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}The Tweeted Times}{30}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}FlipBoard}{31}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Summify}{32}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}TwitterFall}{34}{subsection.3.2.6}
-\contentsline {subsection}{\numberline {3.2.7}Storyful}{35}{subsection.3.2.7}
-\contentsline {subsection}{\numberline {3.2.8}Wikipulse}{39}{subsection.3.2.8}
-\contentsline {chapter}{\numberline {4}Definici\IeC {\'o}n de la soluci\IeC {\'o}n}{44}{chapter.4}
-\contentsline {section}{\numberline {4.1}Objetivos}{45}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Objetivo principal}{45}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Objetivos Secundarios}{45}{subsection.4.1.2}
-\contentsline {chapter}{\numberline {5}Propuesta}{46}{chapter.5}
-\contentsline {section}{\numberline {5.1}Arquitectura de la soluci\IeC {\'o}n}{46}{section.5.1}
-\contentsline {section}{\numberline {5.2}Plataformas y herramientas utilizadas}{47}{section.5.2}
-\contentsline {section}{\numberline {5.3}Caracter\IeC {\'\i }sticas del servidor}{51}{section.5.3}
-\contentsline {section}{\numberline {5.4}Modelo de Datos}{53}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}An\IeC {\'a}lisis de la l\IeC {\'\i }nea editorial del medio objetivo}{53}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Geolocalizaci\IeC {\'o}n de usuarios}{55}{subsection.5.4.2}
-\contentsline {subsubsection}{\numberline {5.4.2.1}Implementaci\IeC {\'o}n}{55}{subsubsection.5.4.2.1}
-\contentsline {subsubsection}{\numberline {5.4.2.2}Resultados obtenidos}{55}{subsubsection.5.4.2.2}
-\contentsline {subsection}{\numberline {5.4.3}Captaci\IeC {\'o}n de usuarios}{57}{subsection.5.4.3}
-\contentsline {subsubsection}{\numberline {5.4.3.1}Captura de los medios de prensa (MP)}{57}{subsubsection.5.4.3.1}
-\contentsline {subsubsection}{\numberline {5.4.3.2}Captura followers de los medios de prensa (FMP)}{58}{subsubsection.5.4.3.2}
-\contentsline {subsection}{\numberline {5.4.4}Captura de tweets}{61}{subsection.5.4.4}
-\contentsline {subsection}{\numberline {5.4.5}Procesamiento de los tweets}{62}{subsection.5.4.5}
-\contentsline {subsubsection}{\numberline {5.4.5.1}Definici\IeC {\'o}n del t\IeC {\'o}pico}{62}{subsubsection.5.4.5.1}
-\contentsline {subsubsection}{\numberline {5.4.5.2}Obtenci\IeC {\'o}n del conjunto de tweets relacionados al t\IeC {\'o}pico}{63}{subsubsection.5.4.5.2}
-\contentsline {subsubsection}{\numberline {5.4.5.3}Depuraci\IeC {\'o}n de conjunto de tweets relacionados al t\IeC {\'o}pico}{63}{subsubsection.5.4.5.3}
-\contentsline {subsubsection}{\numberline {5.4.5.4}Orden geogr\IeC {\'a}fico}{64}{subsubsection.5.4.5.4}
-\contentsline {subsubsection}{\numberline {5.4.5.5}Orden de relevancia}{65}{subsubsection.5.4.5.5}
-\contentsline {subsubsection}{\numberline {5.4.5.6}Panel de enlaces}{66}{subsubsection.5.4.5.6}
-\contentsline {subsubsection}{\numberline {5.4.5.7}ON/OFF Medios de prensa}{67}{subsubsection.5.4.5.7}
-\contentsline {chapter}{\numberline {6}Evaluaci\IeC {\'o}n y discusi\IeC {\'o}n}{68}{chapter.6}
-\contentsline {section}{\numberline {6.1}Vistas del prototipo}{68}{section.6.1}
-\contentsline {section}{\numberline {6.2}Caracterizaci\IeC {\'o}n de la poblaci\IeC {\'o}n de datos capturados}{72}{section.6.2}
-\contentsline {section}{\numberline {6.3}Resultados}{77}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Referencias a noticias}{78}{subsection.6.3.1}
-\contentsline {subsubsection}{\numberline {6.3.1.1}Medio de prensa Modelo}{78}{subsubsection.6.3.1.1}
-\contentsline {subsubsection}{\numberline {6.3.1.2}Referencia a noticias}{79}{subsubsection.6.3.1.2}
-\contentsline {subsection}{\numberline {6.3.2}Casos de prueba: El aborto}{83}{subsection.6.3.2}
-\contentsline {subsubsection}{\numberline {6.3.2.1}Procesamiento del t\IeC {\'o}pico}{83}{subsubsection.6.3.2.1}
-\contentsline {subsubsection}{\numberline {6.3.2.2}An\IeC {\'a}lisis de muestra representativa}{84}{subsubsection.6.3.2.2}
-\contentsline {subsubsection}{\numberline {6.3.2.3}An\IeC {\'a}lisis de contenido}{84}{subsubsection.6.3.2.3}
-\contentsline {subsubsection}{\numberline {6.3.2.4}An\IeC {\'a}lisis temporal}{86}{subsubsection.6.3.2.4}
-\contentsline {subsubsection}{\numberline {6.3.2.5}An\IeC {\'a}lisis de re-tweet}{88}{subsubsection.6.3.2.5}
-\contentsline {subsubsection}{\numberline {6.3.2.6}An\IeC {\'a}lisis geogr\IeC {\'a}fico}{90}{subsubsection.6.3.2.6}
-\contentsline {chapter}{\numberline {7}Conclusiones}{91}{chapter.7}
-\contentsline {section}{\numberline {7.1}Conclusiones}{91}{section.7.1}
-\contentsline {section}{\numberline {7.2}Trabajo futuro}{94}{section.7.2}
-\contentsline {chapter}{\numberline {8}Anexo}{98}{chapter.8}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{99}{chapter*.52}
+\contentsline {subsubsection}{\numberline {3.1.1.6}TURank: Clasificaci\IeC {\'o}n del usuarios de Twitter basado en el an\IeC {\'a}lisis de un grafo usuario-tweet}{22}{subsubsection.3.1.1.6}
+\contentsline {subsection}{\numberline {3.1.2}Geolocalizaci\IeC {\'o}n de usuarios}{24}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Herramientas y plataformas relacionadas}{27}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Geofeedia}{27}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Paper.li}{28}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}The Tweeted Times}{29}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}FlipBoard}{30}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Summify}{31}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}TwitterFall}{33}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}Storyful}{34}{subsection.3.2.7}
+\contentsline {subsection}{\numberline {3.2.8}Wikipulse}{38}{subsection.3.2.8}
+\contentsline {chapter}{\numberline {4}Definici\IeC {\'o}n de la soluci\IeC {\'o}n}{43}{chapter.4}
+\contentsline {section}{\numberline {4.1}Objetivos}{44}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Objetivo principal}{44}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Objetivos Secundarios}{44}{subsection.4.1.2}
+\contentsline {chapter}{\numberline {5}Propuesta}{45}{chapter.5}
+\contentsline {section}{\numberline {5.1}Arquitectura de la soluci\IeC {\'o}n}{45}{section.5.1}
+\contentsline {section}{\numberline {5.2}Plataformas y herramientas utilizadas}{46}{section.5.2}
+\contentsline {section}{\numberline {5.3}Caracter\IeC {\'\i }sticas del servidor}{50}{section.5.3}
+\contentsline {section}{\numberline {5.4}Modelo de Datos}{52}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}An\IeC {\'a}lisis de la l\IeC {\'\i }nea editorial del medio objetivo}{52}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Geolocalizaci\IeC {\'o}n de usuarios}{54}{subsection.5.4.2}
+\contentsline {subsubsection}{\numberline {5.4.2.1}Implementaci\IeC {\'o}n}{54}{subsubsection.5.4.2.1}
+\contentsline {subsubsection}{\numberline {5.4.2.2}Resultados obtenidos}{54}{subsubsection.5.4.2.2}
+\contentsline {subsection}{\numberline {5.4.3}Captaci\IeC {\'o}n de usuarios}{56}{subsection.5.4.3}
+\contentsline {subsubsection}{\numberline {5.4.3.1}Captura de los medios de prensa (MP)}{56}{subsubsection.5.4.3.1}
+\contentsline {subsubsection}{\numberline {5.4.3.2}Captura followers de los medios de prensa (FMP)}{57}{subsubsection.5.4.3.2}
+\contentsline {subsection}{\numberline {5.4.4}Captura de tweets}{60}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.5}Procesamiento de los tweets}{61}{subsection.5.4.5}
+\contentsline {subsubsection}{\numberline {5.4.5.1}Definici\IeC {\'o}n del t\IeC {\'o}pico}{61}{subsubsection.5.4.5.1}
+\contentsline {subsubsection}{\numberline {5.4.5.2}Obtenci\IeC {\'o}n del conjunto de tweets relacionados al t\IeC {\'o}pico}{62}{subsubsection.5.4.5.2}
+\contentsline {subsubsection}{\numberline {5.4.5.3}Depuraci\IeC {\'o}n de conjunto de tweets relacionados al t\IeC {\'o}pico}{62}{subsubsection.5.4.5.3}
+\contentsline {subsubsection}{\numberline {5.4.5.4}Orden geogr\IeC {\'a}fico}{63}{subsubsection.5.4.5.4}
+\contentsline {subsubsection}{\numberline {5.4.5.5}Orden de relevancia}{64}{subsubsection.5.4.5.5}
+\contentsline {subsubsection}{\numberline {5.4.5.6}Panel de enlaces}{65}{subsubsection.5.4.5.6}
+\contentsline {subsubsection}{\numberline {5.4.5.7}ON/OFF Medios de prensa}{66}{subsubsection.5.4.5.7}
+\contentsline {chapter}{\numberline {6}Evaluaci\IeC {\'o}n y discusi\IeC {\'o}n}{67}{chapter.6}
+\contentsline {section}{\numberline {6.1}Vistas del prototipo}{67}{section.6.1}
+\contentsline {section}{\numberline {6.2}Caracterizaci\IeC {\'o}n de la poblaci\IeC {\'o}n de datos capturados}{71}{section.6.2}
+\contentsline {section}{\numberline {6.3}Resultados}{76}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Referencias a noticias}{77}{subsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.1.1}Medio de prensa Modelo}{77}{subsubsection.6.3.1.1}
+\contentsline {subsubsection}{\numberline {6.3.1.2}Referencia a noticias}{78}{subsubsection.6.3.1.2}
+\contentsline {subsection}{\numberline {6.3.2}Casos de prueba: El aborto}{82}{subsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.2.1}Procesamiento del t\IeC {\'o}pico}{82}{subsubsection.6.3.2.1}
+\contentsline {subsubsection}{\numberline {6.3.2.2}An\IeC {\'a}lisis de muestra representativa}{83}{subsubsection.6.3.2.2}
+\contentsline {subsubsection}{\numberline {6.3.2.3}An\IeC {\'a}lisis de contenido}{83}{subsubsection.6.3.2.3}
+\contentsline {subsubsection}{\numberline {6.3.2.4}An\IeC {\'a}lisis temporal}{85}{subsubsection.6.3.2.4}
+\contentsline {subsubsection}{\numberline {6.3.2.5}An\IeC {\'a}lisis de re-tweet}{87}{subsubsection.6.3.2.5}
+\contentsline {subsubsection}{\numberline {6.3.2.6}An\IeC {\'a}lisis geogr\IeC {\'a}fico}{89}{subsubsection.6.3.2.6}
+\contentsline {chapter}{\numberline {7}Conclusiones}{90}{chapter.7}
+\contentsline {section}{\numberline {7.1}Conclusiones}{90}{section.7.1}
+\contentsline {section}{\numberline {7.2}Trabajo futuro}{93}{section.7.2}
+\contentsline {chapter}{\numberline {8}Anexo}{97}{chapter.8}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{98}{chapter*.52}
