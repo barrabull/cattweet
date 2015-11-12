@@ -1,0 +1,103 @@
+Para tener una directriz respecto a qué tópicos de noticias son cubiertos por el medio de prensa objetivo, se realiza un análisis de los tweets de dicho medio.
+El proceso se realiza mediante el conteo de la frecuencia de las palabras contenidas en los corpus de los distintos tweets, sin considerar las palabras vacías o stopword\footnote{Stopwords o palabras vacías es el nombre que reciben las palabras sin significado como artículos, pronombres, preposiciones, etc. que son filtradas antes o después del procesamiento de datos en lenguaje natural (texto)} presentes.
+
+\begin{algorithm}
+	\caption{Obtención de las palabras más frecuentes del timeline de un conjunto de tweets}\label{ciudadesLeven}
+	\begin{algorithmic}[1]
+		\Function{getKeywordMedio}{tweets}
+		\For{tweet in tweets}
+		\For{tweet in tweets}
+		\For{palabra in tweet}
+		\If{stopwords.not\_in\_array(palabra)}
+		\State palabras.push(palabra)
+		\State frecPalabras[palabra]++
+		\EndIf
+		\EndFor
+		\EndFor
+		\EndFor
+		\State return frecPalabras.ordenar()
+		\EndFunction
+	\end{algorithmic}
+\end{algorithm}
+
+
+%La cuenta de Twitter de AmorTv (\@amor\_tv) al momento de realizar la extracción con más de mil tweets de los cuales se obtuvieron los siguientes resultados:
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{| c | c |}
+			\hline
+			Posición & Palabra \\ \hline
+			1 & Estudiantes \\ \hline
+			2 & Valparaíso \\ \hline
+			3 & Universidad \\ \hline
+			4 & Toma \\ \hline
+			5 & Sede \\ \hline
+			6 & Represión \\ \hline
+			7 & Marcha \\ \hline
+			8 & Chile \\ \hline
+			9 & Concepción \\ \hline
+			10 & Casa Central \\ \hline
+			11 & Usm  \\ \hline
+			12 & Utfsm \\ \hline
+			13 & Paro \\ \hline
+			14 & Nacional \\ \hline
+			15 & Carabineros \\ \hline
+			16 & Movimiento \\ \hline
+			17 & Pucv \\ \hline
+			18 & Asamblea \\ \hline
+			19 & Trabajadores \\ \hline
+			20 & Secundarios \\ \hline
+		\end{tabular}
+		\caption{Tabla que muestra en orden descendente las keyword con mayor frecuencia
+			en el análisis del timeline de Twitter de Amor TV}
+		\label{tab:xyz}
+	\end{center}
+\end{table}
+
+Se obtiene que las palabras con mayor frecuencia tienen relación con temáticas estudiantiles, manifestaciones, movimientos sociales y los lugares donde estos ocurren, que va acorde a la descripción del medio \cite{amorTV}.
+
+%Tras el posterior análisis con los editores y miembros de amor\_tv sobre las keyword
+%que con su conocimiento experto podían considerar, al momento de buscar un evento 
+%noticioso agregaron las siguientes:
+
+%	\begin{table}[h]
+%	\begin{center}
+%	   \begin{tabular}{| c | c |}
+%		 \hline
+%		   Posición & Palabra \hline
+%		   1 & Trabajadores & 
+%		   2 & Social & 
+%		   3 & Sexismo & 
+%		   4 & Santa Maria & 
+%		   5 & Protesta & 
+%		   6 & Movimiento & 
+%		   7 & Movilización & 17 & - \\ \hline
+%		   8 & Mapuche & 18 & - \\ \hline
+%		   9 & Estudiantil & 19 & - \\ \hline
+%		   10 & Ecológico & 20 & - \\ \hline
+%		   11 & Confech  \\ \hline
+%		   12 & Comunidad \\ \hline
+%		   13 & Comunitario \\ \hline
+%		   14 & Indígena \\ \hline
+%		   15 & Autogestión \\ \hline
+%		   16 Medioambiente - \\ \hline
+%		\end{tabular}
+%		\caption{Tabla que muestra en orden descendente las keyword con mayor frecuencia
+%				en el análisis del timeline de Twitter de \@amor\_tv}
+%		\label{tab:xyz}
+%		 \end{center}
+%	 \end{table}
+
+%Las keyword consideradas que representan a mayor cabalidad los eventos noticiosos que
+%caracterizan al medio de comunicación de prensa AmorTv, obtenidas de los análisis
+%anteriores agregando variaciones de algunas palabras, son representadas gráficamente
+%mediante el siguiente wordcloud:
+
+%\begin{figure}[H]
+%  \centering
+%    \includegraphics[width=0.99\textwidth]{wordcloud.png}
+%  \caption{WordCloud de las keyword mas representativas de los eventos noticiosos
+%  característicos de AmorTv}
+%  \label{fig:storyful}
+%\end{figure}
