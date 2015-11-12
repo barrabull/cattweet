@@ -157,9 +157,9 @@ El proceso de captura de tweets se realiza obteniendo los 100 últimos tweets de
 	\end{algorithmic}
 \end{algorithm}
 
-El algoritmo planteado principalmente en su primera etapa realiza una búsqueda de los usuarios y sus respectivos estados referentes a si han sido recolectados sus últimos tweets (en cuyo caso se van a buscar los 100 tweets más recientes a partir del último recogido) o no (en cuyo caso se van a buscar los 100 tweets más recientes), posteriormente se almacenan en la base de datos los tweets recibidos. Es importante resaltar que este algoritmo gestiona las distintas pausas necesarias para respetar los límites de la API Twitter.
+El algoritmo planteado principalmente en su primera etapa realiza una búsqueda de los usuarios y sus respectivos estados referentes a si han sido recolectados sus últimos tweets (en cuyo caso se van a buscar los 100 tweets más recientes a partir del último recogido) o no (en cuyo caso se van a buscar los 100 tweets más recientes), posteriormente se almacenan en la base de datos los tweets recibidos. Es importante resaltar que este algoritmo gestiona las distintas pausas necesarias para respetar los límites de la API Twitter y posibles restricciones sobre si la cuenta no existe o es privada. 
 
-Si la cuenta no existe o es privada se elimina del conjunto de usuarios. El algoritmo se demora en promedio 0,9658139 segundos en descargar los tweets de un usuario y almacenarlos en el sistema.
+El algoritmo se demora en promedio 0,9658139 segundos en descargar los tweets de un usuario y almacenarlos en el sistema.
 
 \subsection{Procesamiento de los tweets}
 
@@ -174,7 +174,7 @@ El procesamiento de los tweets se define en tres procesos:
 
 Un tópico son las palabras claves que definen una búsqueda temática realizada por el administrador del sistema ingresado al sistema mediante la plataforma web, cada tópico posee los siguientes atributos:
 \begin{itemize}
-	\item Fecha de inicio : Se refiere a la fecha de inicio de emisión de los tweets objetivos que se requiere reunir.
+	\item \textit{Fecha de inicio} : Se refiere a la fecha de inicio de emisión de los tweets objetivos que se requiere reunir.
 	\item Fecha última actualización: Se refiere a la última fecha en la cual se realizó alguna modificación referente al tópico.
 	\item Título: Se refiere a las palabras claves que definen al tópico. 
 	\item Comuna: Comuna relacionada al tópico.
