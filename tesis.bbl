@@ -18,6 +18,13 @@ M.~Becker.
 \newblock 2012.
 \newblock Diploma Thesis University of Cologne.
 
+\bibitem{summifyblog}
+Summify Blog.
+\newblock Summifytip: Modifying summary sources and saying thanks.
+\newblock
+  \url{http://blog.summify.com/2012/01/17/summifytip-modifying-summary-sources-and-saying-thanks/}.
+\newblock Accessed: 2015-11-10.
+
 \bibitem{wethemedia}
 Shayne Bowman and Chris Willis.
 \newblock {\em we media; media; citizens media; participatory media; blogging}.
@@ -68,6 +75,12 @@ Grupo Copesa.
 \newblock La tercera.
 \newblock \url{http://www.latercera.com/resultadoBusqueda.html?q=}.
 \newblock Accessed: 2015-10-24.
+
+\bibitem{mysqlWeb}
+Oracle Corporation.
+\newblock Website of mysql.
+\newblock \url{https://www.mysql.com/}.
+\newblock Accessed: 2015-10-25.
 
 \bibitem{mysqlWorkbenchWeb}
 Oracle Corporation.
@@ -170,12 +183,6 @@ Open~State Foundation.
 \newblock
   \url{http://www.openstate.eu/2015/08/twitter-cuts-off-diplotwoops-and-politwoops-in-all-remaining-30-countries//}.
 
-\bibitem{pythonWeb}
-Python~Software Foundation.
-\newblock Documentación de python.
-\newblock \url{https://docs.python.org}.
-\newblock Accessed: 2015-10-25.
-
 \bibitem{pythonPypiWeb}
 Python~Software Foundation.
 \newblock Pypi - the python package index.
@@ -230,6 +237,13 @@ Antti Haapala.
 \newblock Python-levenshtein.
 \newblock \url{https://pypi.python.org/pypi/python-Levenshtein/}.
 \newblock Accessed: 2015-10-25.
+
+\bibitem{RePEc:ehl:lserod:59881}
+Nadja Hahn.
+\newblock What good is twitter? the value of social media to public service
+  journalism.
+\newblock Lse research online documents on economics, London School of
+  Economics and Political Science, LSE Library, 2013.
 
 \bibitem{harcup2004journalism}
 T.~Harcup.
@@ -350,13 +364,6 @@ Puroperiodismo.
 \newblock \url{http://www.puroperiodismo.cl/?page_id=24464}.
 \newblock Accessed: 2015-11-07.
 
-\bibitem{Rao:2010:CLU:1871985.1871993}
-Delip Rao, David Yarowsky, Abhishek Shreevats, and Manaswi Gupta.
-\newblock Classifying latent user attributes in twitter.
-\newblock In {\em Proceedings of the 2Nd International Workshop on Search and
-  Mining User-generated Contents}, SMUC '10, pages 37--44, New York, NY, USA,
-  2010. ACM.
-
 \bibitem{13213947}
 Stephen~D. Reese and Jane Ballinger.
 \newblock {The roots of a sociology of news: remembering mr. gates and social
@@ -386,6 +393,12 @@ Clay Shirky.
 \newblock {\em Here Comes Everybody}.
 \newblock Penguin Books, London, 2008.
 
+\bibitem{smmry}
+Smmry.
+\newblock Website of smmry.
+\newblock \url{http://smmry.com/}.
+\newblock Accessed: 2015-11-10.
+
 \bibitem{pycharmWeb}
 Jetbrains s.r.o.
 \newblock Website of pycharm.
@@ -408,25 +421,17 @@ Matthew Honnibal Roman Yankovsky David Karesh Evan Dempsey Wesley Childs Jeff
 \newblock \url{http://textblob.readthedocs.org/en/latest/index.html}.
 \newblock Accessed: 2015-10-25.
 
-\bibitem{storyfulblog}
-Storyful.blog.
-\newblock Making lists: How to fine-tune your twitter antennae.
-\newblock
-  \url{http://blog.storyful.com/2012/11/05/making-lists-how-to-fine-tune-your-twitter-antennae/#.ViQcn36rTIU}.
-\newblock Accessed: 2015-10-18.
-
-\bibitem{storyfulblogvideos}
-Storyful.blog.
-\newblock Storyful tips and tools: Locating videos on a map.
-\newblock
-  \url{http://blog.storyful.com/2012/09/25/storyful-tips-and-tools-locating-videos-on-a-map/#.ViQhJX6rTIU}.
-\newblock Accessed: 2015-10-18.
-
 \bibitem{summify}
 Summify.
 \newblock Website corporative of summify.
 \newblock \url{http://summify.com/}.
 \newblock Accessed: 2015-10-18.
+
+\bibitem{summifyvideo}
+Summify.
+\newblock What is summify?
+\newblock \url{https://vimeo.com/15436623}.
+\newblock Accessed: 2015-11-10.
 
 \bibitem{wikipediaEditor:Online}
 DarTar Tbayer, Hfordsa and Romanesco.
@@ -439,12 +444,6 @@ DarTar Tbayer, Hfordsa and Romanesco.
 The~Tweeted Times.
 \newblock Website corporative of the tweeted times.
 \newblock \url{http://tweetedtimes.com/}.
-\newblock Accessed: 2015-10-18.
-
-\bibitem{tweetdeck}
-Twitter.
-\newblock Website corporative of tweetdeck.
-\newblock \url{https://tweetdeck.twitter.com/}.
 \newblock Accessed: 2015-10-18.
 
 \bibitem{cifrasTwitter}

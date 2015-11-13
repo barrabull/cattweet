@@ -25,12 +25,6 @@ Repeated entry---line 746 of file bibliografia.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "storyful" isn't style-file defined
 --line 753 of file bibliografia.bib
-Warning--entry type for "storyfulblog" isn't style-file defined
---line 760 of file bibliografia.bib
-Warning--entry type for "storyfulblogvideos" isn't style-file defined
---line 767 of file bibliografia.bib
-Warning--entry type for "tweetdeck" isn't style-file defined
---line 774 of file bibliografia.bib
 Warning--entry type for "busqueda24horas" isn't style-file defined
 --line 781 of file bibliografia.bib
 Warning--entry type for "busquedaBioBio" isn't style-file defined
@@ -39,14 +33,18 @@ Warning--entry type for "busquedaLaTercera" isn't style-file defined
 --line 795 of file bibliografia.bib
 Warning--entry type for "elementTree" isn't style-file defined
 --line 802 of file bibliografia.bib
-Warning--entry type for "pythonWeb" isn't style-file defined
---line 809 of file bibliografia.bib
 Warning--entry type for "pythonPypiWeb" isn't style-file defined
 --line 816 of file bibliografia.bib
 Warning--entry type for "pycharmWeb" isn't style-file defined
 --line 823 of file bibliografia.bib
 Warning--entry type for "djangoWeb" isn't style-file defined
 --line 830 of file bibliografia.bib
+Warning--entry type for "mysqlWeb" isn't style-file defined
+--line 837 of file bibliografia.bib
+Repeated entry---line 844 of file bibliografia.bib
+ : @online{mysqlWeb
+ :                 ,
+I'm skipping whatever remains of this entry
 Warning--entry type for "mysqlWorkbenchWeb" isn't style-file defined
 --line 851 of file bibliografia.bib
 Warning--entry type for "twitterWeb" isn't style-file defined
@@ -95,7 +93,41 @@ Warning--entry type for "tweetsStillMustFlow" isn't style-file defined
 --line 1023 of file bibliografia.bib
 Warning--entry type for "tweetsJournalist" isn't style-file defined
 --line 1030 of file bibliografia.bib
+Warning--entry type for "summifyvideo" isn't style-file defined
+--line 1037 of file bibliografia.bib
+Warning--entry type for "summifyblog" isn't style-file defined
+--line 1044 of file bibliografia.bib
+Warning--entry type for "smmry" isn't style-file defined
+--line 1051 of file bibliografia.bib
 Warning--I didn't find a database entry for "twitterfall"
+Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
+while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Pierre-Jean Coudert, Omar Kilani, Jodok Batlogg, edleaf, glen.tregoning, Brad Choate, Jim Cortez, Jason Lemoine, Thomas Dyson, Robert Laquey, Hameedullah Khan, Mike Taylor, DeWitt Clinton and the rest of the python-twitter mailing list." for entry pythonTwitterCode
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Pierre-Jean Coudert, Omar Kilani, Jodok Batlogg, edleaf, glen.tregoning, Brad Choate, Jim Cortez, Jason Lemoine, Thomas Dyson, Robert Laquey, Hameedullah Khan, Mike Taylor, DeWitt Clinton and the rest of the python-twitter mailing list." for entry pythonTwitterCode
@@ -115,34 +147,6 @@ while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Pierre-Jean Coudert, Omar Kilani, Jodok Batlogg, edleaf, glen.tregoning, Brad Choate, Jim Cortez, Jason Lemoine, Thomas Dyson, Robert Laquey, Hameedullah Khan, Mike Taylor, DeWitt Clinton and the rest of the python-twitter mailing list." for entry pythonTwitterCode
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Pierre-Jean Coudert, Omar Kilani, Jodok Batlogg, edleaf, glen.tregoning, Brad Choate, Jim Cortez, Jason Lemoine, Thomas Dyson, Robert Laquey, Hameedullah Khan, Mike Taylor, DeWitt Clinton and the rest of the python-twitter mailing list." for entry pythonTwitterCode
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Steven Loria, Pete Keen, Matthew Honnibal, Roman Yankovsky, David Karesh, Evan Dempsey, Wesley Childs, Jeff Schnurr, Adel Qalieh, Lage Ragnarsson and Jonathon Coe" for entry textblobWebsite
 while executing---line 1049 of file plain.bst
@@ -224,4 +228,4 @@ Too many commas in name 1 of "Steven Loria, Pete Keen, Matthew Honnibal, Roman Y
 while executing---line 1090 of file plain.bst
 Too many commas in name 1 of "Steven Loria, Pete Keen, Matthew Honnibal, Roman Yankovsky, David Karesh, Evan Dempsey, Wesley Childs, Jeff Schnurr, Adel Qalieh, Lage Ragnarsson and Jonathon Coe" for entry textblobWebsite
 while executing---line 1090 of file plain.bst
-(There were 64 error messages)
+(There were 65 error messages)

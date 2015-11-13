@@ -14,27 +14,27 @@
 \contentsline {figure}{\numberline {3.9{figure}}{\ignorespaces Vista principal de Storyful\relax }}{35}{figure.caption.11}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1{figure}}{\ignorespaces Diagrama conceptual de la arquitectura de la soluci\IeC {\'o}n\relax }}{46}{figure.caption.12}
-\contentsline {figure}{\numberline {5.2{figure}}{\ignorespaces Modelo de base de datos\relax }}{52}{figure.caption.14}
-\contentsline {figure}{\numberline {5.3{figure}}{\ignorespaces Mapa con los usuarios por ubicaci\IeC {\'o}n geogr\IeC {\'a}fica\relax }}{55}{figure.caption.17}
-\contentsline {figure}{\numberline {5.4{figure}}{\ignorespaces Diagrama conceptual con las etapas para la captaci\IeC {\'o}n de usuarios.\relax }}{56}{figure.caption.18}
+\contentsline {figure}{\numberline {5.1{figure}}{\ignorespaces Diagrama conceptual de la arquitectura de la soluci\IeC {\'o}n\relax }}{43}{figure.caption.12}
+\contentsline {figure}{\numberline {5.2{figure}}{\ignorespaces Modelo de base de datos\relax }}{48}{figure.caption.14}
+\contentsline {figure}{\numberline {5.3{figure}}{\ignorespaces Mapa con los usuarios por ubicaci\IeC {\'o}n geogr\IeC {\'a}fica\relax }}{51}{figure.caption.17}
+\contentsline {figure}{\numberline {5.4{figure}}{\ignorespaces Diagrama conceptual con las etapas para la captaci\IeC {\'o}n de usuarios.\relax }}{52}{figure.caption.18}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1{figure}}{\ignorespaces Vista nueva b\IeC {\'u}squeda t\IeC {\'o}pico\relax }}{67}{figure.caption.19}
-\contentsline {figure}{\numberline {6.2{figure}}{\ignorespaces Vista resultados tweets para nuevo t\IeC {\'o}pico\relax }}{68}{figure.caption.20}
-\contentsline {figure}{\numberline {6.3{figure}}{\ignorespaces Vista de t\IeC {\'o}picos\relax }}{69}{figure.caption.21}
-\contentsline {figure}{\numberline {6.4{figure}}{\ignorespaces Vista de orden geogr\IeC {\'a}fico\relax }}{69}{figure.caption.22}
-\contentsline {figure}{\numberline {6.5{figure}}{\ignorespaces Vista de orden por relevancia\relax }}{70}{figure.caption.23}
-\contentsline {figure}{\numberline {6.6{figure}}{\ignorespaces Vista de orden temporal\relax }}{70}{figure.caption.24}
-\contentsline {figure}{\numberline {6.7{figure}}{\ignorespaces Vista de links\relax }}{71}{figure.caption.25}
-\contentsline {figure}{\numberline {6.8{figure}}{\ignorespaces Vista de t\IeC {\'o}picos\relax }}{71}{figure.caption.26}
-\contentsline {figure}{\numberline {6.9{figure}}{\ignorespaces Distribuci\IeC {\'o}n de tweets por hora de emisi\IeC {\'o}n\relax }}{72}{figure.caption.28}
-\contentsline {figure}{\numberline {6.10{figure}}{\ignorespaces Distribuci\IeC {\'o}n porcentual de tweets por hora de emisi\IeC {\'o}n seg\IeC {\'u}n regi\IeC {\'o}n\relax }}{73}{figure.caption.29}
-\contentsline {figure}{\numberline {6.11{figure}}{\ignorespaces Tweet que gener\IeC {\'o} nuevo record del mensaje m\IeC {\'a}s re-tweeteado.\relax }}{74}{figure.caption.31}
-\contentsline {figure}{\numberline {6.12{figure}}{\ignorespaces Procedimiento para determinar si un tweet se refiere a un hecho noticioso\relax }}{79}{figure.caption.39}
-\contentsline {figure}{\numberline {6.13{figure}}{\ignorespaces Procedimiento para verificar si el hecho noticioso haya generado una nota del medio modelo\relax }}{80}{figure.caption.40}
-\contentsline {figure}{\numberline {6.14{figure}}{\ignorespaces Distribuci\IeC {\'o}n de cantidad de tweets por d\IeC {\'\i }a\relax }}{85}{figure.caption.46}
-\contentsline {figure}{\numberline {6.15{figure}}{\ignorespaces Distribuci\IeC {\'o}n de cantidad de tweets por periodos de quince d\IeC {\'\i }as\relax }}{86}{figure.caption.47}
-\contentsline {figure}{\numberline {6.16{figure}}{\ignorespaces Cantidad de re-tweets por quincena\relax }}{87}{figure.caption.48}
-\contentsline {figure}{\numberline {6.17{figure}}{\ignorespaces Distribuci\IeC {\'o}n geogr\IeC {\'a}fica de los usuarios\relax }}{89}{figure.caption.51}
+\contentsline {figure}{\numberline {6.1{figure}}{\ignorespaces Vista nueva b\IeC {\'u}squeda t\IeC {\'o}pico\relax }}{63}{figure.caption.20}
+\contentsline {figure}{\numberline {6.2{figure}}{\ignorespaces Vista resultados tweets para nuevo t\IeC {\'o}pico\relax }}{64}{figure.caption.21}
+\contentsline {figure}{\numberline {6.3{figure}}{\ignorespaces Vista de t\IeC {\'o}picos\relax }}{65}{figure.caption.22}
+\contentsline {figure}{\numberline {6.4{figure}}{\ignorespaces Vista de orden geogr\IeC {\'a}fico\relax }}{65}{figure.caption.23}
+\contentsline {figure}{\numberline {6.5{figure}}{\ignorespaces Vista de orden por relevancia\relax }}{66}{figure.caption.24}
+\contentsline {figure}{\numberline {6.6{figure}}{\ignorespaces Vista de orden temporal\relax }}{66}{figure.caption.25}
+\contentsline {figure}{\numberline {6.7{figure}}{\ignorespaces Vista de links\relax }}{67}{figure.caption.26}
+\contentsline {figure}{\numberline {6.8{figure}}{\ignorespaces Vista de t\IeC {\'o}picos\relax }}{67}{figure.caption.27}
+\contentsline {figure}{\numberline {6.9{figure}}{\ignorespaces Distribuci\IeC {\'o}n de tweets por hora de emisi\IeC {\'o}n\relax }}{68}{figure.caption.29}
+\contentsline {figure}{\numberline {6.10{figure}}{\ignorespaces Distribuci\IeC {\'o}n porcentual de tweets por hora de emisi\IeC {\'o}n seg\IeC {\'u}n regi\IeC {\'o}n\relax }}{69}{figure.caption.30}
+\contentsline {figure}{\numberline {6.11{figure}}{\ignorespaces Tweet que gener\IeC {\'o} nuevo record del mensaje m\IeC {\'a}s re-tweeteado.\relax }}{70}{figure.caption.32}
+\contentsline {figure}{\numberline {6.12{figure}}{\ignorespaces Procedimiento para determinar si un tweet se refiere a un hecho noticioso\relax }}{75}{figure.caption.40}
+\contentsline {figure}{\numberline {6.13{figure}}{\ignorespaces Procedimiento para verificar si el hecho noticioso haya generado una nota del medio modelo\relax }}{76}{figure.caption.41}
+\contentsline {figure}{\numberline {6.14{figure}}{\ignorespaces Distribuci\IeC {\'o}n de cantidad de tweets por d\IeC {\'\i }a\relax }}{81}{figure.caption.47}
+\contentsline {figure}{\numberline {6.15{figure}}{\ignorespaces Distribuci\IeC {\'o}n de cantidad de tweets por periodos de quince d\IeC {\'\i }as\relax }}{82}{figure.caption.48}
+\contentsline {figure}{\numberline {6.16{figure}}{\ignorespaces Cantidad de re-tweets por quincena\relax }}{83}{figure.caption.49}
+\contentsline {figure}{\numberline {6.17{figure}}{\ignorespaces Distribuci\IeC {\'o}n geogr\IeC {\'a}fica de los usuarios\relax }}{85}{figure.caption.52}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
