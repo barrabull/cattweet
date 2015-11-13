@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.8)  12 NOV 2015 22:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.8)  13 NOV 2015 00:46
 entering extended mode
 **tesis.tex
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\tesis.tex
@@ -1973,108 +1973,112 @@ Cap\'{\i }tulo 8.
 
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/anexos-medios-pren
 sa.tex
-Overfull \hbox (27.46922pt too wide) in alignment at lines 3--24
+Overfull \hbox (27.46922pt too wide) in alignment at lines 3--25
  [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 24
+Underfull \vbox (badness 10000) detected at line 25
  []
 
 
-Overfull \hbox (27.46922pt too wide) in alignment at lines 24--44
+Overfull \hbox (27.46922pt too wide) in alignment at lines 25--45
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (27.46922pt too wide) in alignment at lines 45--65
  [] [] [] [] 
  []
 
 [93
 
 ]
-Overfull \hbox (27.46922pt too wide) in alignment at lines 44--64
- [] [] [] [] 
- []
-
-
-Overfull \hbox (27.46922pt too wide) in alignment at lines 64--84
+Overfull \hbox (27.46922pt too wide) in alignment at lines 65--85
  [] [] [] [] 
  []
 
 [94]
-Overfull \hbox (27.46922pt too wide) in alignment at lines 84--104
+Overfull \hbox (27.46922pt too wide) in alignment at lines 85--105
  [] [] [] [] 
  []
 
 [95]
-Overfull \hbox (27.46922pt too wide) in alignment at lines 104--124
+Overfull \hbox (27.46922pt too wide) in alignment at lines 105--125
  [] [] [] [] 
  []
 
 
-Overfull \hbox (27.46922pt too wide) in alignment at lines 124--144
+Overfull \hbox (27.46922pt too wide) in alignment at lines 125--145
  [] [] [] [] 
  []
 
 [96]
-Overfull \hbox (27.46922pt too wide) in alignment at lines 144--164
+Overfull \hbox (27.46922pt too wide) in alignment at lines 145--165
  [] [] [] [] 
  []
 
 [97]
-Overfull \hbox (27.46922pt too wide) in alignment at lines 164--184
+Overfull \hbox (27.46922pt too wide) in alignment at lines 165--185
  [] [] [] [] 
  []
 
 
-Overfull \hbox (27.46922pt too wide) in alignment at lines 184--204
+Overfull \hbox (27.46922pt too wide) in alignment at lines 185--205
  [] [] [] [] 
  []
 
 [98]
-Overfull \hbox (27.46922pt too wide) in alignment at lines 204--224
+Overfull \hbox (27.46922pt too wide) in alignment at lines 205--225
  [] [] [] [] 
  []
 
 [99]
-Overfull \hbox (27.46922pt too wide) in alignment at lines 224--244
+Overfull \hbox (27.46922pt too wide) in alignment at lines 225--245
  [] [] [] [] 
  []
 
 
-Overfull \hbox (27.46922pt too wide) in alignment at lines 244--264
+Overfull \hbox (27.46922pt too wide) in alignment at lines 245--265
  [] [] [] [] 
  []
 
 [100]
-Overfull \hbox (27.46922pt too wide) in alignment at lines 264--284
+Overfull \hbox (27.46922pt too wide) in alignment at lines 265--285
  [] [] [] [] 
  []
 
 [101]
-Overfull \hbox (27.46922pt too wide) in alignment at lines 284--304
+Overfull \hbox (27.46922pt too wide) in alignment at lines 285--305
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (27.46922pt too wide) in alignment at lines 305--310
  [] [] [] [] 
  []
 
 [102]
-Overfull \hbox (27.46922pt too wide) in alignment at lines 304--313
+Underfull \vbox (badness 10000) detected at line 338
+ []
+
+[103]
+Overfull \hbox (20.94333pt too wide) in alignment at lines 352--372
  [] [] [] [] 
  []
 
 
-! Package caption Error: \caption outside float.
+Overfull \hbox (20.94333pt too wide) in alignment at lines 372--392
+ [] [] [] [] 
+ []
 
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.314 	\caption
-                {Hitos noticiosos presentes en todos los medios de prensa mo...
+[104]
+Overfull \hbox (20.94333pt too wide) in alignment at lines 392--399
+ [] [] [] [] 
+ []
 
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\tesis.bbl [103]
+[105]) (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\tesis.bbl
+[106]
 Underfull \hbox (badness 10000) in paragraph at lines 22--27
 []\OT1/ptm/m/n/10.95 Summify Blog.  Sum-mify-tip: Mo-dif-ying sum-mary sour-ces
  and sa-
@@ -2092,7 +2096,7 @@ $\OT1/pcr/m/n/10.95 summifytip-[]modifying-[]summary-[]sources-[]and-[]saying-[
 ]thanks/$[]\OT1/ptm/m/n/10.95 .
  []
 
-[104
+[107
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 74--78
@@ -2106,7 +2110,7 @@ Underfull \hbox (badness 3849) in paragraph at lines 106--110
  []$\OT1/pcr/m/n/10.95 http : / / anp . cl /$
  []
 
-[105]
+[108]
 Underfull \hbox (badness 1365) in paragraph at lines 130--136
 []\OT1/ptm/m/n/10.95 Asociaci[]on Na-cio-nal de ra-dios co-mu-ni-ta-rias y ciu-
 da-da-nas de Chi-le.  Aso-cia-dos
@@ -2154,13 +2158,13 @@ $\OT1/pcr/m/n/10.95 twitter-[]cuts-[]off-[]diplotwoops-[]and-[]politwoops-[]in-
 []all-[]remaining-[]30-[]countries /$
  []
 
-[106]
+[109]
 Underfull \hbox (badness 3482) in paragraph at lines 236--240
 []\OT1/ptm/m/n/10.95 Antti Haa-pa-la.  Python-levenshtein.  []$\OT1/pcr/m/n/10.
 95 https : / / pypi . python . org / pypi /$
  []
 
-[107]
+[110]
 Underfull \hbox (badness 1057) in paragraph at lines 294--299
 []\OT1/ptm/m/n/10.95 Andr[]es Az[]ocar Z. y Andr[]es Scher-man T. Ju-li[]an Gon
 z[]alez U.  En-cues-ta de ca-
@@ -2184,7 +2188,7 @@ Underfull \hbox (badness 1515) in paragraph at lines 301--305
 ttp : / / infographiclabs . com / news /$
  []
 
-[108] [109]
+[111] [112]
 Underfull \hbox (badness 1221) in paragraph at lines 437--442
 []\OT1/ptm/m/n/10.95 DarTar Tba-yer, Hford-sa and Ro-ma-nes-co.  Quan-tif-ying 
 qua-lity co-lla-bo-ra-tion pat-
@@ -2202,25 +2206,16 @@ Underfull \hbox (badness 1360) in paragraph at lines 450--454
 10.95 https : / / about . twitter . com / es /$
  []
 
-[110]) [111]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
+[113]) [114]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
  (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\tesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
-
-Package rerunfilecheck Warning: File `tesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `tesis.out':
-(rerunfilecheck)             Before: 9D230D2FC4ABFA5090BEFED888E64B87;6122
-(rerunfilecheck)             After:  5E73CDCC48C6F193A845A1F70C0FC4D0;6122.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+Package rerunfilecheck Info: File `tesis.out' has not changed.
+(rerunfilecheck)             Checksum: 5E73CDCC48C6F193A845A1F70C0FC4D0;6122.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  )
 (\end occurred inside a group at level 1)
@@ -2228,21 +2223,18 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 ### semi simple group (level 1) entered at line 125 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 25825 strings out of 493921
- 490393 string characters out of 3144874
- 598134 words of memory out of 3000000
- 28055 multiletter control sequences out of 15000+200000
+ 25831 strings out of 493921
+ 490443 string characters out of 3144874
+ 597167 words of memory out of 3000000
+ 28057 multiletter control sequences out of 15000+200000
  40939 words of font info for 86 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 55i,16n,75p,1457b,1068s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,16n,85p,1457b,1068s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.21} has been referenced b
 ut does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exis
 t, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter*.54} has been referenced but does not exist
-, replaced by a fixed one
 
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
@@ -2257,9 +2249,9 @@ iKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
 ype1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (119 pages, 5537245 bytes).
+Output written on tesis.pdf (122 pages, 5545810 bytes).
 PDF statistics:
- 1572 PDF objects out of 1728 (max. 8388607)
- 397 named destinations out of 1000 (max. 500000)
+ 1586 PDF objects out of 1728 (max. 8388607)
+ 401 named destinations out of 1000 (max. 500000)
  756 words of extra memory for PDF output out of 10000 (max. 10000000)
 
