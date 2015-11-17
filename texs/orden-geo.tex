@@ -1,8 +1,8 @@
 \subsubsection{Orden geográfico}
 
-El orden geográfico busca dotar a la herramienta de un filtro que privilegie a las fuentes cercanas al lugar indicado como origen o centro de la noticia en desmedro de aquellas que se ubican a mayor distancia geográfica.
+El orden geográfico dota al prototipo de un filtro que privilegia a las fuentes cercanas al lugar indicado como origen del hecho noticioso en desmedro de aquellas que se ubican a mayor distancia geográfica.
 
-El orden geográfico se basa en el pareo geográfico analizado previamente en la sección ~\ref{subsec:geo1}. Inicialmente se obtienen las comunas con menor distancia a la comuna central determinada por el tópico, la distancia se va aumentando progresivamente hasta clasificar todos los tweets de autores geoposicionados. Todos los tweets sin ubicación son desplazados al final del ranking. 
+El orden geográfico se basa en la posición geográfica del autor de cada tweet analizado  en la sección ~\ref{subsec:geo1}. Inicialmente se obtienen las comunas con menor distancia a la comuna central determinada como origen del tópico y se aumenta progresivamente la distancia hasta clasificar todos los tweets de autores geoposicionados, los tweets sin ubicación son desplazados al final del ranking. 
 
 \begin{algorithm}[H]
 	\caption{Orden Geográfico}\label{OrdenGeo}
