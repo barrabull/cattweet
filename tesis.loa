@@ -6,8 +6,8 @@
 \contentsline {algorithm}{\numberline {6{algorithm}}{\ignorespaces GetFollowers con mejora\relax }}{55}{algorithm.6}
 \contentsline {algorithm}{\numberline {7{algorithm}}{\ignorespaces Algoritmo para la captura de tweets.\relax }}{56}{algorithm.7}
 \contentsline {algorithm}{\numberline {8{algorithm}}{\ignorespaces Obtenci\IeC {\'o}n del conjunto de tweets relacionados al t\IeC {\'o}pico\relax }}{58}{algorithm.8}
-\contentsline {algorithm}{\numberline {9{algorithm}}{\ignorespaces Crear Clasificador\relax }}{59}{algorithm.9}
-\contentsline {algorithm}{\numberline {10{algorithm}}{\ignorespaces Orden Geogr\IeC {\'a}fico\relax }}{59}{algorithm.10}
+\contentsline {algorithm}{\numberline {9{algorithm}}{\ignorespaces Clasificador Bayes-Naive para determinar si es miembro o no del t\IeC {\'o}pico.\relax }}{59}{algorithm.9}
+\contentsline {algorithm}{\numberline {10{algorithm}}{\ignorespaces Orden Geogr\IeC {\'a}fico\relax }}{60}{algorithm.10}
 \contentsline {algorithm}{\numberline {11{algorithm}}{\ignorespaces Orden Relevancia\relax }}{61}{algorithm.11}
 \contentsline {algorithm}{\numberline {12{algorithm}}{\ignorespaces Obtenci\IeC {\'o}n de enlaces externos contenidos en los tweets\relax }}{61}{algorithm.12}
 \contentsline {algorithm}{\numberline {13{algorithm}}{\ignorespaces Procedimiento para determinar si un tweet se refiere o no, a un hecho noticioso\relax }}{76}{algorithm.13}

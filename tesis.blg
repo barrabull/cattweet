@@ -99,6 +99,8 @@ Warning--entry type for "summifyblog" isn't style-file defined
 --line 1044 of file bibliografia.bib
 Warning--entry type for "smmry" isn't style-file defined
 --line 1051 of file bibliografia.bib
+Warning--entry type for "naivebayesdoc" isn't style-file defined
+--line 1067 of file bibliografia.bib
 Warning--I didn't find a database entry for "twitterfall"
 Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
 while executing---line 1049 of file plain.bst

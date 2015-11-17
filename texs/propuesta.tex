@@ -172,23 +172,21 @@ El procesamiento de los tweets se define en tres procesos:
 
 \subsubsection{Definición del tópico}
 
-Un tópico son las palabras claves que definen una búsqueda temática realizada por el administrador del sistema ingresado al sistema mediante la plataforma web, cada tópico posee los siguientes atributos:
+Un tópico son las palabras claves que definen una búsqueda temática realizada por el administrador del sistema mediante la plataforma web, cada tópico posee los siguientes atributos:
 \begin{itemize}
 	\item \textit{Fecha de inicio} : Se refiere a la fecha de inicio de emisión de los tweets objetivos que se requiere reunir.
-	\item Fecha última actualización: Se refiere a la última fecha en la cual se realizó alguna modificación referente al tópico.
-	\item Título: Se refiere a las palabras claves que definen al tópico. 
-	\item Comuna: Comuna relacionada al tópico.
-	\item Tasa de contenidos georeferenciados: Relación entre tweets con relación geográfica y los tweets totales.
-	\item Cantidad de tweets relacionados: Total de tweets depurados del conjunto de tweets relacionados. 
+	\item \textit{Fecha última actualización}: Se refiere a la última fecha en la cual se realizó alguna modificación referente al tópico.
+	\item \textit{Título}: Se refiere a las palabras claves que definen al tópico. 
+	\item \textit{Comuna}: Comuna relacionada al tópico.
+	\item \textit{Tasa de contenidos georeferenciados}: Relación entre tweets con relación geográfica y los tweets totales.
+	\item \textit{Cantidad de tweets relacionados}: Total de tweets depurados del conjunto de tweets relacionados. 
 \end{itemize}
 
 \subsubsection{Obtención del conjunto de tweets relacionados al tópico}
 
 Para obtener el conjunto de tweets relacionados al tópico se realiza una búsqueda en todos los tweets emitidos durante el periodo de interés
-y que contenga las palabras claves que definen al tópico. Posteriormente se eliminan los tweets que tengan una similitud 0.85 tras realizar 
-una comparación de sus textos utilizando la librería \emph{difflib}.
-
-La consulta \emph{getTweetKeyword} se demora aproximadamente entre 30 y 130 segundos.
+y que contengan las palabras claves que definen al tópico. Posteriormente se eliminan los tweets que poseen una similitud 0.85\% en sus textos 
+utilizando la librería \emph{difflib}. Esta consulta se demora entre 30 y 130 segundos.
 
 \begin{algorithm}[H]
 	\caption{Obtención del conjunto de tweets relacionados al tópico}\label{getTweetsKeyword}
@@ -207,23 +205,39 @@ La consulta \emph{getTweetKeyword} se demora aproximadamente entre 30 y 130 segu
 
 \subsubsection{Depuración de conjunto de tweets relacionados al tópico}
 
-El proceso de depuración del conjunto de tweets obtenidos en el proceso anterior considera dos procesos distintos dependiendo del volumen de tweets involucrados.
+El proceso de depuración del conjunto de tweets obtenidos en el proceso anterior considera dos etapas distintas dependiendo del volumen de los tweets involucrados.
 
-Un gran problema en la depuración de los tweets es poder discernir si un tweet en particular se relaciona o no con la temática del tópico o si responde a una temática completamente distinta y fue relacionado con el tópico únicamente por concordancia textual. Por ejemplo, si buscamos tweets relacionados con la paralización del registro civil, con la keyword 'paro' nos gustaría filtrar todos los tweets que se refieran a un paro cardíaco o de la acción de levantarse.
+Un gran desafío en la depuración de los tweets, es discernir si un tweet en particular se relaciona o no con la temática del tópico, o por el contrario, si responde a una temática completamente distinta (y fue relacionado con el tópico únicamente por concordancia textual). Por ejemplo, si el tópico se refiere a "la paralización del registro civil", con la keyword 'paro' se busca excluir todos los tweets que se refieran a un "paro cardíaco" o de "la acción de levantarse".
 
-Este problema fue abordado, considerando las siguientes premisas:
+Para aplicar un filtro efectivo se consideran las siguientes premisas:
 \begin{itemize}
-	\item El administrador del sistema posee poco tiempo.
+	\item El administrador del sistema posee poco tiempo (una tarea como eliminar filtros es un trabajo repetitivo y monótono, que requiere varias horas hombres para su desarrollo).
 	\item Es fundamental filtrar con precisión los tweets que no corresponden a la temática.
 \end{itemize}
 
-Para conjuntos de tweets de menos de 300 tweets se considera que su depuración puede ser realizada de manera manual, debido a que no es un gran conjunto de datos.
+Para conjuntos de tweets de menos de 300 tweets se considera que su depuración puede ser realizada de manera manual, debido a que no es un gran conjunto de datos y su análisis manual no demanda tiempo excesivo.
 
-Para conjuntos de tweets de 300 tweets o más se considera que su depuración manual es muy extensa y debe ser automatizada. Para su automatización se implementó un clasificador de Bayes-Naive. El valor para determinar el limite entre la utilización entre un método y otro se realizó en base a la regla de 80-20 para el conjunto de entrenamiento.
+Para conjuntos de 300 tweets o más se considera que su depuración manual es muy extensa y debe ser automatizada. Para su automatización se implementa un clasificador de Bayes-Naive. El clasificador Bayer-Naive utilizado es una implementación de la librería Python Textblob \cite{textblobWebsite}.
 
-El clasificador Bayer-Naive utilizado es una implementación de la librería Python Textblob \cite{textblobWebsite}, librería para el procesamiento de lenguaje natural.
+Los tamaños de los distintos conjuntos dependiendo del tamaño del conjunto de tweets es el siguiente:
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{| c | c | c |}
+		\hline
+		Nº tweets & Nº Entrenamiento & Nº Validación \\ \hline
+		N $\leqslant$ 300	& Manual & Manual \\ \hline
+		0 $\leqslant$ N $\leqslant$ 430	& N $*$ 0,2 & N*0,3	\\ \hline
+		430 $\leqslant$ N & 200 & 100	\\ \hline
+	\end{tabular}
+	\caption {Cantidades conjuntos del clasificador utilizado}
+\end{table}
+
+Estas cantidades fueron determinadas de manera empírica en base a recomendaciones recogidas en foros y experimentos propios realizados con la librería de tal manera de obtener una precisión de clasificación siempre superior a 85\%.
 
 \input{texs/pseudo-crear-clasificador.tex}	
+
+La clasificación de los distintos tweets en las categorías \emph{pertenece al tópico} y \emph{no pertenece al tópico} se realiza mediante la función \emph{prob\_classify(tweet).max()} que retorna la etiqueta de la clasificación que posee mayor probabilidad según el clasificador para el tweet en específico \cite{naivebayesdoc}.
 
 \input{texs/orden-geo.tex}
 

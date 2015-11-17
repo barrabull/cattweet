@@ -358,6 +358,12 @@ Jodok Batlogg edleaf glen.tregoning Brad Choate Jim Cortez Jason Lemoine Thomas
 \newblock \url{https://code.google.com/p/python-twitter/}.
 \newblock Read Only Accessed: 2015-10-25.
 
+\bibitem{naivebayesdoc}
+NLTK Project.
+\newblock Source code for nltk.classify.naivebayes.
+\newblock \url{http://www.nltk.org/_modules/nltk/classify/naivebayes.html}.
+\newblock Accessed: 2015-11-10.
+
 \bibitem{puroperiodismoMenciones}
 Puroperiodismo.
 \newblock Menciones en twitter a medios chilenos de noticias.

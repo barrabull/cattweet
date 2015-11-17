@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.8)  13 NOV 2015 00:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.8)  17 NOV 2015 00:05
 entering extended mode
 **tesis.tex
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\tesis.tex
@@ -1734,25 +1734,24 @@ i-de-ra-dos an-te-rior-men-te (ANP, ANAR-
 
 [52] [53]
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/alg-modificacion-a
-pi-twitter.tex [54]) [55] [56] [57]
+pi-twitter.tex [54]) [55] [56] [57] [58]
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/pseudo-crear-clasi
-ficador.tex [58])
+ficador.tex)
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/orden-geo.tex)
-(C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/orden-rel.tex
-[59] [60])
-(C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/get-urls.tex
+[59] (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/orden-rel.tex
+[60]) (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/get-urls.tex
 [61])) [62]
 Cap\'{\i }tulo 6.
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/evaluacion.tex
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/vistas_plataforma.
-tex <imgs/vistas_newsearch.PNG, id=1067, 1092.33093pt x 525.46312pt>
+tex <imgs/vistas_newsearch.PNG, id=1070, 1092.33093pt x 525.46312pt>
 File: imgs/vistas_newsearch.PNG Graphic file (type png)
 
 <use imgs/vistas_newsearch.PNG>
 Package pdftex.def Info: imgs/vistas_newsearch.PNG used on input line 6.
 (pdftex.def)             Requested size: 371.30594pt x 178.615pt.
 
-<imgs/vistas_newsearch_results.PNG, id=1068, 1092.33093pt x 525.46312pt>
+<imgs/vistas_newsearch_results.PNG, id=1071, 1092.33093pt x 525.46312pt>
 File: imgs/vistas_newsearch_results.PNG Graphic file (type png)
 
 <use imgs/vistas_newsearch_results.PNG>
@@ -1764,21 +1763,21 @@ Package pdftex.def Info: imgs/vistas_newsearch_results.PNG used on input line 1
  <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/vistas_newsearch.
 PNG>] [64 <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/vistas_n
 ewsearch_results.PNG>]
-<imgs/vistas_topicos.PNG, id=1079, 1092.33093pt x 525.46312pt>
+<imgs/vistas_topicos.PNG, id=1082, 1092.33093pt x 525.46312pt>
 File: imgs/vistas_topicos.PNG Graphic file (type png)
 
 <use imgs/vistas_topicos.PNG>
 Package pdftex.def Info: imgs/vistas_topicos.PNG used on input line 22.
 (pdftex.def)             Requested size: 371.30594pt x 178.615pt.
 
-<imgs/vistas_geo.PNG, id=1080, 1092.33093pt x 525.46312pt>
+<imgs/vistas_geo.PNG, id=1083, 1092.33093pt x 525.46312pt>
 File: imgs/vistas_geo.PNG Graphic file (type png)
 
 <use imgs/vistas_geo.PNG>
 Package pdftex.def Info: imgs/vistas_geo.PNG used on input line 30.
 (pdftex.def)             Requested size: 371.30594pt x 178.615pt.
 
-<imgs/vistas_rel.PNG, id=1081, 1092.33093pt x 525.46312pt>
+<imgs/vistas_rel.PNG, id=1084, 1092.33093pt x 525.46312pt>
 File: imgs/vistas_rel.PNG Graphic file (type png)
 
 <use imgs/vistas_rel.PNG>
@@ -1792,7 +1791,7 @@ File: imgs/vistas_rel.PNG Graphic file (type png)
 Package pdftex.def Info: imgs/vistas_rel.PNG used on input line 46.
 (pdftex.def)             Requested size: 371.30594pt x 178.615pt.
 
-<imgs/vistas_links.PNG, id=1089, 1092.33093pt x 525.46312pt>
+<imgs/vistas_links.PNG, id=1092, 1092.33093pt x 525.46312pt>
 File: imgs/vistas_links.PNG Graphic file (type png)
 
 <use imgs/vistas_links.PNG>
@@ -1800,7 +1799,7 @@ Package pdftex.def Info: imgs/vistas_links.PNG used on input line 54.
 (pdftex.def)             Requested size: 371.30594pt x 178.615pt.
  [66 <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/vistas_rel.PN
 G>]
-<imgs/vistas_prensa_off.PNG, id=1095, 1092.33093pt x 525.46312pt>
+<imgs/vistas_prensa_off.PNG, id=1098, 1092.33093pt x 525.46312pt>
 File: imgs/vistas_prensa_off.PNG Graphic file (type png)
 
 <use imgs/vistas_prensa_off.PNG>
@@ -1811,7 +1810,7 @@ Package pdftex.def Info: imgs/vistas_prensa_off.PNG used on input line 62.
 tos.tex [67 <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/vistas
 _links.PNG> <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/vistas
 _prensa_off.PNG>]
-<imgs/tweets_por_hora_del_dia.png, id=1102, 785.18344pt x 406.51875pt>
+<imgs/tweets_por_hora_del_dia.png, id=1105, 785.18344pt x 406.51875pt>
 File: imgs/tweets_por_hora_del_dia.png Graphic file (type png)
 
 <use imgs/tweets_por_hora_del_dia.png>
@@ -1819,7 +1818,7 @@ Package pdftex.def Info: imgs/tweets_por_hora_del_dia.png used on input line 18
 .
 (pdftex.def)             Requested size: 412.56496pt x 213.60542pt.
 
-<imgs/cantidad_porcentual_de_tweets_por_hora_y_regiones.png, id=1105, 978.65625
+<imgs/cantidad_porcentual_de_tweets_por_hora_y_regiones.png, id=1108, 978.65625
 pt x 375.65344pt>
 File: imgs/cantidad_porcentual_de_tweets_por_hora_y_regiones.png Graphic file (
 type png)
@@ -1834,7 +1833,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-<imgs/ellen_selfie.png, id=1113, 467.49657pt x 408.02437pt>
+<imgs/ellen_selfie.png, id=1116, 467.49657pt x 408.02437pt>
 File: imgs/ellen_selfie.png Graphic file (type png)
 
 <use imgs/ellen_selfie.png>
@@ -1908,14 +1907,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[79] [80] <imgs/123_general.png, id=1201, 613.54219pt x 350.05782pt>
+[79] [80] <imgs/123_general.png, id=1204, 613.54219pt x 350.05782pt>
 File: imgs/123_general.png Graphic file (type png)
 
 <use imgs/123_general.png>
 Package pdftex.def Info: imgs/123_general.png used on input line 141.
 (pdftex.def)             Requested size: 412.56496pt x 235.39214pt.
 
-<imgs/cantidad_tweets_por_quincena_123_2.png, id=1202, 651.18282pt x 417.05812p
+<imgs/cantidad_tweets_por_quincena_123_2.png, id=1205, 651.18282pt x 417.05812p
 t>
 File: imgs/cantidad_tweets_por_quincena_123_2.png Graphic file (type png)
  <use imgs/cantidad_tweets_por_quincena_123_2.png>
@@ -1924,7 +1923,7 @@ put line 148.
 (pdftex.def)             Requested size: 412.56496pt x 264.23712pt.
  [81 <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/123_general.p
 ng>]
-<imgs/123_cantidad_rt_por_quincena.png, id=1211, 775.39688pt x 392.21532pt>
+<imgs/123_cantidad_rt_por_quincena.png, id=1214, 775.39688pt x 392.21532pt>
 File: imgs/123_cantidad_rt_por_quincena.png Graphic file (type png)
 
 <use imgs/123_cantidad_rt_por_quincena.png>
@@ -1954,7 +1953,7 @@ Underfull \hbox (badness 2772) in paragraph at lines 196--196
 []|\OT1/ptm/m/n/10.95 N[]ume-ro de usua-
  []
 
-[84] <imgs/213_usuarios_mapa.png, id=1231, 1092.33093pt x 525.46312pt>
+[84] <imgs/213_usuarios_mapa.png, id=1234, 1092.33093pt x 525.46312pt>
 File: imgs/213_usuarios_mapa.png Graphic file (type png)
 
 <use imgs/213_usuarios_mapa.png>
@@ -2065,6 +2064,10 @@ Underfull \vbox (badness 10000) detected at line 338
 [103]
 Overfull \hbox (20.94333pt too wide) in alignment at lines 352--372
  [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 372
  []
 
 
@@ -2189,19 +2192,19 @@ ttp : / / infographiclabs . com / news /$
  []
 
 [111] [112]
-Underfull \hbox (badness 1221) in paragraph at lines 437--442
+Underfull \hbox (badness 1221) in paragraph at lines 443--448
 []\OT1/ptm/m/n/10.95 DarTar Tba-yer, Hford-sa and Ro-ma-nes-co.  Quan-tif-ying 
 qua-lity co-lla-bo-ra-tion pat-
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 444--448
+Underfull \hbox (badness 2547) in paragraph at lines 450--454
 []\OT1/ptm/m/n/10.95 The Twee-ted Ti-mes.  Web-si-te cor-po-ra-ti-ve of the twe
 e-ted ti-mes.  []$\OT1/pcr/m/n/10.95 http : / /$
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 450--454
+Underfull \hbox (badness 1360) in paragraph at lines 456--460
 []\OT1/ptm/m/n/10.95 Inc. Twit-ter.  Acer-ca de la em-pre-sa.  []$\OT1/pcr/m/n/
 10.95 https : / / about . twitter . com / es /$
  []
@@ -2213,7 +2216,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 5E73CDCC48C6F193A845A1F70C0FC4D0;6122.
+(rerunfilecheck)             Checksum: 9D230D2FC4ABFA5090BEFED888E64B87;6122.
 
 LaTeX Warning: There were undefined references.
 
@@ -2223,10 +2226,10 @@ LaTeX Warning: There were undefined references.
 ### semi simple group (level 1) entered at line 125 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 25831 strings out of 493921
- 490443 string characters out of 3144874
- 597167 words of memory out of 3000000
- 28057 multiletter control sequences out of 15000+200000
+ 25834 strings out of 493921
+ 490492 string characters out of 3144874
+ 597257 words of memory out of 3000000
+ 28058 multiletter control sequences out of 15000+200000
  40939 words of font info for 86 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  55i,16n,85p,1457b,1068s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2249,9 +2252,9 @@ iKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
 ype1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (122 pages, 5545810 bytes).
+Output written on tesis.pdf (122 pages, 5549380 bytes).
 PDF statistics:
- 1586 PDF objects out of 1728 (max. 8388607)
- 401 named destinations out of 1000 (max. 500000)
+ 1592 PDF objects out of 1728 (max. 8388607)
+ 403 named destinations out of 1000 (max. 500000)
  756 words of extra memory for PDF output out of 10000 (max. 10000000)
 

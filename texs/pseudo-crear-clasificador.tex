@@ -1,8 +1,8 @@
 \begin{algorithm}
-	\caption{Crear Clasificador}\label{CrearClasificador}
+	\caption{Clasificador Bayes-Naive para determinar si es miembro o no del tópico.}\label{CrearClasificador}
 	\begin{algorithmic}[1]
 		\Function{crearClasificador}{}
-		\State restoTweets, tweetsValidacion, tweetsEntrenamiento $\gets$ SepararConjuntos(Tweets);
+		\State restoTweets, tweetsValidacion, tweetsEntrenamiento $\gets$ SepararConjuntos(tweets);
 		\State clasificador.entrenar(tweetsEntrenamiento)
 		\State clasificador.validar(tweetsValidacion)
 		
