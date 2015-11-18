@@ -63,7 +63,7 @@
 \contentsline {subsection}{\numberline {6.3.1}Referencias a noticias}{73}{subsection.6.3.1}
 \contentsline {subsubsection}{\numberline {6.3.1.1}Medio de prensa Modelo}{73}{subsubsection.6.3.1.1}
 \contentsline {subsubsection}{\numberline {6.3.1.2}Referencia a noticias}{74}{subsubsection.6.3.1.2}
-\contentsline {subsection}{\numberline {6.3.2}Casos de prueba: El aborto}{78}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.2}Caso de prueba: El aborto}{78}{subsection.6.3.2}
 \contentsline {subsubsection}{\numberline {6.3.2.1}Procesamiento del t\IeC {\'o}pico}{78}{subsubsection.6.3.2.1}
 \contentsline {subsubsection}{\numberline {6.3.2.2}An\IeC {\'a}lisis de muestra representativa}{79}{subsubsection.6.3.2.2}
 \contentsline {subsubsection}{\numberline {6.3.2.3}An\IeC {\'a}lisis de contenido}{79}{subsubsection.6.3.2.3}

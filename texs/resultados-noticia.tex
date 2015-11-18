@@ -145,21 +145,21 @@ Por su parte el procedimiento para verificar si el hecho noticioso ha generado u
 \end{figure}
 
 \begin{center}
-	\begin{tabular}{>{\sffamily}l@{: }l}
-		\multicolumn{2}{c}{\textbf{Sub-procesos}} \\
-		getKey & Identificar las dos keywords mas relevantes del tweet\\
-		keyIn  & Busca en el arreglo de titulares de la tercera si se encuentran las keywords \\              
-		saveLink(t) & Almacena el enlace de la noticia relacionada 
+	\begin{tabular}{|c|l|}
+		\multicolumn{2}{c}{\textbf{Sub-procesos}} \\ \hline
+		getKey & Identificar las dos keywords mas relevantes del tweet\\ \hline
+		keyIn  & Busca en el arreglo de titulares de la tercera si se encuentran las keywords \\              \hline
+		saveLink(t) & Almacena el enlace de la noticia relacionada \\ \hline
 	\end{tabular}
 \end{center}
 
 \begin{algorithm}[H]
-	\caption{Pseudo-código para verificar si el hecho noticioso haya generado una nota del medio modelo.}
+	\caption{Procedimiento para verificar si el hecho noticioso haya generado una nota del medio modelo.}
 	\label{pchaveLink}
 	\begin{algorithmic}[1]
 		\Function{generateEnlace}{tweet}:
-		\State {dt = getKey(tweet)}
-		\If {url = keyIn(dt)}
+		\State {dt $\gets$ getKey(tweet)}
+		\If {url $\gets$ keyIn(dt)}
 			\State return url;
 		\Else
 			\State return null;
@@ -168,6 +168,6 @@ Por su parte el procedimiento para verificar si el hecho noticioso ha generado u
 	\end{algorithmic}
 \end{algorithm}	
 
-Ambos procedimientos anteriores son ejecutados por un ser humano respecto debido a la dificultad existente con las fuentes de verificación. Las únicas fuentes que poseen en línea los medios modelo online de notas históricas de acceso público, son las sus respectivas secciones de búsqueda en sus sitios web respectivos \cite{busqueda24horas} \cite{busquedaBioBio} \cite{busquedaLaTercera}.
+El procedimiento anterior es ejecutado por un ser humano debido a la dificultad existente con las fuentes de verificación. Las únicas fuentes que poseen los medios modelo de notas históricas de acceso público, son sus respectivas secciones de búsqueda disponibles en sus sitios web \cite{busqueda24horas} \cite{busquedaBioBio} \cite{busquedaLaTercera}.
 
-Para poder analizar la información provenientes de estas fuentes se realizaron algoritmos de \emph{scraping} directamente sobre los sitios web que transformaban los resultados en tablas para la comprobación de resultados.
+Para analizar la información provenientes de estas fuentes se realizaron algoritmos de \emph{scraping} directamente sobre los sitios web.

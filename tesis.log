@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.8)  17 NOV 2015 00:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.8)  18 NOV 2015 00:03
 entering extended mode
 **tesis.tex
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\tesis.tex
@@ -1814,7 +1814,7 @@ _prensa_off.PNG>]
 File: imgs/tweets_por_hora_del_dia.png Graphic file (type png)
 
 <use imgs/tweets_por_hora_del_dia.png>
-Package pdftex.def Info: imgs/tweets_por_hora_del_dia.png used on input line 18
+Package pdftex.def Info: imgs/tweets_por_hora_del_dia.png used on input line 20
 .
 (pdftex.def)             Requested size: 412.56496pt x 213.60542pt.
 
@@ -2216,7 +2216,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9D230D2FC4ABFA5090BEFED888E64B87;6122.
+(rerunfilecheck)             Checksum: 4ED9C367E9BAD6DA8B526275B9FDC795;6121.
 
 LaTeX Warning: There were undefined references.
 
@@ -2228,7 +2228,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  25834 strings out of 493921
  490492 string characters out of 3144874
- 597257 words of memory out of 3000000
+ 597252 words of memory out of 3000000
  28058 multiletter control sequences out of 15000+200000
  40939 words of font info for 86 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -2252,7 +2252,7 @@ iKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
 ype1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (122 pages, 5549380 bytes).
+Output written on tesis.pdf (122 pages, 5549290 bytes).
 PDF statistics:
  1592 PDF objects out of 1728 (max. 8388607)
  403 named destinations out of 1000 (max. 500000)
