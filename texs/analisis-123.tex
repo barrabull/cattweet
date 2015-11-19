@@ -36,7 +36,7 @@ Durante el proceso de entrenamiento del clasificador se consideraron los siguien
 	\item Comentarios ambiguos que no permiten relacionar con el concepto aborto en cuestión.
 \end{itemize}
 
-Las cantidades según clasificación manual realizados en el proceso son los siguientes:
+Las cantidades según la clasificación manual realizados son los siguientes:
 
 \begin{table}[H]
 	\centering
@@ -49,11 +49,11 @@ Las cantidades según clasificación manual realizados en el proceso son los sig
 	\caption {Clasificación referencia hecho noticioso}
 \end{table}
 
-Con esta información el clasificador del total de 1382 tweets aceptó 1357 tweets. \\
+Con estos conjuntos de datos el clasificador del total de 1382 tweets aceptó 1357 tweets. \\
 
 \subsubsection{Análisis de muestra representativa}
 
-Para analizar el contenido de los tweets seleccionados fue recogida una muestra representativa de tweets 	calculada considerando las siguientes variables:
+Para analizar el contenido de los tweets seleccionados fue recogida una muestra representativa de tweets calculada considerando las siguientes variables:
 
 \begin{itemize}
 	\item Tamaño muestra $N = 1357$
@@ -61,26 +61,26 @@ Para analizar el contenido de los tweets seleccionados fue recogida una muestra 
 	\item Porcentaje estimado de la muestra $P = 0.9$
 \end{itemize}
 
-El tamaño de la muestra representativa de tweets para este tópico es de 309 tweets los cuales fueron seleccionados de manera aleatoria mediante el ordenamiento pseudoaleatorio entregado por la función \emph{RAND} de Mysql. \\
+El tamaño de la muestra representativa de tweets para este tópico es de 309 tweets los cuales fueron seleccionados de manera aleatoria mediante el ordenamiento pseudoaleatorio entregado por la función \emph{RAND} de Mysql.
 
 \subsubsection{Análisis de contenido}
 
-Para realizar el análisis de contenido noticioso, se aplicó a la muestra el algoritmo explicado en \ref{fig:procedimientoTweetHN}. Con el cual se obtuvo la siguiente clasificación de los tweets de la muestra:
+Para realizar el análisis de contenido noticioso, se aplica a la muestra el algoritmo explicado en \ref{fig:procedimientoTweetHN}. Con el cual se obtuvo la siguiente clasificación de los tweets de la muestra:
 
-\begin{table}[h]
+\begin{table}[H]
 	\centering
 	\begin{tabular}{| l | c | c |}
 		\hline
 		Clasificación    & Total & Porcentual\\ \hline
 		Tweets que hacen referencia    & 108 & 34,95\%\\ \hline
 		Tweets que no hacen referencia & 200 & 64,72\%\\ \hline
-		    & 309 & 100\% \\
+		Total    & 309 & 100\% \\
 		\hline
 	\end{tabular}
 	\caption {Clasificación según referencia hecho noticioso}
 \end{table}
 
-\begin{table}[h]
+\begin{table}[H]
 	\centering
 	\begin{tabular}{| l | c | c |}
 		\hline
@@ -89,15 +89,14 @@ Para realizar el análisis de contenido noticioso, se aplicó a la muestra el al
 		Insumo Internacional (II) & 16 & 7,96\% \\ \hline
 		Aporte a la discusión (AD) & 37 & 18,41\%\\ \hline
 		No se refiere al tópico & 1 & 0,50\% \\ \hline
-		& 201 & 100\% \\
+		Total & 201 & 100\% \\
 		\hline
 	\end{tabular}
 	\caption {Clasificación de los tweets que no hacen referencia a un hecho noticioso}
 	\label{clasifTweetsNoHechoNoticioso}
 \end{table}
 
-En la tabla \ref{clasifTweetsNoHechoNoticioso} se observa los efectivos resultados del filtro que determina si el tweet corresponde o no al tópico, donde sólo el 0,5\% de los tweets no están relacionados al tópico. La efectividad de este filtro  es fundamental para las etapas de clasificación
-posteriores como la recolección de enlaces y análisis geográficos. 
+En la tabla \ref{clasifTweetsNoHechoNoticioso} se observa los efectivos resultados del filtro que determina si el tweet corresponde o no al tópico, donde sólo el 0,5\% de los tweets no están relacionados al tópico. La efectividad de este filtro  es fundamental para las etapas de clasificación posteriores como la recolección de enlaces y análisis geográficos. 
 
 El alto porcentaje de tweets del tópico que no se refieren a un hecho noticioso comprenden las distintas formas que frecuentan los usuarios para participar del debate público en Twitter: 73,3\% de estos tweets corresponden a una opinión personal, el 18,41\% entrega algún aporte a la discusión y el 7,96 \% corresponden a información o insumos internacionales.  
 
