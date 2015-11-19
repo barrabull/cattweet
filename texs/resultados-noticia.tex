@@ -1,4 +1,4 @@
-Tal como se definió anteriormente, se entiende por noticia \' Una noticia es la comunicación de información seleccionada sobre un evento actual que posteriormente es presentado a través de cualquier medio de comunicación existente \'.\cite{Shirky_2008_Herecomes} Esta sección busca cuantificar el grado de noticias relacionadas por el algoritmo realizado para un tópico.
+Tal como se define anteriormente, se entiende por noticia "la comunicación de información seleccionada sobre un evento actual que posteriormente es presentado a través de cualquier medio de comunicación existente".\cite{Shirky_2008_Herecomes} Esta sección busca cuantificar el grado de noticias relacionadas por el algoritmo realizado para un tópico.
 
 Consideramos como características relevantes de una noticia los siguientes aspectos:
 
@@ -21,7 +21,7 @@ Para su selección se utilizaron los siguientes criterios:
 	\item Actividad en Twitter.
 \end{itemize}
 
-Basándonos en el estudio \cite{puroperiodismoMenciones} realizado por la Escuela de Periodismo de la Universidad Alberto Hurtado en el sitio web \emph{puro periodismo} que describe: ``Corresponden a sitios de noticias generalistas, de publicación constante, ubicados en los primeros lugares del ranking Alexa y considerando seguidores de Twitter y Fans en Facebook."  \footnote{El ranking de Alexa es un ranking de tráfico con potentes herramientas comparativas y de monetización para sitios web realizado por www.alexa.com (filial de Amazon)}
+Basándonos en el estudio \cite{puroperiodismoMenciones} realizado por la Escuela de Periodismo de la Universidad Alberto Hurtado en el sitio web \emph{puro periodismo} que describe: "Corresponden a sitios de noticias generalistas, de publicación constante, ubicados en los primeros lugares del ranking Alexa y considerando seguidores de Twitter y Fans en Facebook."  \footnote{El ranking de Alexa es un ranking de tráfico con potentes herramientas comparativas y de monetización para sitios web realizado por www.alexa.com (filial de Amazon)}
 
 %The 1 month rank is calculated using a combination of average daily visitors and pageviews over the past month. The site with the highest combination of visitors and pageviews is ranked #1
 
@@ -84,12 +84,13 @@ El procedimiento para definir si el texto del tweet se refiere directamente a un
 	\label{fig:procedimientoTweetHN}
 \end{figure}
 \begin{center}
-	\begin{tabular}{>{\sffamily}l@{: }l}
-		\multicolumn{2}{c}{\textbf{Sub-procesos}} \\
-		inTopic & ¿El tweet se refiere al tópico en cuestión?     \\
-		coGen  & ¿El tweet se refiere al tópico en general o se refiere a un hecho en particular?                \\
-		nac & ¿El hecho aludido por el tweet es nacional o internacional? \\
-		granEm   & ¿El hecho posee gran envergadura? 
+	\begin{tabular}{|c|l|}
+		\hline
+		\multicolumn{2}{|c|}{\textbf{Sub-procesos}} \\ \hline
+		inTopic & ¿El tweet se refiere al tópico en cuestión?     \\ \hline
+		coGen  & ¿El tweet se refiere al tópico en general o se refiere a un hecho en particular?                \\ \hline
+		nac & ¿El hecho aludido por el tweet es nacional o internacional? \\ \hline
+		granEm   & ¿El hecho posee gran envergadura? \\ \hline
 	\end{tabular}
 \end{center}
 
@@ -146,7 +147,8 @@ Por su parte el procedimiento para verificar si el hecho noticioso ha generado u
 
 \begin{center}
 	\begin{tabular}{|c|l|}
-		\multicolumn{2}{c}{\textbf{Sub-procesos}} \\ \hline
+		\hline
+		\multicolumn{2}{|c|}{\textbf{Sub-procesos}} \\ \hline
 		getKey & Identificar las dos keywords mas relevantes del tweet\\ \hline
 		keyIn  & Busca en el arreglo de titulares de la tercera si se encuentran las keywords \\              \hline
 		saveLink(t) & Almacena el enlace de la noticia relacionada \\ \hline
