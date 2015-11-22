@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.8)  18 NOV 2015 23:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.8)  22 NOV 2015 11:40
 entering extended mode
 **tesis.tex
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\tesis.tex
@@ -1172,21 +1172,21 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\tesis.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 123.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 125.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
@@ -1217,7 +1217,7 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box72
-Package hyperref Info: Link coloring OFF on input line 123.
+Package hyperref Info: Link coloring OFF on input line 125.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1227,9 +1227,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count185
 )
-LaTeX Info: Redefining \ref on input line 123.
-LaTeX Info: Redefining \pageref on input line 123.
-LaTeX Info: Redefining \nameref on input line 123.
+LaTeX Info: Redefining \ref on input line 125.
+LaTeX Info: Redefining \pageref on input line 125.
+LaTeX Info: Redefining \nameref on input line 125.
 
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\tesis.out)
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\tesis.out)
@@ -1242,19 +1242,19 @@ ABD: EveryShipout initializing macros
 File: usmtesis/images/utfsm.jpg Graphic file (type jpg)
 
 <use usmtesis/images/utfsm.jpg>
-Package pdftex.def Info: usmtesis/images/utfsm.jpg used on input line 128.
+Package pdftex.def Info: usmtesis/images/utfsm.jpg used on input line 130.
 (pdftex.def)             Requested size: 165.02345pt x 119.63148pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 130.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 130.
  [1
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Franco/Desktop/m
 emoria/FormatoFinal2/cattweet/usmtesis/images/utfsm.jpg>] [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 142.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 144.
 
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\tesis.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
@@ -1516,7 +1516,7 @@ Overfull \hbox (31.08641pt too wide) detected at line 14
 ]
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 155.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 157.
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/introduccion.tex
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/marco_teorico_twit
 ter.tex [1
@@ -1544,19 +1544,15 @@ Cap\'{\i }tulo 2.
 File: imgs/gatekeeper.png Graphic file (type png)
 
 <use imgs/gatekeeper.png>
-Package pdftex.def Info: imgs/gatekeeper.png used on input line 16.
+Package pdftex.def Info: imgs/gatekeeper.png used on input line 12.
 (pdftex.def)             Requested size: 247.54149pt x 215.44104pt.
+ [5
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5
-
-] [6 <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/gatekeeper.pn
-g>]
+]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 27.
- [7] [8] [9] [10] [11]) [12]
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 22.
+ [6 <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/gatekeeper.png
+>] [7] [8] [9] [10] [11]) [12]
 Cap\'{\i }tulo 3.
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/estadodelarte.tex
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/estado_arte_rankin
@@ -1586,27 +1582,27 @@ Overfull \hbox (26.05951pt too wide) in paragraph at lines 155--156
 alizacion.tex [24] [25] [26])
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/estado_arte_herram
 ientas_plataformas.tex
-<imgs/geofeedia1.png, id=777, 571.38469pt x 336.50719pt>
+<imgs/geofeedia1.png, id=776, 571.38469pt x 336.50719pt>
 File: imgs/geofeedia1.png Graphic file (type png)
 
 <use imgs/geofeedia1.png>
 Package pdftex.def Info: imgs/geofeedia1.png used on input line 11.
 (pdftex.def)             Requested size: 180.67499pt x 106.40596pt.
 
-<imgs/geofeedia2.png, id=778, 567.62062pt x 336.50719pt>
+<imgs/geofeedia2.png, id=777, 567.62062pt x 336.50719pt>
 File: imgs/geofeedia2.png Graphic file (type png)
 
 <use imgs/geofeedia2.png>
 Package pdftex.def Info: imgs/geofeedia2.png used on input line 19.
 (pdftex.def)             Requested size: 180.67499pt x 107.1094pt.
  [27]
-<imgs/paperli1.png, id=786, 1095.3422pt x 615.80063pt>
+<imgs/paperli1.png, id=785, 1095.3422pt x 615.80063pt>
 File: imgs/paperli1.png Graphic file (type png)
  <use imgs/paperli1.png>
 Package pdftex.def Info: imgs/paperli1.png used on input line 40.
 (pdftex.def)             Requested size: 180.67499pt x 101.57452pt.
 
-<imgs/paperli2.png, id=787, 1095.3422pt x 615.80063pt>
+<imgs/paperli2.png, id=786, 1095.3422pt x 615.80063pt>
 File: imgs/paperli2.png Graphic file (type png)
  <use imgs/paperli2.png>
 Package pdftex.def Info: imgs/paperli2.png used on input line 48.
@@ -1614,7 +1610,7 @@ Package pdftex.def Info: imgs/paperli2.png used on input line 48.
 
 [28 <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/geofeedia1.png
 > <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/geofeedia2.png>]
-<imgs/tweettimes.png, id=798, 1095.3422pt x 615.80063pt>
+<imgs/tweettimes.png, id=797, 1095.3422pt x 615.80063pt>
 File: imgs/tweettimes.png Graphic file (type png)
 
 <use imgs/tweettimes.png>
@@ -1622,7 +1618,7 @@ Package pdftex.def Info: imgs/tweettimes.png used on input line 65.
 (pdftex.def)             Requested size: 330.05322pt x 185.55908pt.
  [29 <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/paperli1.png>
  <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/paperli2.png>]
-<imgs/flipboard3.PNG, id=807, 821.31844pt x 615.80063pt>
+<imgs/flipboard3.PNG, id=806, 821.31844pt x 615.80063pt>
 File: imgs/flipboard3.PNG Graphic file (type png)
 
 <use imgs/flipboard3.PNG>
@@ -1631,7 +1627,7 @@ Package pdftex.def Info: imgs/flipboard3.PNG used on input line 81.
  [30 <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/tweettimes.pn
 g>] [31 <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/flipboard3
 .PNG>]
-<imgs/summify.png, id=826, 823.075pt x 769.87625pt>
+<imgs/summify.png, id=825, 823.075pt x 769.87625pt>
 File: imgs/summify.png Graphic file (type png)
  <use imgs/summify.png>
 Package pdftex.def Info: imgs/summify.png used on input line 100.
@@ -1642,7 +1638,7 @@ Package pdftex.def Info: imgs/summify.png used on input line 100.
 LaTeX Warning: Citation `twitterfall' on page 33 undefined on input line 107.
 
 [33 <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/summify.png>]
-<imgs/twitterfall.jpg, id=837, 1091.57813pt x 524.71031pt>
+<imgs/twitterfall.jpg, id=836, 1091.57813pt x 524.71031pt>
 File: imgs/twitterfall.jpg Graphic file (type jpg)
 
 <use imgs/twitterfall.jpg>
@@ -1655,7 +1651,7 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 140.
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [34 <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/twitterfall.
 jpg>]
-<imgs/storyful.png, id=849, 615.29875pt x 351.3125pt>
+<imgs/storyful.png, id=848, 615.29875pt x 351.3125pt>
 File: imgs/storyful.png Graphic file (type png)
  <use imgs/storyful.png>
 Package pdftex.def Info: imgs/storyful.png used on input line 146.
@@ -1695,7 +1691,7 @@ ientas.tex [43] [44] [45] [46])
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/caracteristicas-co
 mputador.tex)
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/modelo-datos.tex
-<imgs/modelo_bd.png, id=954, 731.73375pt x 800.23969pt>
+<imgs/modelo_bd.png, id=953, 731.73375pt x 800.23969pt>
 File: imgs/modelo_bd.png Graphic file (type png)
 
 <use imgs/modelo_bd.png>
@@ -1717,7 +1713,7 @@ File: omlptm.fd
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 12.
 
-[50] <imgs/mapa_usuarios.png, id=991, 1092.33093pt x 525.46312pt>
+[50] <imgs/mapa_usuarios.png, id=990, 1092.33093pt x 525.46312pt>
 File: imgs/mapa_usuarios.png Graphic file (type png)
 
 <use imgs/mapa_usuarios.png>
@@ -1744,14 +1740,14 @@ ficador.tex)
 Cap\'{\i }tulo 6.
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/evaluacion.tex
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/vistas_plataforma.
-tex <imgs/vistas_newsearch.PNG, id=1084, 1092.33093pt x 525.46312pt>
+tex <imgs/vistas_newsearch.PNG, id=1083, 1092.33093pt x 525.46312pt>
 File: imgs/vistas_newsearch.PNG Graphic file (type png)
 
 <use imgs/vistas_newsearch.PNG>
 Package pdftex.def Info: imgs/vistas_newsearch.PNG used on input line 6.
 (pdftex.def)             Requested size: 371.30594pt x 178.615pt.
 
-<imgs/vistas_newsearch_results.PNG, id=1085, 1092.33093pt x 525.46312pt>
+<imgs/vistas_newsearch_results.PNG, id=1084, 1092.33093pt x 525.46312pt>
 File: imgs/vistas_newsearch_results.PNG Graphic file (type png)
 
 <use imgs/vistas_newsearch_results.PNG>
@@ -1763,21 +1759,21 @@ Package pdftex.def Info: imgs/vistas_newsearch_results.PNG used on input line 1
  <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/vistas_newsearch.
 PNG>] [64 <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/vistas_n
 ewsearch_results.PNG>]
-<imgs/vistas_topicos.PNG, id=1097, 1092.33093pt x 525.46312pt>
+<imgs/vistas_topicos.PNG, id=1096, 1092.33093pt x 525.46312pt>
 File: imgs/vistas_topicos.PNG Graphic file (type png)
 
 <use imgs/vistas_topicos.PNG>
 Package pdftex.def Info: imgs/vistas_topicos.PNG used on input line 22.
 (pdftex.def)             Requested size: 371.30594pt x 178.615pt.
 
-<imgs/vistas_geo.PNG, id=1098, 1092.33093pt x 525.46312pt>
+<imgs/vistas_geo.PNG, id=1097, 1092.33093pt x 525.46312pt>
 File: imgs/vistas_geo.PNG Graphic file (type png)
 
 <use imgs/vistas_geo.PNG>
 Package pdftex.def Info: imgs/vistas_geo.PNG used on input line 30.
 (pdftex.def)             Requested size: 371.30594pt x 178.615pt.
 
-<imgs/vistas_rel.PNG, id=1099, 1092.33093pt x 525.46312pt>
+<imgs/vistas_rel.PNG, id=1098, 1092.33093pt x 525.46312pt>
 File: imgs/vistas_rel.PNG Graphic file (type png)
 
 <use imgs/vistas_rel.PNG>
@@ -1791,7 +1787,7 @@ File: imgs/vistas_rel.PNG Graphic file (type png)
 Package pdftex.def Info: imgs/vistas_rel.PNG used on input line 46.
 (pdftex.def)             Requested size: 371.30594pt x 178.615pt.
 
-<imgs/vistas_links.PNG, id=1106, 1092.33093pt x 525.46312pt>
+<imgs/vistas_links.PNG, id=1105, 1092.33093pt x 525.46312pt>
 File: imgs/vistas_links.PNG Graphic file (type png)
 
 <use imgs/vistas_links.PNG>
@@ -1799,7 +1795,7 @@ Package pdftex.def Info: imgs/vistas_links.PNG used on input line 54.
 (pdftex.def)             Requested size: 371.30594pt x 178.615pt.
  [66 <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/vistas_rel.PN
 G>]
-<imgs/vistas_prensa_off.PNG, id=1112, 1092.33093pt x 525.46312pt>
+<imgs/vistas_prensa_off.PNG, id=1111, 1092.33093pt x 525.46312pt>
 File: imgs/vistas_prensa_off.PNG Graphic file (type png)
 
 <use imgs/vistas_prensa_off.PNG>
@@ -1810,7 +1806,7 @@ Package pdftex.def Info: imgs/vistas_prensa_off.PNG used on input line 62.
 tos.tex [67 <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/vistas
 _links.PNG> <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/vistas
 _prensa_off.PNG>]
-<imgs/tweets_por_hora_del_dia.png, id=1119, 785.18344pt x 406.51875pt>
+<imgs/tweets_por_hora_del_dia.png, id=1118, 785.18344pt x 406.51875pt>
 File: imgs/tweets_por_hora_del_dia.png Graphic file (type png)
 
 <use imgs/tweets_por_hora_del_dia.png>
@@ -1818,7 +1814,7 @@ Package pdftex.def Info: imgs/tweets_por_hora_del_dia.png used on input line 20
 .
 (pdftex.def)             Requested size: 412.56496pt x 213.60542pt.
 
-<imgs/cantidad_porcentual_de_tweets_por_hora_y_regiones.png, id=1122, 978.65625
+<imgs/cantidad_porcentual_de_tweets_por_hora_y_regiones.png, id=1121, 978.65625
 pt x 375.65344pt>
 File: imgs/cantidad_porcentual_de_tweets_por_hora_y_regiones.png Graphic file (
 type png)
@@ -1833,7 +1829,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-<imgs/ellen_selfie.png, id=1130, 467.49657pt x 408.02437pt>
+<imgs/ellen_selfie.png, id=1129, 467.49657pt x 408.02437pt>
 File: imgs/ellen_selfie.png Graphic file (type png)
 
 <use imgs/ellen_selfie.png>
@@ -1896,14 +1892,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
-[79] <imgs/123_general.png, id=1212, 613.54219pt x 350.05782pt>
+[79] <imgs/123_general.png, id=1211, 613.54219pt x 350.05782pt>
 File: imgs/123_general.png Graphic file (type png)
 
 <use imgs/123_general.png>
 Package pdftex.def Info: imgs/123_general.png used on input line 140.
 (pdftex.def)             Requested size: 412.56496pt x 235.39214pt.
  [80]
-<imgs/cantidad_tweets_por_quincena_123_2.png, id=1219, 651.18282pt x 417.05812p
+<imgs/cantidad_tweets_por_quincena_123_2.png, id=1218, 651.18282pt x 417.05812p
 t>
 File: imgs/cantidad_tweets_por_quincena_123_2.png Graphic file (type png)
  <use imgs/cantidad_tweets_por_quincena_123_2.png>
@@ -1913,7 +1909,7 @@ put line 147.
  [81 <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/123_general.p
 ng> <C:/Users/Franco/Desktop/memoria/FormatoFinal2/cattweet/imgs/cantidad_tweet
 s_por_quincena_123_2.png>]
-<imgs/123_cantidad_rt_por_quincena.png, id=1229, 775.39688pt x 392.21532pt>
+<imgs/123_cantidad_rt_por_quincena.png, id=1228, 775.39688pt x 392.21532pt>
 File: imgs/123_cantidad_rt_por_quincena.png Graphic file (type png)
 
 <use imgs/123_cantidad_rt_por_quincena.png>
@@ -1942,7 +1938,7 @@ Underfull \hbox (badness 2772) in paragraph at lines 195--195
 []|\OT1/ptm/m/n/10.95 N[]ume-ro de usua-
  []
 
-[83] <imgs/213_usuarios_mapa.png, id=1244, 1092.33093pt x 525.46312pt>
+[83] <imgs/213_usuarios_mapa.png, id=1243, 1092.33093pt x 525.46312pt>
 File: imgs/213_usuarios_mapa.png Graphic file (type png)
 
 <use imgs/213_usuarios_mapa.png>
@@ -1956,14 +1952,10 @@ Cap\'{\i }tulo 7.
 
 ] [86] [87])
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/puesta_produccion.
-tex [88] [89]) [90]
+tex [88] [89] [90]) [91]
 Cap\'{\i }tulo 8.
-(C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/anexos-amazon.tex
-Overfull \hbox (4.14784pt too wide) in paragraph at lines 5--18
- [][] 
- []
+(C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/anexos-amazon.tex)
 
-)
 (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\texs/anexos-medios-pren
 sa.tex
 Overfull \hbox (27.46922pt too wide) in alignment at lines 5--27
@@ -1979,14 +1971,14 @@ Overfull \hbox (27.46922pt too wide) in alignment at lines 27--47
  [] [] [] [] 
  []
 
-[91
+[92
 
 ]
 Overfull \hbox (27.46922pt too wide) in alignment at lines 47--67
  [] [] [] [] 
  []
 
-[92]
+[93]
 Overfull \hbox (27.46922pt too wide) in alignment at lines 67--87
  [] [] [] [] 
  []
@@ -1996,12 +1988,12 @@ Overfull \hbox (27.46922pt too wide) in alignment at lines 87--107
  [] [] [] [] 
  []
 
-[93]
+[94]
 Overfull \hbox (27.46922pt too wide) in alignment at lines 107--127
  [] [] [] [] 
  []
 
-[94]
+[95]
 Overfull \hbox (27.46922pt too wide) in alignment at lines 127--147
  [] [] [] [] 
  []
@@ -2011,12 +2003,12 @@ Overfull \hbox (27.46922pt too wide) in alignment at lines 147--167
  [] [] [] [] 
  []
 
-[95]
+[96]
 Overfull \hbox (27.46922pt too wide) in alignment at lines 167--187
  [] [] [] [] 
  []
 
-[96]
+[97]
 Overfull \hbox (27.46922pt too wide) in alignment at lines 187--207
  [] [] [] [] 
  []
@@ -2026,17 +2018,17 @@ Overfull \hbox (27.46922pt too wide) in alignment at lines 207--227
  [] [] [] [] 
  []
 
-[97]
+[98]
 Overfull \hbox (27.46922pt too wide) in alignment at lines 227--247
  [] [] [] [] 
  []
 
-[98]
+[99]
 Overfull \hbox (27.46922pt too wide) in alignment at lines 247--267
  [] [] [] [] 
  []
 
-[99]
+[100]
 Overfull \hbox (27.46922pt too wide) in alignment at lines 267--287
  [] [] [] [] 
  []
@@ -2046,16 +2038,16 @@ Overfull \hbox (27.46922pt too wide) in alignment at lines 287--307
  [] [] [] [] 
  []
 
-[100]
+[101]
 Overfull \hbox (27.46922pt too wide) in alignment at lines 307--312
  [] [] [] [] 
  []
 
-[101]
+[102]
 Underfull \vbox (badness 10000) detected at line 340
  []
 
-[102]
+[103]
 Overfull \hbox (20.94333pt too wide) in alignment at lines 354--374
  [] [] [] [] 
  []
@@ -2069,12 +2061,12 @@ Overfull \hbox (20.94333pt too wide) in alignment at lines 374--394
  [] [] [] [] 
  []
 
-[103]
+[104]
 Overfull \hbox (20.94333pt too wide) in alignment at lines 394--401
  [] [] [] [] 
  []
 
-) (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\tesis.bbl [104]
+) (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\tesis.bbl [105]
 Underfull \hbox (badness 10000) in paragraph at lines 22--27
 []\OT1/ptm/m/n/10.95 Summify Blog.  Sum-mify-tip: Mo-dif-ying sum-mary sour-ces
  and sa-
@@ -2092,7 +2084,7 @@ $\OT1/pcr/m/n/10.95 summifytip-[]modifying-[]summary-[]sources-[]and-[]saying-[
 ]thanks/$[]\OT1/ptm/m/n/10.95 .
  []
 
-[105
+[106
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 74--78
@@ -2106,7 +2098,7 @@ Underfull \hbox (badness 3849) in paragraph at lines 106--110
  []$\OT1/pcr/m/n/10.95 http : / / anp . cl /$
  []
 
-[106]
+[107]
 Underfull \hbox (badness 1365) in paragraph at lines 130--136
 []\OT1/ptm/m/n/10.95 Asociaci[]on Na-cio-nal de ra-dios co-mu-ni-ta-rias y ciu-
 da-da-nas de Chi-le.  Aso-cia-dos
@@ -2154,13 +2146,13 @@ $\OT1/pcr/m/n/10.95 twitter-[]cuts-[]off-[]diplotwoops-[]and-[]politwoops-[]in-
 []all-[]remaining-[]30-[]countries /$
  []
 
-[107]
+[108]
 Underfull \hbox (badness 3482) in paragraph at lines 236--240
 []\OT1/ptm/m/n/10.95 Antti Haa-pa-la.  Python-levenshtein.  []$\OT1/pcr/m/n/10.
 95 https : / / pypi . python . org / pypi /$
  []
 
-[108]
+[109]
 Underfull \hbox (badness 1057) in paragraph at lines 294--299
 []\OT1/ptm/m/n/10.95 Andr[]es Az[]ocar Z. y Andr[]es Scher-man T. Ju-li[]an Gon
 z[]alez U.  En-cues-ta de ca-
@@ -2184,30 +2176,30 @@ Underfull \hbox (badness 1515) in paragraph at lines 301--305
 ttp : / / infographiclabs . com / news /$
  []
 
-[109] [110]
-Underfull \hbox (badness 1221) in paragraph at lines 443--448
+[110] [111]
+Underfull \hbox (badness 1221) in paragraph at lines 448--453
 []\OT1/ptm/m/n/10.95 DarTar Tba-yer, Hford-sa and Ro-ma-nes-co.  Quan-tif-ying 
 qua-lity co-lla-bo-ra-tion pat-
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 450--454
+Underfull \hbox (badness 2547) in paragraph at lines 455--459
 []\OT1/ptm/m/n/10.95 The Twee-ted Ti-mes.  Web-si-te cor-po-ra-ti-ve of the twe
 e-ted ti-mes.  []$\OT1/pcr/m/n/10.95 http : / /$
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 456--460
+Underfull \hbox (badness 1360) in paragraph at lines 461--465
 []\OT1/ptm/m/n/10.95 Inc. Twit-ter.  Acer-ca de la em-pre-sa.  []$\OT1/pcr/m/n/
 10.95 https : / / about . twitter . com / es /$
  []
 
-[111]) [112]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
+[112]) [113]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
  (C:\Users\Franco\Desktop\memoria\FormatoFinal2\cattweet\tesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
 Package rerunfilecheck Info: File `tesis.out' has not changed.
 (rerunfilecheck)             Checksum: C67B77CA3E97B275EBDDBF77B42437F2;6282.
 
@@ -2216,16 +2208,16 @@ LaTeX Warning: There were undefined references.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 125 (\begingroup)
+### semi simple group (level 1) entered at line 127 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 25841 strings out of 493921
- 490738 string characters out of 3144874
- 598518 words of memory out of 3000000
- 28060 multiletter control sequences out of 15000+200000
+ 25826 strings out of 493921
+ 490569 string characters out of 3144874
+ 598549 words of memory out of 3000000
+ 28043 multiletter control sequences out of 15000+200000
  40939 words of font info for 86 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 55i,16n,85p,1457b,1068s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,16n,85p,1513b,1059s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{Hfootnote.21} has been referenced b
 ut does not exist, replaced by a fixed one
 
@@ -2245,9 +2237,9 @@ iKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
 ype1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ti
 mes/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a
 .pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (121 pages, 5552245 bytes).
+Output written on tesis.pdf (122 pages, 5553174 bytes).
 PDF statistics:
- 1603 PDF objects out of 1728 (max. 8388607)
- 405 named destinations out of 1000 (max. 500000)
+ 1608 PDF objects out of 1728 (max. 8388607)
+ 407 named destinations out of 1000 (max. 500000)
  772 words of extra memory for PDF output out of 10000 (max. 10000000)
 
