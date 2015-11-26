@@ -70,10 +70,12 @@
 \contentsline {subsubsection}{\numberline {6.3.2.4}An\IeC {\'a}lisis temporal}{81}{subsubsection.6.3.2.4}
 \contentsline {subsubsection}{\numberline {6.3.2.5}An\IeC {\'a}lisis de re-tweet}{82}{subsubsection.6.3.2.5}
 \contentsline {subsubsection}{\numberline {6.3.2.6}An\IeC {\'a}lisis geogr\IeC {\'a}fico}{84}{subsubsection.6.3.2.6}
-\contentsline {chapter}{\numberline {7}Conclusiones}{85}{chapter.7}
-\contentsline {section}{\numberline {7.1}Conclusiones}{85}{section.7.1}
-\contentsline {section}{\numberline {7.2}Trabajo futuro}{88}{section.7.2}
-\contentsline {chapter}{\numberline {8}Anexo}{92}{chapter.8}
-\contentsline {section}{\numberline {8.1}Cotizaci\IeC {\'o}n en Amazon}{92}{section.8.1}
-\contentsline {section}{\numberline {8.2}Cuentas en Twitter de los medios de prensa}{92}{section.8.2}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{106}{chapter*.55}
+\contentsline {chapter}{\numberline {7}Conclusiones}{86}{chapter.7}
+\contentsline {section}{\numberline {7.1}Conclusiones}{86}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Conclusiones t\IeC {\'e}cnicas}{86}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Consideraciones y discusi\IeC {\'o}n sobre las conclusiones}{88}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Trabajo futuro}{90}{section.7.2}
+\contentsline {chapter}{\numberline {8}Anexo}{93}{chapter.8}
+\contentsline {section}{\numberline {8.1}Cotizaci\IeC {\'o}n en Amazon}{93}{section.8.1}
+\contentsline {section}{\numberline {8.2}Cuentas en Twitter de los medios de prensa}{93}{section.8.2}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{107}{chapter*.55}
