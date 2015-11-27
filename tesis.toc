@@ -16,7 +16,7 @@
 \contentsline {subsubsection}{\numberline {3.1.1.1}Clasificaci\IeC {\'o}n de usuarios}{13}{subsubsection.3.1.1.1}
 \contentsline {subsubsection}{\numberline {3.1.1.2}Ranking de enlaces compartidos en Twitter}{15}{subsubsection.3.1.1.2}
 \contentsline {subsubsection}{\numberline {3.1.1.3}Mecanismo de Ranking en Twitter como foro}{18}{subsubsection.3.1.1.3}
-\contentsline {subsubsection}{\numberline {3.1.1.4}Twitter para la recomedaci\IeC {\'o}n de noticias}{19}{subsubsection.3.1.1.4}
+\contentsline {subsubsection}{\numberline {3.1.1.4}Twitter para la recomendaci\IeC {\'o}n de noticias}{19}{subsubsection.3.1.1.4}
 \contentsline {subsubsection}{\numberline {3.1.1.5}Clasificaci\IeC {\'o}n de tweets orientada al usuario: Un enfoque de filtrado para microblogs}{21}{subsubsection.3.1.1.5}
 \contentsline {subsubsection}{\numberline {3.1.1.6}TURank: Clasificaci\IeC {\'o}n del usuarios de Twitter basado en el an\IeC {\'a}lisis de un grafo usuario-tweet}{22}{subsubsection.3.1.1.6}
 \contentsline {subsection}{\numberline {3.1.2}Geolocalizaci\IeC {\'o}n de usuarios}{24}{subsection.3.1.2}

@@ -19,10 +19,8 @@ Warning--entry type for "flipboard" isn't style-file defined
 --line 732 of file bibliografia.bib
 Warning--entry type for "summify" isn't style-file defined
 --line 739 of file bibliografia.bib
-Repeated entry---line 746 of file bibliografia.bib
- : @online{summify
- :                ,
-I'm skipping whatever remains of this entry
+Warning--entry type for "twitterfall" isn't style-file defined
+--line 746 of file bibliografia.bib
 Warning--entry type for "storyful" isn't style-file defined
 --line 753 of file bibliografia.bib
 Warning--entry type for "busqueda24horas" isn't style-file defined
@@ -101,7 +99,6 @@ Warning--entry type for "smmry" isn't style-file defined
 --line 1051 of file bibliografia.bib
 Warning--entry type for "naivebayesdoc" isn't style-file defined
 --line 1067 of file bibliografia.bib
-Warning--I didn't find a database entry for "twitterfall"
 Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Stefan Behnel, Martijn Faassen, Ian Bicking, Holger Joukl, Simon Sapin, Marc-Antoine Parent, Olivier Grisel, Kasimier Buchcik, Florian Wagner, Emil Kroymann, Paul Everitt, Victor Ng, Robert Kern, Andreas Pakulat, David Sankel, Marcin Kasperski, Sidnei da Silva and Pascal Oberndörfer" for entry lxmlWebsite
@@ -230,4 +227,4 @@ Too many commas in name 1 of "Steven Loria, Pete Keen, Matthew Honnibal, Roman Y
 while executing---line 1090 of file plain.bst
 Too many commas in name 1 of "Steven Loria, Pete Keen, Matthew Honnibal, Roman Yankovsky, David Karesh, Evan Dempsey, Wesley Childs, Jeff Schnurr, Adel Qalieh, Lage Ragnarsson and Jonathon Coe" for entry textblobWebsite
 while executing---line 1090 of file plain.bst
-(There were 65 error messages)
+(There were 64 error messages)
