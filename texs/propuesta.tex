@@ -42,7 +42,7 @@ Para generar la lista de medios de prensa (MP) se accede a los medios de prensa 
 	\item \textit{ARCHI (Asociación de Radiodifusores de Chile)} \cite{archiWebsite}: Fundada en 1933 es la organización gremial de medios de comunicación social más antigua de Chile.
 \end{itemize}	
 
-Ninguna de las asociaciones de medios de prensa considerados anteriormente (ANP, ANARCICH y ARCHI) cuentan con directorios públicos \cite{mediosArchi} \cite{mediosaAnp} \cite{mediosAnarcich} que provean las cuentas oficiales de twitter de los diversos medios. Por lo cual, para recolectar las cuentas de twitter de éstos, se implementa el siguiente algoritmo ejecutado por un ser humano:
+Ninguna de las asociaciones de medios de prensa considerados anteriormente (ANP, ANARCICH y ARCHI) cuentan con directorios públicos \cite{mediosArchi} \cite{mediosaAnp} \cite{mediosAnarcich} que provean las cuentas oficiales de Twitter de los diversos medios. Por lo cual, para recolectarlas se implementa el siguiente algoritmo ejecutado por un ser humano:
 
 \begin{algorithm}[H]
 	\caption{Construcción lista de medios}\label{mediosPrensa}
@@ -217,7 +217,7 @@ Para aplicar un filtro efectivo se consideran las siguientes premisas:
 
 Para conjuntos de tweets de menos de 300 tweets se considera que su depuración puede ser realizada de manera manual, debido a que no es un gran conjunto de datos y su análisis manual no demanda tiempo excesivo.
 
-Para conjuntos de 300 tweets o más se considera que su depuración manual es muy extensa y debe ser automatizada. Para su automatización se implementa un clasificador de Bayes-Naive. El clasificador Bayer-Naive utilizado es una implementación de la librería Python Textblob \cite{textblobWebsite}.
+Para conjuntos de 300 tweets o más se considera que su depuración manual es muy extensa y debe ser automatizada. Para su automatización se implementa un clasificador de Bayes-Naive. El clasificador Bayes-Naive utilizado es una implementación de la librería Python Textblob \cite{textblobWebsite}.
 
 Los tamaños de los distintos conjuntos dependiendo del tamaño del conjunto de tweets es el siguiente:
 
